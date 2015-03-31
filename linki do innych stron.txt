@@ -1,5 +1,0 @@
-œrodowisko testowe:
-http://coco.gforge.inria.fr/doku.php?id=bbob-2015-downloads
-
-inne publikacje/kody Ÿród³owe:
-http://particleswarm.info/
