@@ -1,0 +1,12 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: templateBBOBarticle.aux
+The style file: abbrv.bst
+I couldn't open database file bbob.bib
+---line 6 of file templateBBOBarticle.aux
+ : \bibdata{bbob
+ :              }
+I'm skipping whatever remains of this command
+I found no database files---while reading file templateBBOBarticle.aux
+Warning--I didn't find a database entry for "hansen2012exp"
+Warning--I didn't find a database entry for "wp200901_2010"
+Warning--I didn't find a database entry for "hansen2012fun"
+(There were 2 error messages)

@@ -1,0 +1,1130 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.24)  24 MAR 2015 23:11
+entering extended mode
+**template1generic
+(C:\Users\Kuba\Documents\NetBeansProjects\PSO-DE\template1generic.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("F:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("F:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("F:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("F:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("F:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("F:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("F:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("F:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("F:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("F:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("F:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("F:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+("F:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+("F:\Program Files\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+("F:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count88
+\rotFPtop=\skip43
+\rotFPbot=\skip44
+\rot@float@box=\box26
+\rot@mess@toks=\toks15
+)
+("F:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+("F:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("F:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen105
+))
+("F:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+("F:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks17
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks18
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks19
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("F:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("F:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen114
+\captionmargin@=\dimen115
+\captionwidth=\dimen116
+\caption@tempdima=\dimen117
+\caption@indent=\dimen118
+\caption@parindent=\dimen119
+\caption@hangindent=\dimen120
+)
+\c@ContinuedFloat=\count101
+Package caption Info: rotating package is loaded.
+)
+("F:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count102
+\sf@farskip=\skip48
+\sf@captopadj=\dimen121
+\sf@capskip=\skip49
+\sf@nearskip=\skip50
+\c@subfigure=\count103
+\c@subfigure@save=\count104
+\c@lofdepth=\count105
+\c@subtable=\count106
+\c@subtable@save=\count107
+\c@lotdepth=\count108
+\sf@top=\skip51
+\sf@bottom=\skip52
+)
+("F:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
+("F:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
+\@xs@message=\write3
+\integerpart=\count109
+\decimalpart=\count110
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+("F:\Program Files\MiKTeX 2.9\tex\latex\wasysym\wasysym.sty"
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+("F:\Program Files\MiKTeX 2.9\tex\latex\mnsymbol\MnSymbol.sty"
+Package: MnSymbol 2007/01/21 v1.4 support for the MnSymbol font
+
+("F:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+("F:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+("F:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\eufrak.sty"
+Package: eufrak 2009/06/22 v3.00 Euler Fraktur fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuFrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 39.
+)
+LaTeX Info: Redefining \dagger on input line 84.
+LaTeX Info: Redefining \ddagger on input line 84.
+LaTeX Info: Redefining \mathparagraph on input line 84.
+LaTeX Info: Redefining \mathsection on input line 84.
+LaTeX Info: Redefining \mathdollar on input line 84.
+LaTeX Info: Redefining \mathsterling on input line 84.
+LaTeX Info: Redefining \Re on input line 84.
+LaTeX Info: Redefining \Im on input line 84.
+\symMnSyA=\mathgroup5
+\symMnSyB=\mathgroup6
+\symMnSyC=\mathgroup7
+\symMnSyD=\mathgroup8
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 119.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 120.
+LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> U/MnSymbolF/m/n on input line 120.
+LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> U/MnSymbolF/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `MnSyA' in version `bold'
+(Font)                  U/MnSymbolA/m/n --> U/MnSymbolA/b/n on input line 121.
+LaTeX Font Info:    Overwriting symbol font `MnSyB' in version `bold'
+(Font)                  U/MnSymbolB/m/n --> U/MnSymbolB/b/n on input line 122.
+LaTeX Font Info:    Overwriting symbol font `MnSyC' in version `bold'
+(Font)                  U/MnSymbolC/m/n --> U/MnSymbolC/b/n on input line 123.
+LaTeX Font Info:    Overwriting symbol font `MnSyD' in version `bold'
+(Font)                  U/MnSymbolD/m/n --> U/MnSymbolD/b/n on input line 124.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/MnSymbolE/m/n --> OMX/MnSymbolE/b/n on input line 1
+25.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  U/MnSymbolF/m/n --> U/MnSymbolF/b/n on input line 126.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 241.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
+(Font)                  OMS/MnSymbolS/m/n --> OMS/MnSymbolS/b/n on input line 2
+41.
+LaTeX Info: Redefining \longrightarrow on input line 548.
+LaTeX Info: Redefining \longleftarrow on input line 549.
+LaTeX Info: Redefining \longleftrightarrow on input line 550.
+LaTeX Info: Redefining \Longrightarrow on input line 551.
+LaTeX Info: Redefining \Longleftarrow on input line 552.
+LaTeX Info: Redefining \Longleftrightarrow on input line 553.
+LaTeX Info: Redefining \longmapsto on input line 554.
+LaTeX Info: Redefining \vdots on input line 868.
+LaTeX Font Info:    Redeclaring math symbol \braceld on input line 1721.
+LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 1722.
+LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 1723.
+LaTeX Font Info:    Redeclaring math symbol \braceru on input line 1724.
+LaTeX Info: Redefining \downbracefill on input line 1799.
+LaTeX Info: Redefining \upbracefill on input line 1800.
+LaTeX Info: Redefining \overbrace on input line 1819.
+LaTeX Info: Redefining \underbrace on input line 1820.
+LaTeX Info: Redefining \surd on input line 1843.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 1845.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 1846.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 1848.
+)
+(C:\Users\Kuba\Documents\NetBeansProjects\PSO-DE\ppdata/bbob_pproc_commands.tex
+)
+No file template1generic.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 51.
+("F:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 51.
+
+("F:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count111
+\scratchdimen=\dimen122
+\scratchbox=\box29
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen123
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
+\everyMPtoPDFconversion=\toks22
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 53.
+ ("F:\Program Files\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd"
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+
+LaTeX Warning: Citation `hansen2010exp' on page 1 undefined on input line 66.
+
+
+LaTeX Warning: Citation `wp200901_2010' on page 1 undefined on input line 67.
+
+
+LaTeX Warning: Citation `hansen2010fun' on page 1 undefined on input line 67.
+
+
+LaTeX Warning: Reference `fig:RLDs05Da./Experimental_Data_1/' on page 1 undefin
+ed on input line 68.
+
+
+LaTeX Warning: Reference `fig:RLDs05Db./Experimental_Data_1/' on page 1 undefin
+ed on input line 68.
+
+
+LaTeX Warning: Reference `fig:RLDs20Db./Experimental_Data_1/' on page 1 undefin
+ed on input line 69.
+
+
+LaTeX Warning: Reference `fig:ERTloglossa./Experimental_Data_1/' on page 1 unde
+fined on input line 70.
+
+
+LaTeX Warning: Reference `fig:ERTloglossb./Experimental_Data_1/' on page 1 unde
+fined on input line 70.
+
+
+LaTeX Warning: Reference `fig:ERTgraphs./Experimental_Data_1/' on page 1 undefi
+ned on input line 71.
+
+
+LaTeX Warning: Reference `tab:ERT05D./Experimental_Data_1/' on page 1 undefined
+ on input line 72.
+
+
+LaTeX Warning: Reference `tab:ERT20D./Experimental_Data_1/' on page 1 undefined
+ on input line 72.
+
+
+LaTeX Warning: Citation `hansen2010exp' on page 1 undefined on input line 78.
+
+
+LaTeX Warning: Citation `price1997dev' on page 1 undefined on input line 78.
+
+
+<ppdata/./Experimental_Data_1/pprldistr_05D_noiselessall.pdf, id=1, 578.16pt x 
+433.62pt>
+File: ppdata/./Experimental_Data_1/pprldistr_05D_noiselessall.pdf Graphic file 
+(type pdf)
+ <use ppdata/./Experimental_Data_1/pprldistr_05D_noiselessall.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pprldistr_05D_noiselessal
+l.pdf used on input line 92.
+(pdftex.def)             Requested size: 182.15996pt x 137.59186pt.
+
+<ppdata/./Experimental_Data_1/ppfvdistr_05D_noiselessall.pdf, id=3, 578.16pt x 
+433.62pt>
+File: ppdata/./Experimental_Data_1/ppfvdistr_05D_noiselessall.pdf Graphic file 
+(type pdf)
+ <use ppdata/./Experimental_Data_1/ppfvdistr_05D_noiselessall.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfvdistr_05D_noiselessal
+l.pdf used on input line 93.
+(pdftex.def)             Requested size: 158.70232pt x 137.49979pt.
+
+<ppdata/./Experimental_Data_1/pprldistr_20D_noiselessall.pdf, id=5, 578.16pt x 
+433.62pt>
+File: ppdata/./Experimental_Data_1/pprldistr_20D_noiselessall.pdf Graphic file 
+(type pdf)
+ <use ppdata/./Experimental_Data_1/pprldistr_20D_noiselessall.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pprldistr_20D_noiselessal
+l.pdf used on input line 94.
+(pdftex.def)             Requested size: 182.15996pt x 137.59186pt.
+
+<ppdata/./Experimental_Data_1/ppfvdistr_20D_noiselessall.pdf, id=7, 578.16pt x 
+433.62pt>
+File: ppdata/./Experimental_Data_1/ppfvdistr_20D_noiselessall.pdf Graphic file 
+(type pdf)
+ <use ppdata/./Experimental_Data_1/ppfvdistr_20D_noiselessall.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfvdistr_20D_noiselessal
+l.pdf used on input line 95.
+(pdftex.def)             Requested size: 158.70232pt x 137.49979pt.
+
+<ppdata/./Experimental_Data_1/pprldistr_05D_separ.pdf, id=9, 578.16pt x 433.62p
+t>
+File: ppdata/./Experimental_Data_1/pprldistr_05D_separ.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pprldistr_05D_separ.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pprldistr_05D_separ.pdf u
+sed on input line 105.
+(pdftex.def)             Requested size: 141.45126pt x 101.17496pt.
+
+<ppdata/./Experimental_Data_1/ppfvdistr_05D_separ.pdf, id=11, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/ppfvdistr_05D_separ.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/ppfvdistr_05D_separ.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfvdistr_05D_separ.pdf u
+sed on input line 106.
+(pdftex.def)             Requested size: 123.47374pt x 101.30286pt.
+
+<ppdata/./Experimental_Data_1/pprldistr_05D_lcond.pdf, id=13, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/pprldistr_05D_lcond.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pprldistr_05D_lcond.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pprldistr_05D_lcond.pdf u
+sed on input line 109.
+(pdftex.def)             Requested size: 141.45126pt x 101.17496pt.
+
+<ppdata/./Experimental_Data_1/ppfvdistr_05D_lcond.pdf, id=15, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/ppfvdistr_05D_lcond.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/ppfvdistr_05D_lcond.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfvdistr_05D_lcond.pdf u
+sed on input line 110.
+(pdftex.def)             Requested size: 123.47374pt x 101.30286pt.
+
+<ppdata/./Experimental_Data_1/pprldistr_05D_hcond.pdf, id=17, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/pprldistr_05D_hcond.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pprldistr_05D_hcond.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pprldistr_05D_hcond.pdf u
+sed on input line 113.
+(pdftex.def)             Requested size: 141.45126pt x 101.17496pt.
+
+<ppdata/./Experimental_Data_1/ppfvdistr_05D_hcond.pdf, id=19, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/ppfvdistr_05D_hcond.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/ppfvdistr_05D_hcond.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfvdistr_05D_hcond.pdf u
+sed on input line 114.
+(pdftex.def)             Requested size: 123.47374pt x 101.30286pt.
+
+<ppdata/./Experimental_Data_1/pprldistr_05D_multi.pdf, id=21, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/pprldistr_05D_multi.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pprldistr_05D_multi.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pprldistr_05D_multi.pdf u
+sed on input line 117.
+(pdftex.def)             Requested size: 141.45126pt x 101.17496pt.
+
+<ppdata/./Experimental_Data_1/ppfvdistr_05D_multi.pdf, id=23, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/ppfvdistr_05D_multi.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/ppfvdistr_05D_multi.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfvdistr_05D_multi.pdf u
+sed on input line 118.
+(pdftex.def)             Requested size: 123.47374pt x 101.30286pt.
+
+<ppdata/./Experimental_Data_1/pprldistr_05D_mult2.pdf, id=25, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/pprldistr_05D_mult2.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pprldistr_05D_mult2.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pprldistr_05D_mult2.pdf u
+sed on input line 121.
+(pdftex.def)             Requested size: 141.45126pt x 106.84195pt.
+
+<ppdata/./Experimental_Data_1/ppfvdistr_05D_mult2.pdf, id=27, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/ppfvdistr_05D_mult2.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/ppfvdistr_05D_mult2.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfvdistr_05D_mult2.pdf u
+sed on input line 122.
+(pdftex.def)             Requested size: 123.47374pt x 106.977pt.
+
+
+LaTeX Warning: Reference `fig:RLDs05Da./Experimental_Data_1/' on page 1 undefin
+ed on input line 144.
+
+
+LaTeX Warning: Reference `fig:RLDs05Da./Experimental_Data_1/' on page 1 undefin
+ed on input line 144.
+
+
+<ppdata/./Experimental_Data_1/pprldistr_20D_separ.pdf, id=29, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/pprldistr_20D_separ.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pprldistr_20D_separ.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pprldistr_20D_separ.pdf u
+sed on input line 152.
+(pdftex.def)             Requested size: 141.45126pt x 101.17496pt.
+
+<ppdata/./Experimental_Data_1/ppfvdistr_20D_separ.pdf, id=31, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/ppfvdistr_20D_separ.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/ppfvdistr_20D_separ.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfvdistr_20D_separ.pdf u
+sed on input line 153.
+(pdftex.def)             Requested size: 123.47374pt x 101.30286pt.
+
+<ppdata/./Experimental_Data_1/pprldistr_20D_lcond.pdf, id=33, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/pprldistr_20D_lcond.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pprldistr_20D_lcond.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pprldistr_20D_lcond.pdf u
+sed on input line 156.
+(pdftex.def)             Requested size: 141.45126pt x 101.17496pt.
+
+<ppdata/./Experimental_Data_1/ppfvdistr_20D_lcond.pdf, id=35, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/ppfvdistr_20D_lcond.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/ppfvdistr_20D_lcond.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfvdistr_20D_lcond.pdf u
+sed on input line 157.
+(pdftex.def)             Requested size: 123.47374pt x 101.30286pt.
+
+<ppdata/./Experimental_Data_1/pprldistr_20D_hcond.pdf, id=37, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/pprldistr_20D_hcond.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pprldistr_20D_hcond.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pprldistr_20D_hcond.pdf u
+sed on input line 160.
+(pdftex.def)             Requested size: 141.45126pt x 101.17496pt.
+
+<ppdata/./Experimental_Data_1/ppfvdistr_20D_hcond.pdf, id=39, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/ppfvdistr_20D_hcond.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/ppfvdistr_20D_hcond.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfvdistr_20D_hcond.pdf u
+sed on input line 161.
+(pdftex.def)             Requested size: 123.47374pt x 101.30286pt.
+
+<ppdata/./Experimental_Data_1/pprldistr_20D_multi.pdf, id=41, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/pprldistr_20D_multi.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pprldistr_20D_multi.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pprldistr_20D_multi.pdf u
+sed on input line 164.
+(pdftex.def)             Requested size: 141.45126pt x 101.17496pt.
+
+<ppdata/./Experimental_Data_1/ppfvdistr_20D_multi.pdf, id=43, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/ppfvdistr_20D_multi.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/ppfvdistr_20D_multi.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfvdistr_20D_multi.pdf u
+sed on input line 165.
+(pdftex.def)             Requested size: 123.47374pt x 101.30286pt.
+
+<ppdata/./Experimental_Data_1/pprldistr_20D_mult2.pdf, id=45, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/pprldistr_20D_mult2.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pprldistr_20D_mult2.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pprldistr_20D_mult2.pdf u
+sed on input line 168.
+(pdftex.def)             Requested size: 141.45126pt x 106.84195pt.
+
+<ppdata/./Experimental_Data_1/ppfvdistr_20D_mult2.pdf, id=47, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/ppfvdistr_20D_mult2.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/ppfvdistr_20D_mult2.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfvdistr_20D_mult2.pdf u
+sed on input line 169.
+(pdftex.def)             Requested size: 123.47374pt x 106.977pt.
+
+
+LaTeX Warning: Reference `fig:RLDs05Da./Experimental_Data_1/' on page 1 undefin
+ed on input line 173.
+
+
+LaTeX Warning: Reference `fig:RLDs05Da./Experimental_Data_1/' on page 1 undefin
+ed on input line 173.
+
+
+<ppdata/./Experimental_Data_1/pplogloss_05D_noiselessall.pdf, id=49, 578.16pt x
+ 433.62pt>
+File: ppdata/./Experimental_Data_1/pplogloss_05D_noiselessall.pdf Graphic file 
+(type pdf)
+ <use ppdata/./Experimental_Data_1/pplogloss_05D_noiselessall.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pplogloss_05D_noiselessal
+l.pdf used on input line 180.
+(pdftex.def)             Requested size: 120.7521pt x 90.73523pt.
+
+(C:\Users\Kuba\Documents\NetBeansProjects\PSO-DE\ppdata/./Experimental_Data_1/p
+ploglosstable_05D_noiselessall.tex)
+<ppdata/./Experimental_Data_1/pplogloss_20D_noiselessall.pdf, id=51, 578.16pt x
+ 433.62pt>
+File: ppdata/./Experimental_Data_1/pplogloss_20D_noiselessall.pdf Graphic file 
+(type pdf)
+ <use ppdata/./Experimental_Data_1/pplogloss_20D_noiselessall.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pplogloss_20D_noiselessal
+l.pdf used on input line 187.
+(pdftex.def)             Requested size: 120.7521pt x 96.21771pt.
+
+(C:\Users\Kuba\Documents\NetBeansProjects\PSO-DE\ppdata/./Experimental_Data_1/p
+ploglosstable_20D_noiselessall.tex)
+Overfull \hbox (3.38872pt too wide) in paragraph at lines 180--200
+[][] 
+ []
+
+
+<ppdata/./Experimental_Data_1/pplogloss_05D_separ.pdf, id=53, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/pplogloss_05D_separ.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pplogloss_05D_separ.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pplogloss_05D_separ.pdf u
+sed on input line 213.
+(pdftex.def)             Requested size: 120.7521pt x 92.79117pt.
+
+<ppdata/./Experimental_Data_1/pplogloss_20D_separ.pdf, id=55, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/pplogloss_20D_separ.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pplogloss_20D_separ.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pplogloss_20D_separ.pdf u
+sed on input line 214.
+(pdftex.def)             Requested size: 120.7521pt x 92.79117pt.
+
+<ppdata/./Experimental_Data_1/pplogloss_05D_lcond.pdf, id=57, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/pplogloss_05D_lcond.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pplogloss_05D_lcond.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pplogloss_05D_lcond.pdf u
+sed on input line 216.
+(pdftex.def)             Requested size: 120.7521pt x 92.79117pt.
+
+<ppdata/./Experimental_Data_1/pplogloss_20D_lcond.pdf, id=59, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/pplogloss_20D_lcond.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pplogloss_20D_lcond.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pplogloss_20D_lcond.pdf u
+sed on input line 217.
+(pdftex.def)             Requested size: 120.7521pt x 92.79117pt.
+
+<ppdata/./Experimental_Data_1/pplogloss_05D_hcond.pdf, id=61, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/pplogloss_05D_hcond.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pplogloss_05D_hcond.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pplogloss_05D_hcond.pdf u
+sed on input line 219.
+(pdftex.def)             Requested size: 120.7521pt x 92.79117pt.
+
+<ppdata/./Experimental_Data_1/pplogloss_20D_hcond.pdf, id=63, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/pplogloss_20D_hcond.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pplogloss_20D_hcond.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pplogloss_20D_hcond.pdf u
+sed on input line 220.
+(pdftex.def)             Requested size: 120.7521pt x 92.79117pt.
+
+<ppdata/./Experimental_Data_1/pplogloss_05D_multi.pdf, id=65, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/pplogloss_05D_multi.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pplogloss_05D_multi.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pplogloss_05D_multi.pdf u
+sed on input line 222.
+(pdftex.def)             Requested size: 120.7521pt x 92.79117pt.
+
+<ppdata/./Experimental_Data_1/pplogloss_20D_multi.pdf, id=67, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/pplogloss_20D_multi.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pplogloss_20D_multi.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pplogloss_20D_multi.pdf u
+sed on input line 223.
+(pdftex.def)             Requested size: 120.7521pt x 92.79117pt.
+
+<ppdata/./Experimental_Data_1/pplogloss_05D_mult2.pdf, id=69, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/pplogloss_05D_mult2.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pplogloss_05D_mult2.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pplogloss_05D_mult2.pdf u
+sed on input line 225.
+(pdftex.def)             Requested size: 120.7521pt x 96.21771pt.
+
+<ppdata/./Experimental_Data_1/pplogloss_20D_mult2.pdf, id=71, 578.16pt x 433.62
+pt>
+File: ppdata/./Experimental_Data_1/pplogloss_20D_mult2.pdf Graphic file (type p
+df)
+ <use ppdata/./Experimental_Data_1/pplogloss_20D_mult2.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/pplogloss_20D_mult2.pdf u
+sed on input line 226.
+(pdftex.def)             Requested size: 120.7521pt x 96.21771pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f001.pdf, id=73, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f001.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f001.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f001.pdf used on
+ input line 239.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f002.pdf, id=75, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f002.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f002.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f002.pdf used on
+ input line 240.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f003.pdf, id=77, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f003.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f003.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f003.pdf used on
+ input line 241.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f004.pdf, id=79, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f004.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f004.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f004.pdf used on
+ input line 242.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f005.pdf, id=81, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f005.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f005.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f005.pdf used on
+ input line 243.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f006.pdf, id=83, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f006.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f006.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f006.pdf used on
+ input line 244.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f007.pdf, id=85, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f007.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f007.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f007.pdf used on
+ input line 245.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f008.pdf, id=87, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f008.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f008.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f008.pdf used on
+ input line 246.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f009.pdf, id=89, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f009.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f009.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f009.pdf used on
+ input line 247.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f010.pdf, id=91, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f010.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f010.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f010.pdf used on
+ input line 248.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f011.pdf, id=93, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f011.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f011.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f011.pdf used on
+ input line 249.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f012.pdf, id=95, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f012.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f012.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f012.pdf used on
+ input line 250.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f013.pdf, id=97, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f013.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f013.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f013.pdf used on
+ input line 251.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f014.pdf, id=99, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f014.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f014.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f014.pdf used on
+ input line 252.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f015.pdf, id=101, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f015.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f015.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f015.pdf used on
+ input line 253.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f016.pdf, id=103, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f016.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f016.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f016.pdf used on
+ input line 254.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f017.pdf, id=105, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f017.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f017.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f017.pdf used on
+ input line 255.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f018.pdf, id=107, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f018.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f018.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f018.pdf used on
+ input line 256.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f019.pdf, id=109, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f019.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f019.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f019.pdf used on
+ input line 257.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f020.pdf, id=111, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f020.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f020.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f020.pdf used on
+ input line 258.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f021.pdf, id=113, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f021.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f021.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f021.pdf used on
+ input line 259.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f022.pdf, id=115, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f022.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f022.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f022.pdf used on
+ input line 260.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f023.pdf, id=117, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f023.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f023.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f023.pdf used on
+ input line 261.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+<ppdata/./Experimental_Data_1/ppfigdim_f024.pdf, id=119, 578.16pt x 433.62pt>
+File: ppdata/./Experimental_Data_1/ppfigdim_f024.pdf Graphic file (type pdf)
+
+<use ppdata/./Experimental_Data_1/ppfigdim_f024.pdf>
+Package pdftex.def Info: ppdata/./Experimental_Data_1/ppfigdim_f024.pdf used on
+ input line 262.
+(pdftex.def)             Requested size: 86.25pt x 73.0197pt.
+
+
+LaTeX Warning: Float too large for page by 59.25668pt on input line 281.
+
+
+(C:\Users\Kuba\Documents\NetBeansProjects\PSO-DE\ppdata/./Experimental_Data_1/p
+ptable_05D_noiselessall.tex)
+
+LaTeX Warning: Float too large for page by 79.0991pt on input line 289.
+
+
+(C:\Users\Kuba\Documents\NetBeansProjects\PSO-DE\ppdata/./Experimental_Data_1/p
+ptable_20D_noiselessall.tex)
+
+LaTeX Warning: Float too large for page by 79.0991pt on input line 297.
+
+No file template1generic.bbl.
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2 <C:/Users/Kuba/Documen
+ts/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/pprldistr_05D_noiseless
+all.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experimental
+_Data_1/ppfvdistr_05D_noiselessall.pdf> <C:/Users/Kuba/Documents/NetBeansProjec
+ts/PSO-DE/ppdata/./Experimental_Data_1/pprldistr_20D_noiselessall.pdf> <C:/User
+s/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/ppfvdistr
+_20D_noiselessall.pdf>] [3 <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppd
+ata/./Experimental_Data_1/pprldistr_05D_separ.pdf> <C:/Users/Kuba/Documents/Net
+BeansProjects/PSO-DE/ppdata/./Experimental_Data_1/ppfvdistr_05D_separ.pdf> <C:/
+Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/pprld
+istr_05D_lcond.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./E
+xperimental_Data_1/ppfvdistr_05D_lcond.pdf> <C:/Users/Kuba/Documents/NetBeansPr
+ojects/PSO-DE/ppdata/./Experimental_Data_1/pprldistr_05D_hcond.pdf> <C:/Users/K
+uba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/ppfvdistr_05
+D_hcond.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experime
+ntal_Data_1/pprldistr_05D_multi.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/
+PSO-DE/ppdata/./Experimental_Data_1/ppfvdistr_05D_multi.pdf> <C:/Users/Kuba/Doc
+uments/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/pprldistr_05D_mult2
+.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experimental_Da
+ta_1/ppfvdistr_05D_mult2.pdf>] [4 <C:/Users/Kuba/Documents/NetBeansProjects/PSO
+-DE/ppdata/./Experimental_Data_1/pprldistr_20D_separ.pdf> <C:/Users/Kuba/Docume
+nts/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/ppfvdistr_20D_separ.pd
+f> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_
+1/pprldistr_20D_lcond.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppd
+ata/./Experimental_Data_1/ppfvdistr_20D_lcond.pdf> <C:/Users/Kuba/Documents/Net
+BeansProjects/PSO-DE/ppdata/./Experimental_Data_1/pprldistr_20D_hcond.pdf> <C:/
+Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/ppfvd
+istr_20D_hcond.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./E
+xperimental_Data_1/pprldistr_20D_multi.pdf> <C:/Users/Kuba/Documents/NetBeansPr
+ojects/PSO-DE/ppdata/./Experimental_Data_1/ppfvdistr_20D_multi.pdf> <C:/Users/K
+uba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/pprldistr_20
+D_mult2.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experime
+ntal_Data_1/ppfvdistr_20D_mult2.pdf>] [5 <C:/Users/Kuba/Documents/NetBeansProje
+cts/PSO-DE/ppdata/./Experimental_Data_1/pplogloss_05D_noiselessall.pdf> <C:/Use
+rs/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/pploglos
+s_20D_noiselessall.pdf>] [6 <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/pp
+data/./Experimental_Data_1/pplogloss_05D_separ.pdf> <C:/Users/Kuba/Documents/Ne
+tBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/pplogloss_20D_separ.pdf> <C:
+/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/pplo
+gloss_05D_lcond.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./
+Experimental_Data_1/pplogloss_20D_lcond.pdf> <C:/Users/Kuba/Documents/NetBeansP
+rojects/PSO-DE/ppdata/./Experimental_Data_1/pplogloss_05D_hcond.pdf> <C:/Users/
+Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/pplogloss_2
+0D_hcond.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experim
+ental_Data_1/pplogloss_05D_multi.pdf> <C:/Users/Kuba/Documents/NetBeansProjects
+/PSO-DE/ppdata/./Experimental_Data_1/pplogloss_20D_multi.pdf> <C:/Users/Kuba/Do
+cuments/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/pplogloss_05D_mult
+2.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experimental_D
+ata_1/pplogloss_20D_mult2.pdf>] [7 <C:/Users/Kuba/Documents/NetBeansProjects/PS
+O-DE/ppdata/./Experimental_Data_1/ppfigdim_f001.pdf> <C:/Users/Kuba/Documents/N
+etBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/ppfigdim_f002.pdf> <C:/User
+s/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/ppfigdim_
+f003.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experimenta
+l_Data_1/ppfigdim_f004.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/pp
+data/./Experimental_Data_1/ppfigdim_f005.pdf> <C:/Users/Kuba/Documents/NetBeans
+Projects/PSO-DE/ppdata/./Experimental_Data_1/ppfigdim_f006.pdf> <C:/Users/Kuba/
+Documents/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/ppfigdim_f007.pd
+f> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_
+1/ppfigdim_f008.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./
+Experimental_Data_1/ppfigdim_f009.pdf> <C:/Users/Kuba/Documents/NetBeansProject
+s/PSO-DE/ppdata/./Experimental_Data_1/ppfigdim_f010.pdf> <C:/Users/Kuba/Documen
+ts/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/ppfigdim_f011.pdf> <C:/
+Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/ppfig
+dim_f012.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experim
+ental_Data_1/ppfigdim_f013.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-D
+E/ppdata/./Experimental_Data_1/ppfigdim_f014.pdf> <C:/Users/Kuba/Documents/NetB
+eansProjects/PSO-DE/ppdata/./Experimental_Data_1/ppfigdim_f015.pdf> <C:/Users/K
+uba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/ppfigdim_f01
+6.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experimental_D
+ata_1/ppfigdim_f017.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdat
+a/./Experimental_Data_1/ppfigdim_f018.pdf> <C:/Users/Kuba/Documents/NetBeansPro
+jects/PSO-DE/ppdata/./Experimental_Data_1/ppfigdim_f019.pdf> <C:/Users/Kuba/Doc
+uments/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/ppfigdim_f020.pdf> 
+<C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/p
+pfigdim_f021.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/PSO-DE/ppdata/./Exp
+erimental_Data_1/ppfigdim_f022.pdf> <C:/Users/Kuba/Documents/NetBeansProjects/P
+SO-DE/ppdata/./Experimental_Data_1/ppfigdim_f023.pdf> <C:/Users/Kuba/Documents/
+NetBeansProjects/PSO-DE/ppdata/./Experimental_Data_1/ppfigdim_f024.pdf>]
+[8] [9] (C:\Users\Kuba\Documents\NetBeansProjects\PSO-DE\template1generic.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6310 strings out of 493921
+ 98612 string characters out of 3147285
+ 202961 words of memory out of 3000000
+ 9442 multiletter control sequences out of 15000+200000
+ 22699 words of font info for 79 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 36i,15n,38p,1341b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
+{F:/Program Files/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{F:/Progr
+am Files/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{F:/Program Files/Mi
+KTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{F:/Program Files/MiKTeX 2.9/fo
+nts/enc/dvips/mnsymbol/MnSymbolS.enc}{F:/Program Files/MiKTeX 2.9/fonts/enc/dvi
+ps/mnsymbol/MnSymbolD.enc}<F:/Program Files/MiKTeX 2.9/fonts/type1/public/mnsym
+bol/MnSymbol10.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/mnsymbol/MnS
+ymbol5.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/mnsymbol/MnSymbol7.p
+fb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/mnsymbol/MnSymbol8.pfb><F:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><F:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><F:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx6.pfb><F:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmbx7.pfb><F:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmbx8.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmbxti10.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+mi5.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
+F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><F:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><F:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><F:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr5.pfb><F:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr8.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmss10.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10
+.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on template1generic.pdf (9 pages, 1498626 bytes).
+PDF statistics:
+ 2632 PDF objects out of 2984 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 661 words of extra memory for PDF output out of 10000 (max. 10000000)
+
