@@ -17,6 +17,7 @@ import java.util.Set;
 public class algorytm 
 {
     private static double[] globalBest;
+    private static double globalBestEvaluation;
     private static int populationSize = 50;
     
     private static double evaluate(double[] individual)
@@ -37,6 +38,8 @@ public class algorytm
         ArrayList<double[]> generation = new ArrayList<double[]>();
         ArrayList<double[]> velocities = new ArrayList<double[]>();
         ArrayList<double[]> bests = new ArrayList<double[]>();
+        ArrayList<Double> evaluations = new ArrayList<Double>();
+        ArrayList<Double> bestsEvaluations = new ArrayList<Double>();
         
         for (int i = 0; i < populationSize; i++)
         {
@@ -54,10 +57,23 @@ public class algorytm
         
         for (int i = 0; i < generation.size(); i++)
         {
+            double evaluation = evaluate(generation.get(i));
+            evaluations.add(evaluation);
+            bestsEvaluations.add(evaluation);
+            
             if (i == 0)
+            {
                 globalBest = generation.get(i);
-            else if (evaluate(generation.get(i)) < evaluate(globalBest))
-                globalBest = generation.get(i);
+		globalBestEvaluation = evaluate(globalBest);
+            }
+            else
+            {
+                if (evaluations.get(i) < globalBestEvaluation)
+                {
+                    globalBest = generation.get(i);
+                    globalBestEvaluation = evaluations.get(i);
+                }
+            }
         }
         
         int iteration = 0;
@@ -92,10 +108,13 @@ public class algorytm
                     else
                         u[j] = generation.get(i)[j];
                     
-                    if (evaluate(u) < evaluate(generation.get(i)))
+                    double uEvaluation = evaluate(u);
+                    if (uEvaluation < evaluations.get(i))
                     {
                         generation.remove(i);
                         generation.add(i, u);
+                        evaluations.remove(i);
+                        evaluations.add(i, uEvaluation);
                     }
                     else
                     {
@@ -114,21 +133,29 @@ public class algorytm
                         velocities.remove(i);
                         velocities.add(i, velocity);
                         
-                        if (evaluate(TX) < evaluate(generation.get(i)))
+                        double TXEvaluation = evaluate(TX);
+                        if (TXEvaluation < evaluations.get(i))
                         {
                             generation.remove(i);
                             generation.add(i, TX);
+                            evaluations.remove(i);
+                            evaluations.add(i, TXEvaluation);
                         }
                     }
                     
-                    if (evaluate(generation.get(i)) < evaluate(bests.get(i)))
+                    if (evaluations.get(i) < bestsEvaluations.get(i))
                     {
                         bests.remove(i);
                         bests.add(i, generation.get(i));
+                        bestsEvaluations.remove(i);
+                        bestsEvaluations.add(i, evaluations.get(i));
                     }
                     
-                    if (evaluate(generation.get(i)) < evaluate(globalBest))
+                    if (evaluations.get(i) < globalBestEvaluation)
+                    {
                         globalBest = generation.get(i);
+                        globalBestEvaluation = evaluations.get(i);
+                    }
                 }
             }
         }
