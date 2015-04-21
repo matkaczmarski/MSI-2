@@ -9,6 +9,7 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Random;
 import java.util.Set;
+import javabbob.JNIfgeneric;
 
 /**
  *
@@ -25,7 +26,7 @@ public class algorytm
         return individual[0] * individual[0] + individual[1] * individual[1];
     }
     
-    public static void PSO_DE(/*JNIfgeneric fgeneric,*/ int dim, double maxfunevals, Random rand) 
+    public static void PSO_DE(JNIfgeneric fgeneric, int dim, double maxfunevals, Random rand) 
     {
     	double F = 0.5;
         double CR = 0.5;
@@ -33,7 +34,11 @@ public class algorytm
         double c1 = 0.2;
         double c2 = 0.5;
         
+        int bound = 5;
+        
         //int maxIteration = 50000;
+        
+        double ftarget = fgeneric.getFtarget();
         
         ArrayList<double[]> generation = new ArrayList<double[]>();
         ArrayList<double[]> velocities = new ArrayList<double[]>();
@@ -45,13 +50,13 @@ public class algorytm
         {
             double[] individual = new double[dim];
             for (int j = 0; j < dim; j++)
-                individual[j] = rand.nextDouble() * rand.nextInt();
+                individual[j] = rand.nextDouble() * bound * (rand.nextBoolean() ? -1 : 1);
             generation.add(individual);
             bests.add(individual);
             
             double[] velocity = new double[dim];
             for (int j = 0; j < dim; j++)
-                velocity[j] = rand.nextDouble() * rand.nextInt();
+                velocity[j] = rand.nextDouble() * bound * (rand.nextBoolean() ? -1 : 1);
             velocities.add(velocity);
         }
         
@@ -158,6 +163,8 @@ public class algorytm
                     }
                 }
             }
+            if (globalBestEvaluation < ftarget)
+                break;
         }
         
         for (int i = 0; i < dim; i++)
@@ -171,7 +178,7 @@ public class algorytm
         Random rand = new Random();
         int dim = 2;
         
-        PSO_DE(dim, 50000, rand);
+        //PSO_DE(dim, 50000, rand);
         
     }
 }
