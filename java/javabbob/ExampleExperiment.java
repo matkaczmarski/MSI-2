@@ -33,7 +33,7 @@ public class ExampleExperiment {
      * @param maxfunevals the maximum number of function evaluations
      * @param rand an instance of Random
      */
-    public static void MY_OPTIMIZER(JNIfgeneric fgeneric, int dim, double maxfunevals, Random rand) {
+    public static void PSO_DE(JNIfgeneric fgeneric, int dim, double maxfunevals, Random rand) {
 
         double[] x = new double[dim];
 
@@ -135,7 +135,7 @@ public class ExampleExperiment {
                     independent_restarts = -1;
                     while (fgeneric.getEvaluations() < maxfunevals) {
                         independent_restarts ++;
-                        MY_OPTIMIZER(fgeneric, dim[idx_dim],
+                        PSO_DE(fgeneric, dim[idx_dim],
                                      maxfunevals - fgeneric.getEvaluations(), rand);
                         if (fgeneric.getBest() < fgeneric.getFtarget())
                             break;
