@@ -3,6 +3,9 @@ package javabbob;
 import java.util.Random;
 import java.util.Calendar;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 /** Wrapper class running an entire BBOB experiment.
  * It illustrates the benchmarking of MY_OPTIMIZER on the noise-free testbed
@@ -35,28 +38,147 @@ public class ExampleExperiment {
      */
     public static void PSO_DE(JNIfgeneric fgeneric, int dim, double maxfunevals, Random rand) {
 
-        double[] x = new double[dim];
-
-        /* Obtain the target function value, which only use is termination */
+        double[] globalBest = {0, 1};
+        double globalBestEvaluation = 0;
+        int populationSize = 50;
+        
+        double F = 0.5;
+        double CR = 0.5;
+        double w = 0.75;
+        double c1 = 0.2;
+        double c2 = 0.5;
+        
+        int bound = 5;
+        
+        //int maxIteration = 50000;
+        
         double ftarget = fgeneric.getFtarget();
-        double f;
-
-        if (maxfunevals > 1e9 * dim) {
-             maxfunevals = 1e9 * dim;
+        
+        ArrayList<double[]> generation = new ArrayList<double[]>();
+        ArrayList<double[]> velocities = new ArrayList<double[]>();
+        ArrayList<double[]> bests = new ArrayList<double[]>();
+        ArrayList<Double> evaluations = new ArrayList<Double>();
+        ArrayList<Double> bestsEvaluations = new ArrayList<Double>();
+        
+        for (int i = 0; i < populationSize; i++)
+        {
+            double[] individual = new double[dim];
+            for (int j = 0; j < dim; j++)
+                individual[j] = rand.nextDouble() * bound * (rand.nextBoolean() ? -1 : 1);
+            generation.add(individual);
+            bests.add(individual);
+            
+            double[] velocity = new double[dim];
+            for (int j = 0; j < dim; j++)
+                velocity[j] = rand.nextDouble() * bound * (rand.nextBoolean() ? -1 : 1);
+            velocities.add(velocity);
         }
-
-        for (double iter = 0.; iter < maxfunevals; iter++) {
-            /* Generate individual */
-            for (int i = 0; i < dim; i++) {
-                x[i] = 10. * rand.nextDouble() - 5.;
+        
+        for (int i = 0; i < generation.size(); i++)
+        {
+            double evaluation = fgeneric.evaluate(generation.get(i));
+            evaluations.add(evaluation);
+            bestsEvaluations.add(evaluation);
+            
+            if (i == 0)
+            {
+                globalBest = generation.get(i);
+		globalBestEvaluation = fgeneric.evaluate(globalBest);
             }
-
-            /* evaluate X on the objective function */
-            f = fgeneric.evaluate(x);
-
-            if (f < ftarget) {
+            else
+            {
+                if (evaluations.get(i) < globalBestEvaluation)
+                {
+                    globalBest = generation.get(i);
+                    globalBestEvaluation = evaluations.get(i);
+                }
+            }
+        }
+        
+        int iteration = 0;
+        boolean stop = false;
+        while (true)
+        {
+            if (iteration == maxfunevals)
                 break;
+            //System.out.println(iteration + "");
+            iteration++;
+            for (int i = 0; i < generation.size(); i++)
+            {
+	             Set<Integer> randomSet = new LinkedHashSet<Integer>();
+	             while (randomSet.size() < 3)
+	                 randomSet.add(rand.nextInt(populationSize));
+	             
+	             Object[] randoms = randomSet.toArray();
+	             int r1 = (int)randoms[0];
+	             int r2 = (int)randoms[1];
+	             int r3 = (int)randoms[2];
+                
+                double[] m = new double[dim];
+                for (int j = 0; j < dim; j++)
+                    m[j] = generation.get(r1)[j] + F * (generation.get(r2)[j] - generation.get(r3)[j]);
+                
+                double[] u = new double[dim];
+                for (int j = 0; j < dim; j++)
+                {
+                    int jRand = Math.abs(rand.nextInt()) % dim + 1;
+                    if (rand.nextDouble() < CR || j == jRand)
+                        u[j] = m[j];
+                    else
+                        u[j] = generation.get(i)[j];
+                    
+                    double uEvaluation = fgeneric.evaluate(u);
+                    if (uEvaluation < evaluations.get(i))
+                    {
+                        generation.remove(i);
+                        generation.add(i, u);
+                        evaluations.remove(i);
+                        evaluations.add(i, uEvaluation);
+                    }
+                    else
+                    {
+                        double[] TX = new double[dim];
+                        double[] velocity = velocities.get(i);
+                        
+                        double R1 = rand.nextDouble();
+                        double R2 = rand.nextDouble();
+                        
+                        for (int k = 0; k < dim; k++)
+                        {
+                            velocity[k] = w * velocity[k] + c1 * R1 * (bests.get(i)[k] - generation.get(i)[k]) + c2 * R2 * (globalBest[k] - generation.get(i)[k]);
+                            TX[k] = generation.get(i)[k] + velocity[k];
+                        }
+                        
+                        velocities.remove(i);
+                        velocities.add(i, velocity);
+                        
+                        double TXEvaluation = fgeneric.evaluate(TX);
+                        if (TXEvaluation < evaluations.get(i))
+                        {
+                            generation.remove(i);
+                            generation.add(i, TX);
+                            evaluations.remove(i);
+                            evaluations.add(i, TXEvaluation);
+                        }
+                    }
+                    
+                    if (evaluations.get(i) < bestsEvaluations.get(i))
+                    {
+                        bests.remove(i);
+                        bests.add(i, generation.get(i));
+                        bestsEvaluations.remove(i);
+                        bestsEvaluations.add(i, evaluations.get(i));
+                    }
+                    
+                    if (evaluations.get(i) < globalBestEvaluation)
+                    {
+                        globalBest = generation.get(i);
+                        globalBestEvaluation = evaluations.get(i);
+                    }
+                }
             }
+            if (globalBestEvaluation < ftarget)
+                break;
         }
     }
 
@@ -69,7 +191,7 @@ public class ExampleExperiment {
     public static void main(String[] args) {
 
         /* run variables for the function/dimension/instances loops */
-        final int dim[] = {2, 3, 5, 10, 20, 40};
+        final int dim[] = {5, 20};//{2, 3, 5, 10, 20, 40};
         final int instances[] = {1, 2, 3, 4, 5, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50};
         int idx_dim, ifun, idx_instances, independent_restarts;
         double maxfunevals;
@@ -89,7 +211,7 @@ public class ExampleExperiment {
          * for each new experiment */
         params.algName = "PSO-DE Hybrid";
         params.comments = "Particle Swarm Optimization hybridized with Differential Evolution algorithm.";
-        outputPath = "Experimental_Data_1";
+        outputPath = "Experimental_Data";
 
         if (args.length > 0) {
             outputPath = args[0]; // Warning: might override the assignment above.
@@ -120,7 +242,8 @@ public class ExampleExperiment {
          * System.out.println("seed for the noise set to: "+noiseseed); */
 
         /* now the main loop */
-        for (idx_dim = 0; idx_dim < 6; idx_dim++) {
+        for (idx_dim = 0; idx_dim < dim.length; idx_dim++)//idx_dim < 6; idx_dim++) 
+        {
             /* Function indices are from 1 to 24 (noiseless) or from 101 to 130 (noisy) */
             /* for (ifun = 101; ifun <= 130; ifun++) { // Noisy testbed */
             for (ifun = 1; ifun <= 24; ifun++) { //Noiseless testbed
