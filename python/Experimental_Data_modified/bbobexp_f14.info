@@ -1,0 +1,15 @@
+funcId = 14, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f14/bbobexp_f14_DIM2.dat, 1:844|6.4e-002, 2:847|1.8e-002, 3:853|6.1e-002, 4:861|4.7e-002, 5:859|1.2e-001, 41:832|6.4e-002, 42:849|6.6e-003, 43:857|8.8e-002, 44:852|4.6e-003, 45:878|1.1e-001, 46:860|2.4e-002, 47:856|3.9e-003, 48:869|2.4e-002, 49:849|1.1e-001, 50:853|2.8e-002
+funcId = 14, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f14/bbobexp_f14_DIM3.dat, 1:1246|9.0e-001, 2:1212|5.0e-002, 3:1212|8.6e-003, 4:1241|8.9e-002, 5:1223|7.6e-003, 41:1281|2.3e-001, 42:1497|3.9e-001, 43:1247|1.3e-002, 44:1301|4.2e-002, 45:1237|2.7e-002, 46:1263|2.3e-001, 47:1190|1.1e+000, 48:1299|1.7e-001, 49:1242|2.6e-002, 50:1248|1.7e-001
+funcId = 14, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f14/bbobexp_f14_DIM5.dat, 1:2029|1.0e-001, 2:2057|5.3e-002, 3:2122|1.3e+000, 4:2251|5.2e+000, 5:2211|6.0e-001, 41:2053|4.8e+000, 42:2022|1.0e-001, 43:2051|3.2e-001, 44:2053|9.4e-001, 45:2023|1.1e+000, 46:2180|6.6e-001, 47:1992|9.7e-001, 48:2233|3.3e-001, 49:2029|3.5e-001, 50:2055|4.0e-002
+funcId = 14, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f14/bbobexp_f14_DIM10.dat, 1:4153|5.0e-001, 2:4311|4.3e-001, 3:4110|1.8e+000, 4:4054|3.4e+000, 5:4146|2.2e-001, 41:4137|4.1e-001, 42:4097|5.9e+000, 43:4179|4.4e+000, 44:4101|2.0e-001, 45:3933|7.0e+000, 46:4163|1.5e-001, 47:3926|4.7e+000, 48:4046|5.0e+000, 49:4180|1.1e-001, 50:4218|5.5e+000
+funcId = 14, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f14/bbobexp_f14_DIM20.dat, 1:8569|6.5e+000, 2:8709|2.3e-001, 3:8374|3.4e+000, 4:8800|3.9e+000, 5:8345|7.4e+000, 41:8751|5.5e+000, 42:8710|7.7e-001, 43:8646|1.6e+000, 44:8721|3.0e-001, 45:8025|1.3e+001, 46:8670|2.2e-001, 47:8364|6.0e+000, 48:8668|9.7e+000, 49:8148|1.2e+001, 50:8611|6.3e+000

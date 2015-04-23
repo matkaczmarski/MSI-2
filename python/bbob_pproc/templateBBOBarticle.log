@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.24)  24 MAR 2015 23:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.24)  23 APR 2015 18:22
 entering extended mode
 **templateBBOBarticle.tex
 
-("C:\Users\Mateusz\Desktop\PSO DE\bbobjava\python\bbob_pproc\templateBBOBarticl
-e.tex"
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\templateBBOBartic
+le.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -15,7 +15,8 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("C:\Users\Mateusz\Desktop\PSO DE\bbobjava\python\bbob_pproc\sig-alternate.cls"
+
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\sig-alternate.cls
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
@@ -229,10 +230,10 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
-("C:\Users\Mateusz\Desktop\PSO DE\bbobjava\python\bbob_pproc\ppdata/bbob_pproc_
-commands.tex")
-("C:\Users\Mateusz\Desktop\PSO DE\bbobjava\python\bbob_pproc\templateBBOBarticl
-e.aux")
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/bbob_pproc
+_commands.tex)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\templateBBOBartic
+le.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
 LaTeX Font Info:    ... okay on input line 78.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
@@ -288,12 +289,6 @@ ne 223.
 
 LaTeX Warning: Citation `hansen2012fun' on page \thepage  undefined on input li
 ne 223.
-
-
-Overfull \hbox (135.05829pt too wide) in paragraph at lines 222--226
-[]\T1/aer/m/n/9 Results of C:/Users/Mateusz/Desktop/PSO DE/bbobjava/bbob.v15.02
-/java/Experimental
- []
 
 <ppdata/ppfigdim_f001.pdf, id=1, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f001.pdf Graphic file (type pdf)
@@ -468,13 +463,14 @@ Overfull \hbox (9.3081pt too wide) in paragraph at lines 235--264
  []
 
 
-LaTeX Warning: Float too large for page by 13.79756pt on input line 265.
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptable_05
+D_noiselessall.tex)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptable_20
+D_noiselessall.tex)
+Overfull \hbox (26.60898pt too wide) in paragraph at lines 1--283
+ [][] 
+ []
 
-
-("C:\Users\Mateusz\Desktop\PSO DE\bbobjava\python\bbob_pproc\ppdata/pptable_05D
-_noiselessall.tex")
-("C:\Users\Mateusz\Desktop\PSO DE\bbobjava\python\bbob_pproc\ppdata/pptable_20D
-_noiselessall.tex")
 <ppdata/pprldistr_05D_separ.pdf, id=25, 578.16pt x 433.62pt>
 File: ppdata/pprldistr_05D_separ.pdf Graphic file (type pdf)
 
@@ -697,10 +693,10 @@ Overfull \hbox (1.92554pt too wide) in paragraph at lines 351--353
  []
 
 
-("C:\Users\Mateusz\Desktop\PSO DE\bbobjava\python\bbob_pproc\ppdata/pploglossta
-ble_05D_noiselessall.tex")
-("C:\Users\Mateusz\Desktop\PSO DE\bbobjava\python\bbob_pproc\ppdata/pploglossta
-ble_20D_noiselessall.tex")
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pploglosst
+able_05D_noiselessall.tex)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pploglosst
+able_20D_noiselessall.tex)
 <ppdata/pplogloss_05D_separ.pdf, id=77, 578.16pt x 433.62pt>
 File: ppdata/pplogloss_05D_separ.pdf Graphic file (type pdf)
 
@@ -791,200 +787,201 @@ No file templateBBOBarticle.bbl.
 
 Non-PDF special ignored!
 
- <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/pplogloss_0
-5D_noiselessall.pdf> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_ppro
-c/ppdata/pplogloss_20D_noiselessall.pdf>] [2 <C:/Users/Mateusz/Desktop/PSO DE/b
-bobjava/python/bbob_pproc/ppdata/ppfigdim_f001.pdf> <C:/Users/Mateusz/Desktop/P
-SO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f002.pdf
+ <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pplogloss
+_05D_noiselessall.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_
+pproc/ppdata/pplogloss_20D_noiselessall.pdf>] [2 <C:/Users/Mateusz/Desktop/repo
+zytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f001.pdf> <C:/Users/Mateusz/Des
+ktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f002.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f002.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-003.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f002.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f003.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f003.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-004.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f003.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f004.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f004.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-005.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f004.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f005.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f005.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-006.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f005.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f006.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f006.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-007.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f006.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f007.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f007.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-008.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f007.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f008.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f008.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-009.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f008.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f009.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f009.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-010.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f009.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f010.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f010.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-011.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f010.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f011.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f011.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-012.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f011.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f012.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f012.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-013.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f012.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f013.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f013.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-014.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f013.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f014.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f014.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-015.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f014.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f015.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f015.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-016.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f015.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f016.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f016.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-017.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f016.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f017.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f017.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-018.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f017.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f018.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f018.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-019.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f018.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f019.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f019.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-020.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f019.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f020.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f020.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-021.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f020.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f021.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f021.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-022.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f021.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f022.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f022.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-023.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f022.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f023.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f023.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
-> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfigdim_f
-024.pdf
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f023.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim
+_f024.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/ppfigdim_f024.pdf): PDF inclusion: multiple pdfs with page gr
-oup included in a single page
->] [3 <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/pprldi
-str_05D_separ.pdf> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/
-ppdata/ppfvdistr_05D_separ.pdf> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/pytho
-n/bbob_pproc/ppdata/pprldistr_20D_separ.pdf> <C:/Users/Mateusz/Desktop/PSO DE/b
-bobjava/python/bbob_pproc/ppdata/ppfvdistr_20D_separ.pdf> <C:/Users/Mateusz/Des
-ktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/pprldistr_05D_lcond.pdf> <C:/User
-s/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfvdistr_05D_lcond.
-pdf> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/pprldis
-tr_20D_lcond.pdf> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/p
-pdata/ppfvdistr_20D_lcond.pdf> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python
-/bbob_pproc/ppdata/pprldistr_05D_hcond.pdf> <C:/Users/Mateusz/Desktop/PSO DE/bb
-objava/python/bbob_pproc/ppdata/ppfvdistr_05D_hcond.pdf> <C:/Users/Mateusz/Desk
-top/PSO DE/bbobjava/python/bbob_pproc/ppdata/pprldistr_20D_hcond.pdf> <C:/Users
-/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfvdistr_20D_hcond.p
-df> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/pprldist
-r_05D_multi.pdf> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/pp
-data/ppfvdistr_05D_multi.pdf> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/
-bbob_pproc/ppdata/pprldistr_20D_multi.pdf> <C:/Users/Mateusz/Desktop/PSO DE/bbo
-bjava/python/bbob_pproc/ppdata/ppfvdistr_20D_multi.pdf> <C:/Users/Mateusz/Deskt
-op/PSO DE/bbobjava/python/bbob_pproc/ppdata/pprldistr_05D_mult2.pdf> <C:/Users/
-Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/ppfvdistr_05D_mult2.pd
-f> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/pprldistr
-_20D_mult2.pdf> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppd
-ata/ppfvdistr_20D_mult2.pdf> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/b
-bob_pproc/ppdata/pprldistr_05D_noiselessall.pdf> <C:/Users/Mateusz/Desktop/PSO 
-DE/bbobjava/python/bbob_pproc/ppdata/ppfvdistr_05D_noiselessall.pdf> <C:/Users/
-Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/pprldistr_20D_noiseles
-sall.pdf> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/pp
-fvdistr_20D_noiselessall.pdf>] [4] [5
+pdfTeX warning: pdflatex (file C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f024.pdf): PDF inclusion: multiple pdfs with page 
+group included in a single page
+>] [3 <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pprl
+distr_05D_separ.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pp
+roc/ppdata/ppfvdistr_05D_separ.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2
+/python/bbob_pproc/ppdata/pprldistr_20D_separ.pdf> <C:/Users/Mateusz/Desktop/re
+pozytoria/MSI-2/python/bbob_pproc/ppdata/ppfvdistr_20D_separ.pdf> <C:/Users/Mat
+eusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pprldistr_05D_lcond.pdf
+> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfvdist
+r_05D_lcond.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/
+ppdata/pprldistr_20D_lcond.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pyt
+hon/bbob_pproc/ppdata/ppfvdistr_20D_lcond.pdf> <C:/Users/Mateusz/Desktop/repozy
+toria/MSI-2/python/bbob_pproc/ppdata/pprldistr_05D_hcond.pdf> <C:/Users/Mateusz
+/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfvdistr_05D_hcond.pdf> <C
+:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pprldistr_20
+D_hcond.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppda
+ta/ppfvdistr_20D_hcond.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/
+bbob_pproc/ppdata/pprldistr_05D_multi.pdf> <C:/Users/Mateusz/Desktop/repozytori
+a/MSI-2/python/bbob_pproc/ppdata/ppfvdistr_05D_multi.pdf> <C:/Users/Mateusz/Des
+ktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pprldistr_20D_multi.pdf> <C:/Us
+ers/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfvdistr_20D_mu
+lti.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/p
+prldistr_05D_mult2.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob
+_pproc/ppdata/ppfvdistr_05D_mult2.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MS
+I-2/python/bbob_pproc/ppdata/pprldistr_20D_mult2.pdf> <C:/Users/Mateusz/Desktop
+/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfvdistr_20D_mult2.pdf> <C:/Users/
+Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pprldistr_05D_noisel
+essall.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdat
+a/ppfvdistr_05D_noiselessall.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/p
+ython/bbob_pproc/ppdata/pprldistr_20D_noiselessall.pdf> <C:/Users/Mateusz/Deskt
+op/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfvdistr_20D_noiselessall.pdf>]
+[4] [5
 
 
- <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/pplogloss_0
-5D_separ.pdf> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdat
-a/pplogloss_20D_separ.pdf> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbo
-b_pproc/ppdata/pplogloss_05D_lcond.pdf> <C:/Users/Mateusz/Desktop/PSO DE/bbobja
-va/python/bbob_pproc/ppdata/pplogloss_20D_lcond.pdf> <C:/Users/Mateusz/Desktop/
-PSO DE/bbobjava/python/bbob_pproc/ppdata/pplogloss_05D_hcond.pdf> <C:/Users/Mat
-eusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/pplogloss_20D_hcond.pdf> 
-<C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata/pplogloss_05
-D_multi.pdf> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob_pproc/ppdata
-/pplogloss_20D_multi.pdf> <C:/Users/Mateusz/Desktop/PSO DE/bbobjava/python/bbob
-_pproc/ppdata/pplogloss_05D_mult2.pdf> <C:/Users/Mateusz/Desktop/PSO DE/bbobjav
-a/python/bbob_pproc/ppdata/pplogloss_20D_mult2.pdf>]
-("C:\Users\Mateusz\Desktop\PSO DE\bbobjava\python\bbob_pproc\templateBBOBarticl
-e.aux") ) 
+ <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pplogloss
+_05D_separ.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/p
+pdata/pplogloss_20D_separ.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pyth
+on/bbob_pproc/ppdata/pplogloss_05D_lcond.pdf> <C:/Users/Mateusz/Desktop/repozyt
+oria/MSI-2/python/bbob_pproc/ppdata/pplogloss_20D_lcond.pdf> <C:/Users/Mateusz/
+Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pplogloss_05D_hcond.pdf> <C:
+/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pplogloss_20D
+_hcond.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdat
+a/pplogloss_05D_multi.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/b
+bob_pproc/ppdata/pplogloss_20D_multi.pdf> <C:/Users/Mateusz/Desktop/repozytoria
+/MSI-2/python/bbob_pproc/ppdata/pplogloss_05D_mult2.pdf> <C:/Users/Mateusz/Desk
+top/repozytoria/MSI-2/python/bbob_pproc/ppdata/pplogloss_20D_mult2.pdf>]
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\templateBBOBartic
+le.aux) ) 
 Here is how much of TeX's memory you used:
  3466 strings out of 493921
- 47973 string characters out of 3147276
- 174420 words of memory out of 3000000
+ 48013 string characters out of 3147276
+ 184643 words of memory out of 3000000
  6603 multiletter control sequences out of 15000+200000
  65133 words of font info for 91 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 41i,13n,35p,1336b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,13n,35p,1332b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx5.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.
@@ -1005,9 +1002,9 @@ gram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on templateBBOBarticle.pdf (5 pages, 1467642 bytes).
+Output written on templateBBOBarticle.pdf (5 pages, 1344939 bytes).
 PDF statistics:
- 2538 PDF objects out of 2984 (max. 8388607)
+ 2167 PDF objects out of 2487 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  517 words of extra memory for PDF output out of 10000 (max. 10000000)
 

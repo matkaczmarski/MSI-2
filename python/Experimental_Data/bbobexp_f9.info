@@ -1,0 +1,15 @@
+funcId = 9, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f9/bbobexp_f9_DIM2.dat, 1:976|6.1e+000, 2:827|8.0e-001, 3:833|8.2e-001, 4:819|7.6e-002, 5:835|5.2e-002, 41:792|1.6e-001, 42:833|3.3e+000, 43:816|1.7e-001, 44:897|1.1e-001, 45:879|4.8e+000, 46:829|1.1e+000, 47:823|6.0e-002, 48:850|1.4e-001, 49:827|3.0e+000, 50:832|1.7e-001
+funcId = 9, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f9/bbobexp_f9_DIM3.dat, 1:1240|4.1e+000, 2:1193|7.3e+000, 3:1228|2.8e+000, 4:1187|2.5e+000, 5:1196|1.9e+000, 41:1247|4.6e-001, 42:1250|3.5e+001, 43:1251|2.4e+000, 44:1200|1.0e+000, 45:1186|4.1e+000, 46:1248|6.6e+000, 47:1250|8.8e-001, 48:1219|1.0e+000, 49:1248|5.3e+000, 50:1280|1.4e+000
+funcId = 9, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f9/bbobexp_f9_DIM5.dat, 1:2005|9.4e+000, 2:2134|4.8e+002, 3:1976|4.7e+000, 4:2035|3.5e+000, 5:2036|2.7e+000, 41:2030|2.9e+001, 42:2037|5.6e+000, 43:2225|1.3e+003, 44:2160|3.6e+002, 45:2051|3.1e+000, 46:2134|1.4e+001, 47:2025|4.0e+000, 48:2077|6.0e+000, 49:2156|4.6e+001, 50:2017|6.3e+000
+funcId = 9, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f9/bbobexp_f9_DIM10.dat, 1:3979|7.7e+001, 2:4198|2.4e+003, 3:4277|1.4e+002, 4:4211|1.2e+002, 5:4080|3.1e+002, 41:3967|3.1e+002, 42:4236|1.7e+002, 43:4168|8.1e+001, 44:3966|2.9e+001, 45:4166|2.5e+003, 46:4029|8.8e+000, 47:4081|7.5e+001, 48:4015|7.8e+000, 49:3976|1.1e+001, 50:3994|1.0e+001
+funcId = 9, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f9/bbobexp_f9_DIM20.dat, 1:7627|2.1e+002, 2:7609|8.6e+002, 3:7586|1.3e+003, 4:7655|2.6e+002, 5:7609|1.7e+003, 41:7743|2.2e+003, 42:7668|3.1e+001, 43:7608|1.6e+002, 44:7570|1.9e+002, 45:7787|1.4e+002, 46:7570|9.8e+003, 47:7595|7.7e+003, 48:7947|4.1e+002, 49:7698|1.8e+002, 50:7588|2.3e+003
