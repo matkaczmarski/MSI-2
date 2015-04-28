@@ -203,7 +203,7 @@ public class ExampleExperiment {
          * for each new experiment */
         params.algName = "PSO-DE Hybrid";
         params.comments = "Particle Swarm Optimization hybridized with Differential Evolution algorithm.";
-        outputPath = "Experimental_Data";
+        outputPath = "PSO_DE";
 
         if (args.length > 0) {
             outputPath = args[0]; // Warning: might override the assignment above.

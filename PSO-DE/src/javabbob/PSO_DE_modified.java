@@ -129,6 +129,19 @@ public class PSO_DE_modified {
                     }
                 }
                 double uEvaluation = fgeneric.evaluate(u);
+
+                double[] velocity = velocities.get(i);
+
+                double R1 = rand.nextDouble();
+                double R2 = rand.nextDouble();
+
+                for (int k = 0; k < dim; k++) {
+                    velocity[k] = w * velocity[k] + c1 * R1 * (bests.get(i)[k] - generation.get(i)[k]) + c2 * R2 * (globalBest[k] - generation.get(i)[k]);
+                }
+
+                velocities.remove(i);
+                velocities.add(i, velocity);
+
                 if (uEvaluation < evaluations.get(i)) {
                     generation.remove(i);
                     generation.add(i, u);
@@ -136,14 +149,9 @@ public class PSO_DE_modified {
                     evaluations.add(i, uEvaluation);
                 } else {
                     double[] TX = new double[dim];
-                    double[] velocity = u.clone();
-                    
                     for (int k = 0; k < dim; k++) {
-                        velocity[k] -= generation.get(i)[k];
+                        TX[k] = generation.get(i)[k] + velocity[k];
                     }
-
-                    velocities.remove(i);
-                    velocities.add(i, velocity);
 
                     double TXEvaluation = fgeneric.evaluate(TX);
                     if (TXEvaluation < evaluations.get(i)) {
@@ -197,14 +205,14 @@ public class PSO_DE_modified {
         /**
          * ************************************************
          * BBOB Mandatory initialization *
-         ************************************************
+         * ***********************************************
          */
         JNIfgeneric.Params params = new JNIfgeneric.Params();
         /* Modify the following parameters, choosing a different setting
          * for each new experiment */
         params.algName = "PSO-DE Hybrid";
         params.comments = "Particle Swarm Optimization hybridized with Differential Evolution algorithm.";
-        outputPath = "Experimental_Data_modified";
+        outputPath = "PSO_DE_modified";
 
         if (args.length > 0) {
             outputPath = args[0]; // Warning: might override the assignment above.

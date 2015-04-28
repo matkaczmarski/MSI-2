@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.24)  23 APR 2015 18:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.24)  29 APR 2015 00:03
 entering extended mode
 **templateBBOBarticle.tex
 
@@ -260,8 +260,16 @@ LaTeX Font Info:    ... okay on input line 78.
 \makeMPintoPDFobject=\count115
 \everyMPtoPDFconversion=\toks38
 )
+Runaway argument?
+{PSO-DE Hybrid 
+! Paragraph ended before \subtitle was complete.
+<to be read again> 
+                   \par 
+l.94 
+     
+? 
 LaTeX Font Info:    Try loading font information for U+msa on input line 189.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 189.
@@ -463,14 +471,13 @@ Overfull \hbox (9.3081pt too wide) in paragraph at lines 235--264
  []
 
 
+LaTeX Warning: Float too large for page by 13.79756pt on input line 265.
+
+
 (C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptable_05
 D_noiselessall.tex)
 (C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptable_20
 D_noiselessall.tex)
-Overfull \hbox (26.60898pt too wide) in paragraph at lines 1--283
- [][] 
- []
-
 <ppdata/pprldistr_05D_separ.pdf, id=25, 578.16pt x 433.62pt>
 File: ppdata/pprldistr_05D_separ.pdf Graphic file (type pdf)
 
@@ -975,36 +982,35 @@ top/repozytoria/MSI-2/python/bbob_pproc/ppdata/pplogloss_20D_mult2.pdf>]
 (C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\templateBBOBartic
 le.aux) ) 
 Here is how much of TeX's memory you used:
- 3466 strings out of 493921
- 48013 string characters out of 3147276
- 184643 words of memory out of 3000000
+ 3465 strings out of 493921
+ 48007 string characters out of 3147276
+ 176847 words of memory out of 3000000
  6603 multiletter control sequences out of 15000+200000
- 65133 words of font info for 91 fonts, out of 3000000 for 9000
+ 63979 words of font info for 90 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 41i,13n,35p,1332b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,13n,35p,1336b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx5.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmti7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
-i9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
-i8a.pfb>
-Output written on templateBBOBarticle.pdf (5 pages, 1344939 bytes).
+s/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmti7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmti9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on templateBBOBarticle.pdf (5 pages, 1582205 bytes).
 PDF statistics:
- 2167 PDF objects out of 2487 (max. 8388607)
+ 2570 PDF objects out of 2984 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  517 words of extra memory for PDF output out of 10000 (max. 10000000)
 

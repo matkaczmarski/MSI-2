@@ -177,7 +177,7 @@ public class DE {
          * for each new experiment */
         params.algName = "DE";
         params.comments = "Differential Evolution algorithm.";
-        outputPath = "Experimental_Data_DE";
+        outputPath = "DE";
 
         if (args.length > 0) {
             outputPath = args[0]; // Warning: might override the assignment above.
