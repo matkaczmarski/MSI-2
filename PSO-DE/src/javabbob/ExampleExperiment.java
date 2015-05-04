@@ -280,7 +280,7 @@ public class ExampleExperiment {
                     velocities.add(i, velocity);
 
                     double TXEvaluation = fgeneric.evaluate(TX);
-                    if (TXEvaluation < evaluations.get(i) || rand.nextDouble() <= THRESHOLD) {
+                    if (TXEvaluation < evaluations.get(i)) {
                         generation.remove(i);
                         generation.add(i, TX);
                         evaluations.remove(i);
