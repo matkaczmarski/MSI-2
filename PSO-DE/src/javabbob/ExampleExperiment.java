@@ -300,6 +300,104 @@ public class ExampleExperiment {
         }
     }
 
+    public static void DE(JNIfgeneric fgeneric, int dim, double maxfunevals, Random rand) {
+
+        double[] globalBest = {0, 1};
+        double globalBestEvaluation = 0;
+        double ftarget = fgeneric.getFtarget();
+
+        ArrayList<double[]> generation = new ArrayList<>();
+        ArrayList<double[]> bests = new ArrayList<>();
+        ArrayList<Double> evaluations = new ArrayList<>();
+        ArrayList<Double> bestsEvaluations = new ArrayList<>();
+
+        for (int i = 0; i < populationSize; i++) {
+            double[] individual = new double[dim];
+            for (int j = 0; j < dim; j++) {
+                individual[j] = rand.nextDouble() * 2 * BOUND - BOUND;
+            }
+            generation.add(individual);
+            bests.add(individual);
+
+        }
+
+        for (int i = 0; i < generation.size(); i++) {
+            double evaluation = fgeneric.evaluate(generation.get(i));
+            evaluations.add(evaluation);
+            bestsEvaluations.add(evaluation);
+
+            if (i == 0) {
+                globalBest = generation.get(i);
+                globalBestEvaluation = fgeneric.evaluate(globalBest);
+            } else {
+                if (evaluations.get(i) < globalBestEvaluation) {
+                    globalBest = generation.get(i);
+                    globalBestEvaluation = evaluations.get(i);
+                }
+            }
+        }
+
+        int iteration = 0;
+        boolean stop = false;
+        while (true) {
+            if (iteration >= maxfunevals) {
+                break;
+            }
+
+            iteration += generation.size();
+            for (int i = 0; i < generation.size(); i++) {
+                Set<Integer> randomSet = new LinkedHashSet<>();
+                randomSet.add(i);
+                while (randomSet.size() < 4) {
+                    randomSet.add(rand.nextInt(populationSize));
+                }
+
+                Object[] randoms = randomSet.toArray();
+                int r1 = (int) randoms[1];
+                int r2 = (int) randoms[2];
+                int r3 = (int) randoms[3];
+
+                double[] m = new double[dim];
+                for (int j = 0; j < dim; j++) {
+                    m[j] = generation.get(r1)[j] + F * (generation.get(r2)[j] - generation.get(r3)[j]);
+                }
+
+                double[] u = new double[dim];
+                for (int j = 0; j < dim; j++) {
+                    int jRand = Math.abs(rand.nextInt()) % dim + 1;
+                    if (rand.nextDouble() < CR || j == jRand) {
+                        u[j] = m[j];
+                    } else {
+                        u[j] = generation.get(i)[j];
+                    }
+                }
+                double uEvaluation = fgeneric.evaluate(u);
+                if (uEvaluation < evaluations.get(i)) {
+                    generation.remove(i);
+                    generation.add(i, u);
+                    evaluations.remove(i);
+                    evaluations.add(i, uEvaluation);
+                }
+
+                if (evaluations.get(i) < bestsEvaluations.get(i)) {
+                    bests.remove(i);
+                    bests.add(i, generation.get(i));
+                    bestsEvaluations.remove(i);
+                    bestsEvaluations.add(i, evaluations.get(i));
+                }
+
+                if (evaluations.get(i) < globalBestEvaluation) {
+                    globalBest = generation.get(i);
+                    globalBestEvaluation = evaluations.get(i);
+                }
+            }
+
+            if (globalBestEvaluation < ftarget) {
+                break;
+            }
+        }
+    }
+
     /**
      * Main method for running the whole BBOB experiment. Executing this method
      * runs the experiment. The first command-line input argument is
