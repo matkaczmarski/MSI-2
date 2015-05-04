@@ -89,7 +89,6 @@ public class ExampleExperiment {
         }
 
         int iteration = 0;
-        boolean stop = false;
         while (true) {
             if (iteration >= maxfunevals) {
                 break;
@@ -215,7 +214,6 @@ public class ExampleExperiment {
         }
 
         int iteration = 0;
-        boolean stop = false;
         while (true) {
             if (iteration >= maxfunevals) {
                 break;
@@ -268,9 +266,18 @@ public class ExampleExperiment {
 
                 } else {
                     double[] TX = new double[dim];
+                    double[] velocity = velocities.get(i);
+
+                    double R1 = rand.nextDouble();
+                    double R2 = rand.nextDouble();
+
                     for (int k = 0; k < dim; k++) {
-                        TX[k] = generation.get(i)[k] + velocities.get(i)[k];
+                        velocity[k] = w * velocity[k] + c1 * R1 * (bests.get(i)[k] - generation.get(i)[k]) + c2 * R2 * (globalBest[k] - generation.get(i)[k]);
+                        TX[k] = generation.get(i)[k] + velocity[k];
                     }
+
+                    velocities.remove(i);
+                    velocities.add(i, velocity);
 
                     double TXEvaluation = fgeneric.evaluate(TX);
                     if (TXEvaluation < evaluations.get(i) || rand.nextDouble() <= THRESHOLD) {
@@ -338,7 +345,6 @@ public class ExampleExperiment {
         }
 
         int iteration = 0;
-        boolean stop = false;
         while (true) {
             if (iteration >= maxfunevals) {
                 break;
