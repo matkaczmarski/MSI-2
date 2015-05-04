@@ -16,6 +16,15 @@ import java.util.Set;
  */
 public class ExampleExperiment {
 
+    final static double F = 0.5;
+    final static double CR = 0.5;
+    final static double w = 0.64; //0.75;
+    final static double c1 = 1.4; //0.4;//0.2;
+    final static double c2 = 1.4; //0.4;//0.5;
+    final static double THRESHOLD = 0.5;
+    final static int BOUND = 5;
+    final static int populationSize = 50;
+
     /**
      * Example optimiser. In the following, the pure random search optimization
      * method is implemented as an example. Please include/insert any code as
@@ -40,35 +49,25 @@ public class ExampleExperiment {
 
         double[] globalBest = {0, 1};
         double globalBestEvaluation = 0;
-        int populationSize = 50;
-
-        double F = 0.5;
-        double CR = 0.5;
-        double w = 0.64; //0.75;
-        double c1 = 0.4;//1.4; //0.2;
-        double c2 = 0.4;//1.4; //0.5;
-
-        final int BOUND = 5;
-
         double ftarget = fgeneric.getFtarget();
 
-        ArrayList<double[]> generation = new ArrayList<double[]>();
-        ArrayList<double[]> velocities = new ArrayList<double[]>();
-        ArrayList<double[]> bests = new ArrayList<double[]>();
-        ArrayList<Double> evaluations = new ArrayList<Double>();
-        ArrayList<Double> bestsEvaluations = new ArrayList<Double>();
+        ArrayList<double[]> generation = new ArrayList<>();
+        ArrayList<double[]> velocities = new ArrayList<>();
+        ArrayList<double[]> bests = new ArrayList<>();
+        ArrayList<Double> evaluations = new ArrayList<>();
+        ArrayList<Double> bestsEvaluations = new ArrayList<>();
 
         for (int i = 0; i < populationSize; i++) {
             double[] individual = new double[dim];
             for (int j = 0; j < dim; j++) {
-                individual[j] = rand.nextDouble() * 2 * BOUND + BOUND;
+                individual[j] = rand.nextDouble() * 2 * BOUND - BOUND;
             }
             generation.add(individual);
             bests.add(individual);
 
             double[] velocity = new double[dim];
             for (int j = 0; j < dim; j++) {
-                velocity[j] = rand.nextDouble() * 2 * BOUND + BOUND;
+                velocity[j] = rand.nextDouble() * 2 * BOUND - BOUND;
             }
             velocities.add(velocity);
         }
@@ -92,13 +91,13 @@ public class ExampleExperiment {
         int iteration = 0;
         boolean stop = false;
         while (true) {
-            if (iteration == maxfunevals) {
+            if (iteration >= maxfunevals) {
                 break;
             }
 
-            iteration++;
+            iteration += generation.size();
             for (int i = 0; i < generation.size(); i++) {
-                Set<Integer> randomSet = new LinkedHashSet<Integer>();
+                Set<Integer> randomSet = new LinkedHashSet<>();
                 randomSet.add(i);
                 while (randomSet.size() < 4) {
                     randomSet.add(rand.nextInt(populationSize));
@@ -172,6 +171,135 @@ public class ExampleExperiment {
         }
     }
 
+    public static void PSO_DE_modified(JNIfgeneric fgeneric, int dim, double maxfunevals, Random rand) {
+
+        double[] globalBest = {0, 1};
+        double globalBestEvaluation = 0;
+        double ftarget = fgeneric.getFtarget();
+
+        ArrayList<double[]> generation = new ArrayList<>();
+        ArrayList<double[]> velocities = new ArrayList<>();
+        ArrayList<double[]> bests = new ArrayList<>();
+        ArrayList<Double> evaluations = new ArrayList<>();
+        ArrayList<Double> bestsEvaluations = new ArrayList<>();
+
+        for (int i = 0; i < populationSize; i++) {
+            double[] individual = new double[dim];
+            for (int j = 0; j < dim; j++) {
+                individual[j] = rand.nextDouble() * 2 * BOUND - BOUND;
+            }
+            generation.add(individual);
+            bests.add(individual);
+
+            double[] velocity = new double[dim];
+            for (int j = 0; j < dim; j++) {
+                velocity[j] = rand.nextDouble() * 2 * BOUND - BOUND;
+            }
+            velocities.add(velocity);
+        }
+
+        for (int i = 0; i < generation.size(); i++) {
+            double evaluation = fgeneric.evaluate(generation.get(i));
+            evaluations.add(evaluation);
+            bestsEvaluations.add(evaluation);
+
+            if (i == 0) {
+                globalBest = generation.get(i);
+                globalBestEvaluation = fgeneric.evaluate(globalBest);
+            } else {
+                if (evaluations.get(i) < globalBestEvaluation) {
+                    globalBest = generation.get(i);
+                    globalBestEvaluation = evaluations.get(i);
+                }
+            }
+        }
+
+        int iteration = 0;
+        boolean stop = false;
+        while (true) {
+            if (iteration >= maxfunevals) {
+                break;
+            }
+
+            iteration += generation.size();
+            for (int i = 0; i < generation.size(); i++) {
+                Set<Integer> randomSet = new LinkedHashSet<>();
+                randomSet.add(i);
+                while (randomSet.size() < 4) {
+                    randomSet.add(rand.nextInt(populationSize));
+                }
+
+                Object[] randoms = randomSet.toArray();
+                int r1 = (int) randoms[1];
+                int r2 = (int) randoms[2];
+                int r3 = (int) randoms[3];
+
+                double[] m = new double[dim];
+                for (int j = 0; j < dim; j++) {
+                    m[j] = generation.get(r1)[j] + F * (generation.get(r2)[j] - generation.get(r3)[j]);
+                }
+
+                double[] u = new double[dim];
+                for (int j = 0; j < dim; j++) {
+                    int jRand = Math.abs(rand.nextInt()) % dim + 1;
+                    if (rand.nextDouble() < CR || j == jRand) {
+                        u[j] = m[j];
+                    } else {
+                        u[j] = generation.get(i)[j];
+                    }
+                }
+                double uEvaluation = fgeneric.evaluate(u);
+
+                if (uEvaluation < evaluations.get(i)) {
+
+                    double[] velocity = u.clone();
+
+                    for (int k = 0; k < dim; k++) {
+                        velocity[k] -= generation.get(i)[k];
+                    }
+
+                    velocities.remove(i);
+                    velocities.add(i, velocity);
+
+                    generation.remove(i);
+                    generation.add(i, u);
+                    evaluations.remove(i);
+                    evaluations.add(i, uEvaluation);
+
+                } else {
+                    double[] TX = new double[dim];
+                    for (int k = 0; k < dim; k++) {
+                        TX[k] = generation.get(i)[k] + velocities.get(i)[k];
+                    }
+
+                    double TXEvaluation = fgeneric.evaluate(TX);
+                    if (TXEvaluation < evaluations.get(i) || rand.nextDouble() <= THRESHOLD) {
+                        generation.remove(i);
+                        generation.add(i, TX);
+                        evaluations.remove(i);
+                        evaluations.add(i, TXEvaluation);
+                    }
+                }
+
+                if (evaluations.get(i) < bestsEvaluations.get(i)) {
+                    bests.remove(i);
+                    bests.add(i, generation.get(i));
+                    bestsEvaluations.remove(i);
+                    bestsEvaluations.add(i, evaluations.get(i));
+                }
+
+                if (evaluations.get(i) < globalBestEvaluation) {
+                    globalBest = generation.get(i);
+                    globalBestEvaluation = evaluations.get(i);
+                }
+
+            }
+            if (globalBestEvaluation < ftarget) {
+                break;
+            }
+        }
+    }
+
     /**
      * Main method for running the whole BBOB experiment. Executing this method
      * runs the experiment. The first command-line input argument is
@@ -196,14 +324,14 @@ public class ExampleExperiment {
         /**
          * ************************************************
          * BBOB Mandatory initialization *
-         ************************************************
+         * ***********************************************
          */
         JNIfgeneric.Params params = new JNIfgeneric.Params();
         /* Modify the following parameters, choosing a different setting
          * for each new experiment */
         params.algName = "PSO-DE Hybrid";
         params.comments = "Particle Swarm Optimization hybridized with Differential Evolution algorithm.";
-        outputPath = "PSO_DE";
+        outputPath = "PSO_DE_modified";
 
         if (args.length > 0) {
             outputPath = args[0]; // Warning: might override the assignment above.
@@ -245,14 +373,13 @@ public class ExampleExperiment {
                     fgeneric.initBBOB(ifun, instances[idx_instances],
                             dim[idx_dim], outputPath, params);
                     /* Call to the optimizer with fgeneric as input */
-                    maxfunevals = 5. * dim[idx_dim]; /* PUT APPROPRIATE MAX. FEVALS */
+                    maxfunevals = 200. * dim[idx_dim]; /* PUT APPROPRIATE MAX. FEVALS */
                     /* 5. * dim is fine to just check everything */
 
                     independent_restarts = -1;
                     while (fgeneric.getEvaluations() < maxfunevals) {
                         independent_restarts++;
-                        PSO_DE(fgeneric, dim[idx_dim],
-                                maxfunevals - fgeneric.getEvaluations(), rand);
+                        PSO_DE_modified(fgeneric, dim[idx_dim], maxfunevals - fgeneric.getEvaluations(), rand);
                         if (fgeneric.getBest() < fgeneric.getFtarget()) {
                             break;
                         }
