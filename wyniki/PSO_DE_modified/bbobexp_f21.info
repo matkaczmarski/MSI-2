@@ -1,0 +1,15 @@
+funcId = 21, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f21/bbobexp_f21_DIM2.dat, 1:2047|-8.0e-009, 2:1522|-9.8e-009, 3:1840|-7.4e-009, 4:2291|-9.6e-009, 5:1995|-4.7e-010, 41:1569|-9.8e-009, 42:1501|-7.1e-009, 43:1256|-9.9e-009, 44:1560|-9.3e-009, 45:585|-8.0e-009, 46:1473|-1.0e-008, 47:1824|-9.3e-009, 48:1419|-9.9e-009, 49:1259|-6.8e-009, 50:1663|-9.8e-010
+funcId = 21, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f21/bbobexp_f21_DIM3.dat, 1:2225|-1.0e-008, 2:2169|-9.7e-009, 3:599363|9.3e-001, 4:1542|-6.4e-009, 5:1918|-9.8e-009, 41:2087|-6.4e-009, 42:1726|-2.2e-009, 43:1939|-7.3e-009, 44:1807|-7.1e-009, 45:2169|-8.4e-009, 46:1832|-5.1e-009, 47:2622|-9.9e-009, 48:1974|-5.2e-009, 49:2485|-8.8e-009, 50:1892|-7.0e-009
+funcId = 21, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f21/bbobexp_f21_DIM5.dat, 1:998236|1.2e+000, 2:998405|9.3e-001, 3:2700|-4.8e-009, 4:998497|2.1e+000, 5:2484|-9.9e-009, 41:998639|1.9e+000, 42:998838|1.6e+000, 43:999427|1.9e+000, 44:2838|-7.7e-009, 45:998554|9.3e-001, 46:2932|-7.8e-009, 47:998651|2.0e+000, 48:2800|-6.3e-009, 49:998538|2.0e+000, 50:2445|-5.4e-010
+funcId = 21, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f21/bbobexp_f21_DIM10.dat, 1:1997841|9.3e-001, 2:1997395|1.0e+001, 3:1998273|6.9e-001, 4:4269|-7.3e-009, 5:1998203|8.7e+000, 41:1998683|3.2e+000, 42:1997952|1.6e+000, 43:3746|-7.1e-009, 44:1997582|3.6e+000, 45:1999130|2.0e+000, 46:1997827|1.6e+000, 47:1998847|3.2e+000, 48:1998110|3.2e+000, 49:1997738|2.0e+000, 50:1998263|5.3e+000
+funcId = 21, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f21/bbobexp_f21_DIM20.dat, 1:3996282|2.5e+000, 2:3996245|2.0e+000, 3:3995502|2.0e+000, 4:3996261|1.6e+000, 5:3996673|5.3e+000, 41:3996406|1.2e+001, 42:3996383|3.7e+001, 43:3995787|6.7e+000, 44:7426|-5.2e-009, 45:3996326|2.8e+000, 46:3996460|6.9e-001, 47:3996217|6.2e+000, 48:3996034|1.2e+001, 49:3996148|7.9e+000, 50:3996512|5.8e+000

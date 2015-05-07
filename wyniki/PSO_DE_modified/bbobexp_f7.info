@@ -1,0 +1,15 @@
+funcId = 7, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f7/bbobexp_f7_DIM2.dat, 1:2079|-9.2e-009, 2:1299|-9.4e-009, 3:1742|-5.1e-009, 4:1782|-2.9e-009, 5:2238|-4.1e-009, 41:1514|-3.4e-009, 42:1256|-6.2e-009, 43:2069|-6.0e-010, 44:2153|-6.7e-009, 45:1376|-1.9e-009, 46:1570|-7.8e-009, 47:1376|-9.1e-009, 48:1593|-6.0e-009, 49:1679|-5.5e-009, 50:1512|-2.9e-009
+funcId = 7, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f7/bbobexp_f7_DIM3.dat, 1:1509|-9.8e-009, 2:2007|-6.7e-010, 3:2438|-8.8e-009, 4:2043|-1.1e-009, 5:2261|-7.7e-009, 41:2088|-3.5e-009, 42:1965|-7.6e-009, 43:1879|-5.9e-009, 44:2602|-4.0e-009, 45:2321|-1.7e-009, 46:2330|-4.5e-009, 47:1931|-8.1e-009, 48:2338|-1.3e-009, 49:2050|-6.3e-009, 50:1931|-6.3e-009
+funcId = 7, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f7/bbobexp_f7_DIM5.dat, 1:2625|-2.8e-009, 2:999657|1.3e-001, 3:999759|3.8e-001, 4:3577|-1.0e-008, 5:3143|-8.4e-009, 41:3242|-4.6e-009, 42:3282|-8.1e-009, 43:3096|-6.3e-009, 44:3326|-4.0e-009, 45:3350|-8.4e-009, 46:3214|-7.8e-009, 47:999700|6.6e-003, 48:1819|-9.6e-009, 49:2967|-2.1e-009, 50:3011|-7.2e-009
+funcId = 7, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f7/bbobexp_f7_DIM10.dat, 1:1999518|9.4e-001, 2:1999481|9.3e-001, 3:1999527|5.3e-002, 4:1999515|4.4e-001, 5:1999646|2.6e+000, 41:1999582|7.9e-001, 42:1999584|9.6e-001, 43:1999563|6.2e-001, 44:1999610|2.2e+000, 45:1999335|8.1e-001, 46:1999434|3.2e-001, 47:1999405|3.6e-001, 48:1999537|6.7e-001, 49:1999585|1.2e+000, 50:1999542|2.8e+000
+funcId = 7, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f7/bbobexp_f7_DIM20.dat, 1:3999252|1.1e+001, 2:3999303|1.5e+001, 3:3999439|1.2e+001, 4:3999236|3.4e+001, 5:3999111|5.2e+000, 41:3999386|1.1e+001, 42:3995728|1.2e+001, 43:3995869|2.3e+001, 44:3999270|3.3e+001, 45:3998956|2.0e+001, 46:3999170|1.9e+001, 47:3999304|2.5e+001, 48:3999314|8.8e+000, 49:3999273|1.2e+001, 50:3999177|2.1e+000

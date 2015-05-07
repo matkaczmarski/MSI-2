@@ -1,0 +1,15 @@
+funcId = 6, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f6/bbobexp_f6_DIM2.dat, 1:5069|-2.3e-009, 2:4165|-9.3e-009, 3:4831|-4.0e-009, 4:6026|-8.2e-009, 5:4652|-7.0e-009, 41:4861|-4.3e-009, 42:3502|-5.0e-009, 43:4882|-5.6e-009, 44:4586|-5.1e-009, 45:5659|-4.0e-009, 46:4692|-6.4e-009, 47:3525|-6.5e-009, 48:3965|-9.4e-009, 49:4561|-6.1e-010, 50:5041|-4.1e-009
+funcId = 6, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f6/bbobexp_f6_DIM3.dat, 1:7491|-4.0e-009, 2:7784|-4.1e-009, 3:7620|-3.4e-009, 4:7980|-4.0e-009, 5:7487|-2.7e-009, 41:7484|-3.0e-009, 42:6978|-1.1e-009, 43:7671|-4.0e-009, 44:6839|-8.8e-009, 45:6080|-8.0e-010, 46:7764|-2.4e-009, 47:7388|-1.0e-009, 48:6531|-1.0e-009, 49:8598|-8.9e-009, 50:8305|-6.4e-009
+funcId = 6, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f6/bbobexp_f6_DIM5.dat, 1:13325|-5.2e-009, 2:13501|-4.1e-009, 3:14238|-1.7e-009, 4:13660|-3.6e-009, 5:14302|-2.3e-010, 41:12546|-3.6e-009, 42:13153|-2.8e-009, 43:14208|-3.6e-009, 44:9790|-4.1e-009, 45:13461|-2.7e-009, 46:14996|-5.7e-010, 47:13614|-5.1e-009, 48:13445|-5.5e-010, 49:12116|-4.0e-009, 50:13255|-6.1e-009
+funcId = 6, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f6/bbobexp_f6_DIM10.dat, 1:31054|-3.8e-009, 2:37141|-2.5e-009, 3:33656|-6.7e-010, 4:31318|-3.0e-009, 5:33283|-4.1e-009, 41:26708|-5.6e-010, 42:34691|-4.1e-009, 43:32246|-4.6e-010, 44:37779|-3.1e-010, 45:32712|-4.7e-010, 46:32415|-4.4e-010, 47:36846|-1.7e-009, 48:32540|-7.4e-010, 49:32932|-4.1e-009, 50:27807|-1.4e-010
+funcId = 6, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f6/bbobexp_f6_DIM20.dat, 1:135098|-4.8e-011, 2:200116|-5.0e-010, 3:101340|-1.5e-010, 4:147411|-9.7e-011, 5:95210|-8.4e-010, 41:98302|-1.6e-009, 42:124541|-4.3e-010, 43:143969|-1.4e-010, 44:113507|-6.6e-010, 45:135470|-1.4e-010, 46:117403|-2.4e-010, 47:107620|-3.6e-010, 48:106683|-4.2e-010, 49:121027|-5.2e-010, 50:148661|-1.6e-010

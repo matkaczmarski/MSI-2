@@ -1,0 +1,15 @@
+funcId = 4, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f4/bbobexp_f4_DIM2.dat, 1:4004|-2.8e-009, 2:4013|-1.0e-008, 3:3919|-9.1e-009, 4:4188|-6.4e-010, 5:3661|-8.4e-009, 41:3337|-2.3e-009, 42:3753|-9.9e-009, 43:4782|-9.2e-009, 44:4007|-6.4e-009, 45:4294|-3.9e-009, 46:3507|-2.8e-009, 47:3729|-7.9e-009, 48:3726|-7.5e-009, 49:3467|-7.0e-009, 50:3848|-5.4e-009
+funcId = 4, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f4/bbobexp_f4_DIM3.dat, 1:5855|-8.6e-009, 2:5714|-6.0e-009, 3:598597|9.9e-001, 4:6322|-7.2e-009, 5:7090|-6.7e-009, 41:6302|-8.5e-009, 42:598592|9.9e-001, 43:5956|-1.4e-009, 44:6555|-6.3e-009, 45:5755|-2.7e-010, 46:6991|-1.9e-009, 47:6398|-3.6e-009, 48:6598|-1.5e-009, 49:598487|9.9e-001, 50:5909|-6.6e-009
+funcId = 4, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f4/bbobexp_f4_DIM5.dat, 1:8932|-7.5e-010, 2:997910|9.9e-001, 3:997877|9.9e-001, 4:997597|9.9e-001, 5:9866|-7.8e-009, 41:997796|9.9e-001, 42:998132|3.0e+000, 43:9730|-2.0e-009, 44:997600|2.0e+000, 45:997995|2.0e+000, 46:998050|4.0e+000, 47:997915|9.9e-001, 48:997884|9.9e-001, 49:997798|9.9e-001, 50:997860|2.0e+000
+funcId = 4, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f4/bbobexp_f4_DIM10.dat, 1:1996798|2.0e+000, 2:1996684|3.0e+000, 3:1996621|2.0e+000, 4:1996250|5.0e+000, 5:1996912|8.0e+000, 41:1996721|3.0e+000, 42:1996846|3.0e+000, 43:1996844|2.0e+000, 44:1996119|4.0e+000, 45:1996643|4.0e+000, 46:1997073|4.0e+000, 47:1996734|2.0e+000, 48:1997042|9.9e+000, 49:1996881|5.0e+000, 50:1996641|6.0e+000
+funcId = 4, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f4/bbobexp_f4_DIM20.dat, 1:3995221|2.0e+001, 2:3995259|2.1e+001, 3:3995541|2.5e+001, 4:3994631|1.3e+001, 5:3995401|1.3e+001, 41:3994385|1.2e+001, 42:3995440|3.6e+001, 43:3995597|1.5e+001, 44:3994713|1.7e+001, 45:3994981|2.4e+001, 46:3995540|1.5e+001, 47:3995226|4.0e+001, 48:3995237|2.6e+001, 49:3995202|2.3e+001, 50:3994728|1.6e+001
