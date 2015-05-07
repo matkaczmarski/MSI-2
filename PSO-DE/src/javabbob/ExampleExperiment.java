@@ -435,7 +435,7 @@ public class ExampleExperiment {
          * for each new experiment */
         params.algName = "PSO-DE Hybrid";
         params.comments = "Particle Swarm Optimization hybridized with Differential Evolution algorithm.";
-        outputPath = "PSO_DE_modified";
+        outputPath = "PSO_DE";
 
         if (args.length > 0) {
             outputPath = args[0]; // Warning: might override the assignment above.
@@ -477,13 +477,13 @@ public class ExampleExperiment {
                     fgeneric.initBBOB(ifun, instances[idx_instances],
                             dim[idx_dim], outputPath, params);
                     /* Call to the optimizer with fgeneric as input */
-                    maxfunevals = 200. * dim[idx_dim]; /* PUT APPROPRIATE MAX. FEVALS */
+                    maxfunevals = 100000. * dim[idx_dim]; /* PUT APPROPRIATE MAX. FEVALS */
                     /* 5. * dim is fine to just check everything */
 
                     independent_restarts = -1;
                     while (fgeneric.getEvaluations() < maxfunevals) {
                         independent_restarts++;
-                        PSO_DE_modified(fgeneric, dim[idx_dim], maxfunevals - fgeneric.getEvaluations(), rand);
+                        PSO_DE(fgeneric, dim[idx_dim], maxfunevals - fgeneric.getEvaluations(), rand);
                         if (fgeneric.getBest() < fgeneric.getFtarget()) {
                             break;
                         }
