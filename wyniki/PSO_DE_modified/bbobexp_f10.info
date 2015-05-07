@@ -1,0 +1,15 @@
+funcId = 10, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f10/bbobexp_f10_DIM2.dat, 1:4191|-6.3e-009, 2:4142|-4.6e-009, 3:4138|-4.0e-009, 4:4232|-2.5e-009, 5:4369|-9.6e-009, 41:4329|-1.9e-009, 42:4383|-7.9e-009, 43:4460|-3.7e-009, 44:4503|-8.9e-010, 45:3844|-1.9e-009, 46:3843|-9.3e-009, 47:3433|-6.1e-009, 48:3730|-4.6e-009, 49:4567|-7.3e-010, 50:4522|-3.8e-009
+funcId = 10, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f10/bbobexp_f10_DIM3.dat, 1:5601|-2.2e-009, 2:5819|-6.2e-009, 3:5906|-6.0e-009, 4:5784|-4.9e-009, 5:6072|-3.1e-009, 41:5763|-1.4e-009, 42:5792|-3.1e-009, 43:6105|-1.1e-009, 44:6139|-7.1e-009, 45:5889|-8.8e-009, 46:5989|-1.5e-009, 47:6000|-7.2e-009, 48:5101|-2.2e-009, 49:6354|-5.7e-009, 50:5853|-6.3e-009
+funcId = 10, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f10/bbobexp_f10_DIM5.dat, 1:9491|-1.3e-009, 2:8862|-4.3e-009, 3:9252|-5.3e-009, 4:9728|-3.9e-009, 5:9664|-1.4e-009, 41:8882|-2.2e-009, 42:9887|-7.2e-009, 43:10366|-2.3e-009, 44:8247|-1.7e-009, 45:9000|-5.4e-010, 46:10359|-7.0e-009, 47:9627|-5.1e-009, 48:9382|-2.8e-009, 49:8923|-6.3e-009, 50:9685|-4.2e-009
+funcId = 10, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f10/bbobexp_f10_DIM10.dat, 1:458461|-1.2e-010, 2:1019579|-7.0e-013, 3:552305|-2.7e-011, 4:419195|-1.3e-010, 5:631001|-1.1e-009, 41:346206|-2.3e-010, 42:299073|-3.1e-010, 43:489267|-8.0e-011, 44:840561|-2.5e-011, 45:607610|-8.0e-012, 46:394899|-1.3e-009, 47:491384|-9.0e-013, 48:688418|-2.5e-009, 49:768010|-3.6e-011, 50:629564|-3.2e-011
+funcId = 10, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f10/bbobexp_f10_DIM20.dat, 1:3840315|2.5e-001, 2:3835432|4.0e-002, 3:3843045|1.9e-001, 4:3839550|6.8e-002, 5:3838031|4.5e-003, 41:3840150|1.4e-001, 42:3833560|1.2e-001, 43:3846617|8.5e-003, 44:3844053|1.9e-001, 45:3838635|9.7e-003, 46:3839087|2.6e-003, 47:3840113|6.3e-002, 48:3850926|1.2e-001, 49:3845463|3.7e-003, 50:3841765|9.3e-002

@@ -1,0 +1,15 @@
+funcId = 16, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f16/bbobexp_f16_DIM2.dat, 1:6307|-9.4e-009, 2:8726|-9.1e-009, 3:6151|-1.5e-009, 4:3924|-9.8e-009, 5:5035|-9.0e-009, 41:6119|-3.7e-009, 42:5146|-4.6e-009, 43:4988|-1.0e-008, 44:4725|-4.0e-011, 45:7516|-2.4e-009, 46:4977|-2.8e-009, 47:4627|-2.5e-009, 48:3596|-2.2e-009, 49:5781|-6.5e-009, 50:4748|-9.5e-009
+funcId = 16, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f16/bbobexp_f16_DIM3.dat, 1:9395|-6.1e-009, 2:5410|-7.2e-010, 3:599145|5.2e-002, 4:6525|-2.5e-009, 5:599006|5.2e-002, 41:9827|-9.3e-009, 42:598926|5.3e-002, 43:5034|-6.5e-009, 44:10537|-7.6e-009, 45:598723|3.6e-001, 46:9201|-3.8e-009, 47:598865|1.1e-001, 48:6185|-3.4e-009, 49:6562|-1.3e-010, 50:8007|-1.5e-009
+funcId = 16, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f16/bbobexp_f16_DIM5.dat, 1:998553|5.9e-001, 2:998926|1.3e+000, 3:998646|3.1e-001, 4:999317|2.7e-004, 5:998859|6.8e-001, 41:6803|-4.9e-009, 42:998792|2.0e+000, 43:998924|8.2e-001, 44:999109|3.4e-003, 45:998843|2.5e+000, 46:998588|1.5e-001, 47:998913|3.3e+000, 48:999117|9.0e-001, 49:998727|4.1e-001, 50:13507|-2.8e-009
+funcId = 16, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f16/bbobexp_f16_DIM10.dat, 1:1998310|6.7e+000, 2:1998376|6.9e-001, 3:1998144|2.4e+000, 4:1998382|3.8e+000, 5:1998204|4.2e+000, 41:1998056|2.9e+000, 42:1998104|3.8e+000, 43:1998476|8.4e+000, 44:1998701|1.6e+000, 45:1998022|2.9e+000, 46:1998341|9.5e-001, 47:1998305|5.2e+000, 48:1998056|6.5e-001, 49:1998451|3.3e+000, 50:1998696|4.5e+000
+funcId = 16, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f16/bbobexp_f16_DIM20.dat, 1:3989444|6.5e+000, 2:3994355|1.1e+001, 3:3994289|1.7e+001, 4:3991741|1.0e+001, 5:3994576|7.9e+000, 41:3991865|1.4e+001, 42:3993484|1.3e+001, 43:3996148|2.0e+001, 44:3994899|1.2e+001, 45:3994336|1.1e+001, 46:3994327|1.0e+001, 47:3993125|9.9e+000, 48:3994963|1.1e+000, 49:3994279|9.2e+000, 50:3992247|1.0e+001

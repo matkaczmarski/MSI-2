@@ -1,0 +1,15 @@
+funcId = 9, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f9/bbobexp_f9_DIM2.dat, 1:3480|-9.0e-009, 2:3816|-6.9e-010, 3:3331|-6.0e-009, 4:3447|-6.1e-010, 5:3778|-9.5e-009, 41:3399|-8.8e-009, 42:3286|-8.0e-009, 43:3653|-7.1e-009, 44:3685|-1.5e-009, 45:3364|-4.7e-009, 46:3121|-2.0e-009, 47:3600|-2.3e-009, 48:3304|-5.6e-009, 49:3411|-9.2e-009, 50:3498|-3.3e-010
+funcId = 9, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f9/bbobexp_f9_DIM3.dat, 1:5085|-2.4e-009, 2:4863|-1.2e-009, 3:4943|-8.7e-010, 4:5347|-6.2e-009, 5:5583|-1.8e-009, 41:4457|-1.9e-009, 42:5082|-7.4e-009, 43:4518|-4.5e-009, 44:4338|-3.2e-009, 45:5283|-1.0e-009, 46:5333|-3.8e-009, 47:6160|-8.7e-009, 48:4910|-1.5e-009, 49:5605|-8.7e-009, 50:5232|-4.1e-009
+funcId = 9, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f9/bbobexp_f9_DIM5.dat, 1:7514|-6.2e-009, 2:6880|-1.4e-009, 3:7807|-6.2e-009, 4:7630|-2.1e-009, 5:7585|-5.4e-009, 41:9000|-1.8e-009, 42:7548|-4.5e-009, 43:7184|-1.3e-010, 44:6445|-7.8e-010, 45:8023|-4.2e-009, 46:9423|-1.5e-009, 47:8839|-4.1e-009, 48:6651|-2.4e-009, 49:8817|-7.3e-009, 50:8777|-5.4e-009
+funcId = 9, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f9/bbobexp_f9_DIM10.dat, 1:27164|-6.8e-010, 2:30109|-3.8e-010, 3:23769|-1.4e-009, 4:19789|-6.3e-010, 5:20420|-2.6e-009, 41:22967|-8.8e-010, 42:21568|-3.7e-009, 43:23789|-1.9e-010, 44:23220|-3.0e-010, 45:21120|-2.6e-009, 46:20559|-3.1e-010, 47:20494|-8.7e-010, 48:1997773|4.0e+000, 49:22656|-7.5e-010, 50:20787|-2.5e-009
+funcId = 9, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f9/bbobexp_f9_DIM20.dat, 1:223703|-9.2e-011, 2:266506|-1.3e-010, 3:240289|-3.8e-011, 4:230101|-2.1e-010, 5:272986|-4.2e-011, 41:3952793|4.0e+000, 42:254550|-1.5e-010, 43:285601|-2.4e-011, 44:277068|-6.4e-011, 45:246540|-5.6e-011, 46:3956675|4.0e+000, 47:236316|-1.1e-010, 48:3954814|4.0e+000, 49:264978|-6.3e-012, 50:3957480|4.0e+000
