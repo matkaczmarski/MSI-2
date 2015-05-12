@@ -1,0 +1,30 @@
+funcId = 8, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f8/bbobexp_f8_DIM2.dat, 1:41096326|-1.0e-008
+funcId = 8, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f8/bbobexp_f8_DIM3.dat, 1:40315081|-1.0e-008
+funcId = 8, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f8/bbobexp_f8_DIM5.dat, 1:35553729|-9.6e-009
+funcId = 8, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f8/bbobexp_f8_DIM10.dat, 1:24314231|-7.8e-009
+funcId = 8, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f8/bbobexp_f8_DIM20.dat, 1:15920985|-2.8e-009
+funcId = 8, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f8/bbobexp-01_f8_DIM2.dat, 1:43701645|-1.0e-008
+funcId = 8, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f8/bbobexp-01_f8_DIM3.dat, 1:38532396|-1.0e-008
+funcId = 8, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f8/bbobexp-01_f8_DIM5.dat, 1:34543405|-9.5e-009
+funcId = 8, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f8/bbobexp-01_f8_DIM10.dat, 1:24892305|-5.6e-009
+funcId = 8, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f8/bbobexp-01_f8_DIM20.dat, 1:16665515|-2.3e-009

@@ -26,9 +26,6 @@ public class ExampleExperiment {
     final static int populationSize = 50;
 
     /**
-     * Example optimiser. In the following, the pure random search optimization
-     * method is implemented as an example. Please include/insert any code as
-     * suitable.<p>
      * This optimiser takes as argument an instance of JNIfgeneric which have
      * all the information on the problem to solve. Only the methods
      * getFtarget() and evaluate(x) of the class JNIfgeneric are used.<p>

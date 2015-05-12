@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.24)  12 MAY 2015 17:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.24)  12 MAY 2015 20:13
 entering extended mode
 **templateBBOBarticle.tex
 
@@ -182,10 +182,6 @@ LaTeX Info: Redefining \cite on input line 1211.
 \bibindent=\dimen122
 \colcntr=\count108
 \saveb@x=\box29
-\copyrtyr=\toks32
-\acmcopyr=\toks33
-\boilerplate=\toks34
-\copyrightetc=\toks35
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
@@ -198,6 +194,228 @@ LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 )))
+("C:\Program Files\MiKTeX 2.9\tex\latex\polski\polski.sty"
+Package: polski 2008/02/24 v1.3.3 Polish language package
+
+Document language package `polski' v1.3.3 <2008/02/24>
+\l@nohyphenation=\language69
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks32
+\inpenc@posthook=\toks33
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
@@ -208,7 +426,7 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rotFPtop=\skip44
 \rotFPbot=\skip45
 \rot@float@box=\box30
-\rot@mess@toks=\toks36
+\rot@mess@toks=\toks34
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -234,18 +452,18 @@ File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 _commands.tex)
 (C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\templateBBOBartic
 le.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count110
@@ -253,222 +471,227 @@ LaTeX Font Info:    ... okay on input line 78.
 \scratchbox=\box31
 \nofMPsegments=\count111
 \nofMParguments=\count112
-\everyMPshowfont=\toks37
+\everyMPshowfont=\toks35
 \MPscratchCnt=\count113
 \MPscratchDim=\dimen124
 \MPnumerator=\count114
 \makeMPintoPDFobject=\count115
-\everyMPtoPDFconversion=\toks38
+\everyMPtoPDFconversion=\toks36
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 190.
+LaTeX Font Info:    Try loading font information for U+msa on input line 126.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 190.
+LaTeX Font Info:    Try loading font information for U+msb on input line 126.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 190.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 126.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
+Overfull \hbox (10.575pt too wide) in paragraph at lines 140--141
+\T1/aer/m/n/9 Benchmarking, PSO-DE, Opty-ma-li-za-cja wie-lo-wy-mia-ro-wej funk
+-
+ []
+
 
 LaTeX Warning: Citation `hansen2012exp' on page \thepage  undefined on input li
-ne 223.
+ne 159.
 
 
 LaTeX Warning: Citation `wp200901_2010' on page \thepage  undefined on input li
-ne 224.
+ne 160.
 
 
 LaTeX Warning: Citation `hansen2012fun' on page \thepage  undefined on input li
-ne 224.
+ne 160.
 
 <ppdata/ppfigdim_f001.pdf, id=1, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f001.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f001.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f001.pdf used on input line 237.
+Package pdftex.def Info: ppdata/ppfigdim_f001.pdf used on input line 172.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f002.pdf, id=2, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f002.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f002.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f002.pdf used on input line 238.
+Package pdftex.def Info: ppdata/ppfigdim_f002.pdf used on input line 173.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f003.pdf, id=3, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f003.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f003.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f003.pdf used on input line 239.
+Package pdftex.def Info: ppdata/ppfigdim_f003.pdf used on input line 174.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f004.pdf, id=4, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f004.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f004.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f004.pdf used on input line 240.
+Package pdftex.def Info: ppdata/ppfigdim_f004.pdf used on input line 175.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f005.pdf, id=5, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f005.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f005.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f005.pdf used on input line 241.
+Package pdftex.def Info: ppdata/ppfigdim_f005.pdf used on input line 176.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f006.pdf, id=6, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f006.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f006.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f006.pdf used on input line 242.
+Package pdftex.def Info: ppdata/ppfigdim_f006.pdf used on input line 177.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f007.pdf, id=7, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f007.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f007.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f007.pdf used on input line 243.
+Package pdftex.def Info: ppdata/ppfigdim_f007.pdf used on input line 178.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f008.pdf, id=8, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f008.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f008.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f008.pdf used on input line 244.
+Package pdftex.def Info: ppdata/ppfigdim_f008.pdf used on input line 179.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f009.pdf, id=9, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f009.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f009.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f009.pdf used on input line 245.
+Package pdftex.def Info: ppdata/ppfigdim_f009.pdf used on input line 180.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f010.pdf, id=10, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f010.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f010.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f010.pdf used on input line 246.
+Package pdftex.def Info: ppdata/ppfigdim_f010.pdf used on input line 181.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f011.pdf, id=11, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f011.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f011.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f011.pdf used on input line 247.
+Package pdftex.def Info: ppdata/ppfigdim_f011.pdf used on input line 182.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f012.pdf, id=12, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f012.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f012.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f012.pdf used on input line 248.
+Package pdftex.def Info: ppdata/ppfigdim_f012.pdf used on input line 183.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f013.pdf, id=13, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f013.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f013.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f013.pdf used on input line 249.
+Package pdftex.def Info: ppdata/ppfigdim_f013.pdf used on input line 184.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f014.pdf, id=14, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f014.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f014.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f014.pdf used on input line 250.
+Package pdftex.def Info: ppdata/ppfigdim_f014.pdf used on input line 185.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f015.pdf, id=15, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f015.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f015.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f015.pdf used on input line 251.
+Package pdftex.def Info: ppdata/ppfigdim_f015.pdf used on input line 186.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f016.pdf, id=16, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f016.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f016.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f016.pdf used on input line 252.
+Package pdftex.def Info: ppdata/ppfigdim_f016.pdf used on input line 187.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f017.pdf, id=17, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f017.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f017.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f017.pdf used on input line 253.
+Package pdftex.def Info: ppdata/ppfigdim_f017.pdf used on input line 188.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f018.pdf, id=18, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f018.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f018.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f018.pdf used on input line 254.
+Package pdftex.def Info: ppdata/ppfigdim_f018.pdf used on input line 189.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f019.pdf, id=19, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f019.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f019.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f019.pdf used on input line 255.
+Package pdftex.def Info: ppdata/ppfigdim_f019.pdf used on input line 190.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f020.pdf, id=20, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f020.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f020.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f020.pdf used on input line 256.
+Package pdftex.def Info: ppdata/ppfigdim_f020.pdf used on input line 191.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f021.pdf, id=21, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f021.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f021.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f021.pdf used on input line 257.
+Package pdftex.def Info: ppdata/ppfigdim_f021.pdf used on input line 192.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f022.pdf, id=22, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f022.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f022.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f022.pdf used on input line 258.
+Package pdftex.def Info: ppdata/ppfigdim_f022.pdf used on input line 193.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f023.pdf, id=23, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f023.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f023.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f023.pdf used on input line 259.
+Package pdftex.def Info: ppdata/ppfigdim_f023.pdf used on input line 194.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
 <ppdata/ppfigdim_f024.pdf, id=24, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f024.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f024.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f024.pdf used on input line 260.
+Package pdftex.def Info: ppdata/ppfigdim_f024.pdf used on input line 195.
 (pdftex.def)             Requested size: 135.0747pt x 101.30522pt.
 
-Overfull \hbox (9.3081pt too wide) in paragraph at lines 236--265
+Overfull \hbox (9.3081pt too wide) in paragraph at lines 171--200
 [][]
  []
 
 
 (C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptable_05
 D_noiselessall.tex)
-Overfull \hbox (9.07152pt too wide) in paragraph at lines 1--281
+Overfull \hbox (14.97844pt too wide) in paragraph at lines 1--216
  [][] 
  []
 
 
 (C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptable_20
 D_noiselessall.tex)
-Overfull \hbox (33.4117pt too wide) in paragraph at lines 1--284
+Overfull \hbox (19.80626pt too wide) in paragraph at lines 1--219
  [][] 
  []
 
@@ -476,7 +699,7 @@ Overfull \hbox (33.4117pt too wide) in paragraph at lines 1--284
 File: ppdata/pprldistr_05D_separ.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_05D_separ.pdf>
-Package pdftex.def Info: ppdata/pprldistr_05D_separ.pdf used on input line 306.
+Package pdftex.def Info: ppdata/pprldistr_05D_separ.pdf used on input line 241.
 
 (pdftex.def)             Requested size: 135.0747pt x 92.66371pt.
 
@@ -484,7 +707,7 @@ Package pdftex.def Info: ppdata/pprldistr_05D_separ.pdf used on input line 306.
 File: ppdata/ppfvdistr_05D_separ.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_05D_separ.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_05D_separ.pdf used on input line 307.
+Package pdftex.def Info: ppdata/ppfvdistr_05D_separ.pdf used on input line 242.
 
 (pdftex.def)             Requested size: 119.04785pt x 92.60318pt.
 
@@ -492,7 +715,7 @@ Package pdftex.def Info: ppdata/ppfvdistr_05D_separ.pdf used on input line 307.
 File: ppdata/pprldistr_20D_separ.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_20D_separ.pdf>
-Package pdftex.def Info: ppdata/pprldistr_20D_separ.pdf used on input line 308.
+Package pdftex.def Info: ppdata/pprldistr_20D_separ.pdf used on input line 243.
 
 (pdftex.def)             Requested size: 135.0747pt x 92.66371pt.
 
@@ -500,7 +723,7 @@ Package pdftex.def Info: ppdata/pprldistr_20D_separ.pdf used on input line 308.
 File: ppdata/ppfvdistr_20D_separ.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_20D_separ.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_20D_separ.pdf used on input line 309.
+Package pdftex.def Info: ppdata/ppfvdistr_20D_separ.pdf used on input line 244.
 
 (pdftex.def)             Requested size: 119.04785pt x 92.60318pt.
 
@@ -508,7 +731,7 @@ Package pdftex.def Info: ppdata/ppfvdistr_20D_separ.pdf used on input line 309.
 File: ppdata/pprldistr_05D_lcond.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_05D_lcond.pdf>
-Package pdftex.def Info: ppdata/pprldistr_05D_lcond.pdf used on input line 311.
+Package pdftex.def Info: ppdata/pprldistr_05D_lcond.pdf used on input line 246.
 
 (pdftex.def)             Requested size: 135.0747pt x 92.66371pt.
 
@@ -516,7 +739,7 @@ Package pdftex.def Info: ppdata/pprldistr_05D_lcond.pdf used on input line 311.
 File: ppdata/ppfvdistr_05D_lcond.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_05D_lcond.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_05D_lcond.pdf used on input line 312.
+Package pdftex.def Info: ppdata/ppfvdistr_05D_lcond.pdf used on input line 247.
 
 (pdftex.def)             Requested size: 119.04785pt x 92.60318pt.
 
@@ -524,7 +747,7 @@ Package pdftex.def Info: ppdata/ppfvdistr_05D_lcond.pdf used on input line 312.
 File: ppdata/pprldistr_20D_lcond.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_20D_lcond.pdf>
-Package pdftex.def Info: ppdata/pprldistr_20D_lcond.pdf used on input line 313.
+Package pdftex.def Info: ppdata/pprldistr_20D_lcond.pdf used on input line 248.
 
 (pdftex.def)             Requested size: 135.0747pt x 92.66371pt.
 
@@ -532,7 +755,7 @@ Package pdftex.def Info: ppdata/pprldistr_20D_lcond.pdf used on input line 313.
 File: ppdata/ppfvdistr_20D_lcond.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_20D_lcond.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_20D_lcond.pdf used on input line 314.
+Package pdftex.def Info: ppdata/ppfvdistr_20D_lcond.pdf used on input line 249.
 
 (pdftex.def)             Requested size: 119.04785pt x 92.60318pt.
 
@@ -540,7 +763,7 @@ Package pdftex.def Info: ppdata/ppfvdistr_20D_lcond.pdf used on input line 314.
 File: ppdata/pprldistr_05D_hcond.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_05D_hcond.pdf>
-Package pdftex.def Info: ppdata/pprldistr_05D_hcond.pdf used on input line 316.
+Package pdftex.def Info: ppdata/pprldistr_05D_hcond.pdf used on input line 251.
 
 (pdftex.def)             Requested size: 135.0747pt x 92.66371pt.
 
@@ -548,7 +771,7 @@ Package pdftex.def Info: ppdata/pprldistr_05D_hcond.pdf used on input line 316.
 File: ppdata/ppfvdistr_05D_hcond.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_05D_hcond.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_05D_hcond.pdf used on input line 317.
+Package pdftex.def Info: ppdata/ppfvdistr_05D_hcond.pdf used on input line 252.
 
 (pdftex.def)             Requested size: 119.04785pt x 92.60318pt.
 
@@ -556,7 +779,7 @@ Package pdftex.def Info: ppdata/ppfvdistr_05D_hcond.pdf used on input line 317.
 File: ppdata/pprldistr_20D_hcond.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_20D_hcond.pdf>
-Package pdftex.def Info: ppdata/pprldistr_20D_hcond.pdf used on input line 318.
+Package pdftex.def Info: ppdata/pprldistr_20D_hcond.pdf used on input line 253.
 
 (pdftex.def)             Requested size: 135.0747pt x 92.66371pt.
 
@@ -564,7 +787,7 @@ Package pdftex.def Info: ppdata/pprldistr_20D_hcond.pdf used on input line 318.
 File: ppdata/ppfvdistr_20D_hcond.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_20D_hcond.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_20D_hcond.pdf used on input line 319.
+Package pdftex.def Info: ppdata/ppfvdistr_20D_hcond.pdf used on input line 254.
 
 (pdftex.def)             Requested size: 119.04785pt x 92.60318pt.
 
@@ -572,7 +795,7 @@ Package pdftex.def Info: ppdata/ppfvdistr_20D_hcond.pdf used on input line 319.
 File: ppdata/pprldistr_05D_multi.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_05D_multi.pdf>
-Package pdftex.def Info: ppdata/pprldistr_05D_multi.pdf used on input line 321.
+Package pdftex.def Info: ppdata/pprldistr_05D_multi.pdf used on input line 256.
 
 (pdftex.def)             Requested size: 135.0747pt x 92.66371pt.
 
@@ -580,7 +803,7 @@ Package pdftex.def Info: ppdata/pprldistr_05D_multi.pdf used on input line 321.
 File: ppdata/ppfvdistr_05D_multi.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_05D_multi.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_05D_multi.pdf used on input line 322.
+Package pdftex.def Info: ppdata/ppfvdistr_05D_multi.pdf used on input line 257.
 
 (pdftex.def)             Requested size: 119.04785pt x 92.60318pt.
 
@@ -588,7 +811,7 @@ Package pdftex.def Info: ppdata/ppfvdistr_05D_multi.pdf used on input line 322.
 File: ppdata/pprldistr_20D_multi.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_20D_multi.pdf>
-Package pdftex.def Info: ppdata/pprldistr_20D_multi.pdf used on input line 323.
+Package pdftex.def Info: ppdata/pprldistr_20D_multi.pdf used on input line 258.
 
 (pdftex.def)             Requested size: 135.0747pt x 92.66371pt.
 
@@ -596,7 +819,7 @@ Package pdftex.def Info: ppdata/pprldistr_20D_multi.pdf used on input line 323.
 File: ppdata/ppfvdistr_20D_multi.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_20D_multi.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_20D_multi.pdf used on input line 324.
+Package pdftex.def Info: ppdata/ppfvdistr_20D_multi.pdf used on input line 259.
 
 (pdftex.def)             Requested size: 119.04785pt x 92.60318pt.
 
@@ -604,7 +827,7 @@ Package pdftex.def Info: ppdata/ppfvdistr_20D_multi.pdf used on input line 324.
 File: ppdata/pprldistr_05D_mult2.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_05D_mult2.pdf>
-Package pdftex.def Info: ppdata/pprldistr_05D_mult2.pdf used on input line 326.
+Package pdftex.def Info: ppdata/pprldistr_05D_mult2.pdf used on input line 261.
 
 (pdftex.def)             Requested size: 135.0747pt x 92.66371pt.
 
@@ -612,7 +835,7 @@ Package pdftex.def Info: ppdata/pprldistr_05D_mult2.pdf used on input line 326.
 File: ppdata/ppfvdistr_05D_mult2.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_05D_mult2.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_05D_mult2.pdf used on input line 327.
+Package pdftex.def Info: ppdata/ppfvdistr_05D_mult2.pdf used on input line 262.
 
 (pdftex.def)             Requested size: 119.04785pt x 92.60318pt.
 
@@ -620,7 +843,7 @@ Package pdftex.def Info: ppdata/ppfvdistr_05D_mult2.pdf used on input line 327.
 File: ppdata/pprldistr_20D_mult2.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_20D_mult2.pdf>
-Package pdftex.def Info: ppdata/pprldistr_20D_mult2.pdf used on input line 328.
+Package pdftex.def Info: ppdata/pprldistr_20D_mult2.pdf used on input line 263.
 
 (pdftex.def)             Requested size: 135.0747pt x 92.66371pt.
 
@@ -628,7 +851,7 @@ Package pdftex.def Info: ppdata/pprldistr_20D_mult2.pdf used on input line 328.
 File: ppdata/ppfvdistr_20D_mult2.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_20D_mult2.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_20D_mult2.pdf used on input line 329.
+Package pdftex.def Info: ppdata/ppfvdistr_20D_mult2.pdf used on input line 264.
 
 (pdftex.def)             Requested size: 119.04785pt x 92.60318pt.
 
@@ -637,7 +860,7 @@ File: ppdata/pprldistr_05D_noiselessall.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_05D_noiselessall.pdf>
 Package pdftex.def Info: ppdata/pprldistr_05D_noiselessall.pdf used on input li
-ne 331.
+ne 266.
 (pdftex.def)             Requested size: 135.0747pt x 92.66371pt.
 
 <ppdata/ppfvdistr_05D_noiselessall.pdf, id=67, 578.16pt x 433.62pt>
@@ -645,7 +868,7 @@ File: ppdata/ppfvdistr_05D_noiselessall.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_05D_noiselessall.pdf>
 Package pdftex.def Info: ppdata/ppfvdistr_05D_noiselessall.pdf used on input li
-ne 332.
+ne 267.
 (pdftex.def)             Requested size: 119.04785pt x 92.60318pt.
 
 <ppdata/pprldistr_20D_noiselessall.pdf, id=69, 578.16pt x 433.62pt>
@@ -653,7 +876,7 @@ File: ppdata/pprldistr_20D_noiselessall.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_20D_noiselessall.pdf>
 Package pdftex.def Info: ppdata/pprldistr_20D_noiselessall.pdf used on input li
-ne 333.
+ne 268.
 (pdftex.def)             Requested size: 135.0747pt x 92.66371pt.
 
 <ppdata/ppfvdistr_20D_noiselessall.pdf, id=71, 578.16pt x 433.62pt>
@@ -661,14 +884,14 @@ File: ppdata/ppfvdistr_20D_noiselessall.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_20D_noiselessall.pdf>
 Package pdftex.def Info: ppdata/ppfvdistr_20D_noiselessall.pdf used on input li
-ne 334.
+ne 269.
 (pdftex.def)             Requested size: 119.04785pt x 92.60318pt.
 
-Overfull \hbox (4.48491pt too wide) in paragraph at lines 303--339
+Overfull \hbox (4.48491pt too wide) in paragraph at lines 238--274
 [][] 
  []
 
-LaTeX Font Info:    Try loading font information for T1+aess on input line 339.
+LaTeX Font Info:    Try loading font information for T1+aess on input line 274.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aess.fd"
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
@@ -678,7 +901,7 @@ File: ppdata/pplogloss_05D_noiselessall.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_05D_noiselessall.pdf>
 Package pdftex.def Info: ppdata/pplogloss_05D_noiselessall.pdf used on input li
-ne 352.
+ne 287.
 (pdftex.def)             Requested size: 120.96277pt x 90.71956pt.
 
 <ppdata/pplogloss_20D_noiselessall.pdf, id=75, 578.16pt x 433.62pt>
@@ -686,10 +909,10 @@ File: ppdata/pplogloss_20D_noiselessall.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_20D_noiselessall.pdf>
 Package pdftex.def Info: ppdata/pplogloss_20D_noiselessall.pdf used on input li
-ne 353.
+ne 288.
 (pdftex.def)             Requested size: 120.96277pt x 90.71956pt.
 
-Overfull \hbox (1.92554pt too wide) in paragraph at lines 352--354
+Overfull \hbox (1.92554pt too wide) in paragraph at lines 287--289
  [][][] 
  []
 
@@ -702,7 +925,7 @@ able_20D_noiselessall.tex)
 File: ppdata/pplogloss_05D_separ.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_05D_separ.pdf>
-Package pdftex.def Info: ppdata/pplogloss_05D_separ.pdf used on input line 379.
+Package pdftex.def Info: ppdata/pplogloss_05D_separ.pdf used on input line 314.
 
 (pdftex.def)             Requested size: 120.96277pt x 90.71956pt.
 
@@ -710,7 +933,7 @@ Package pdftex.def Info: ppdata/pplogloss_05D_separ.pdf used on input line 379.
 File: ppdata/pplogloss_20D_separ.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_20D_separ.pdf>
-Package pdftex.def Info: ppdata/pplogloss_20D_separ.pdf used on input line 380.
+Package pdftex.def Info: ppdata/pplogloss_20D_separ.pdf used on input line 315.
 
 (pdftex.def)             Requested size: 120.96277pt x 90.71956pt.
 
@@ -718,7 +941,7 @@ Package pdftex.def Info: ppdata/pplogloss_20D_separ.pdf used on input line 380.
 File: ppdata/pplogloss_05D_lcond.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_05D_lcond.pdf>
-Package pdftex.def Info: ppdata/pplogloss_05D_lcond.pdf used on input line 383.
+Package pdftex.def Info: ppdata/pplogloss_05D_lcond.pdf used on input line 318.
 
 (pdftex.def)             Requested size: 120.96277pt x 90.71956pt.
 
@@ -726,7 +949,7 @@ Package pdftex.def Info: ppdata/pplogloss_05D_lcond.pdf used on input line 383.
 File: ppdata/pplogloss_20D_lcond.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_20D_lcond.pdf>
-Package pdftex.def Info: ppdata/pplogloss_20D_lcond.pdf used on input line 384.
+Package pdftex.def Info: ppdata/pplogloss_20D_lcond.pdf used on input line 319.
 
 (pdftex.def)             Requested size: 120.96277pt x 90.71956pt.
 
@@ -734,7 +957,7 @@ Package pdftex.def Info: ppdata/pplogloss_20D_lcond.pdf used on input line 384.
 File: ppdata/pplogloss_05D_hcond.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_05D_hcond.pdf>
-Package pdftex.def Info: ppdata/pplogloss_05D_hcond.pdf used on input line 387.
+Package pdftex.def Info: ppdata/pplogloss_05D_hcond.pdf used on input line 322.
 
 (pdftex.def)             Requested size: 120.96277pt x 90.71956pt.
 
@@ -742,7 +965,7 @@ Package pdftex.def Info: ppdata/pplogloss_05D_hcond.pdf used on input line 387.
 File: ppdata/pplogloss_20D_hcond.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_20D_hcond.pdf>
-Package pdftex.def Info: ppdata/pplogloss_20D_hcond.pdf used on input line 388.
+Package pdftex.def Info: ppdata/pplogloss_20D_hcond.pdf used on input line 323.
 
 (pdftex.def)             Requested size: 120.96277pt x 90.71956pt.
 
@@ -750,7 +973,7 @@ Package pdftex.def Info: ppdata/pplogloss_20D_hcond.pdf used on input line 388.
 File: ppdata/pplogloss_05D_multi.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_05D_multi.pdf>
-Package pdftex.def Info: ppdata/pplogloss_05D_multi.pdf used on input line 391.
+Package pdftex.def Info: ppdata/pplogloss_05D_multi.pdf used on input line 326.
 
 (pdftex.def)             Requested size: 120.96277pt x 90.71956pt.
 
@@ -758,7 +981,7 @@ Package pdftex.def Info: ppdata/pplogloss_05D_multi.pdf used on input line 391.
 File: ppdata/pplogloss_20D_multi.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_20D_multi.pdf>
-Package pdftex.def Info: ppdata/pplogloss_20D_multi.pdf used on input line 392.
+Package pdftex.def Info: ppdata/pplogloss_20D_multi.pdf used on input line 327.
 
 (pdftex.def)             Requested size: 120.96277pt x 90.71956pt.
 
@@ -766,7 +989,7 @@ Package pdftex.def Info: ppdata/pplogloss_20D_multi.pdf used on input line 392.
 File: ppdata/pplogloss_05D_mult2.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_05D_mult2.pdf>
-Package pdftex.def Info: ppdata/pplogloss_05D_mult2.pdf used on input line 395.
+Package pdftex.def Info: ppdata/pplogloss_05D_mult2.pdf used on input line 330.
 
 (pdftex.def)             Requested size: 120.96277pt x 90.71956pt.
 
@@ -774,11 +997,11 @@ Package pdftex.def Info: ppdata/pplogloss_05D_mult2.pdf used on input line 395.
 File: ppdata/pplogloss_20D_mult2.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_20D_mult2.pdf>
-Package pdftex.def Info: ppdata/pplogloss_20D_mult2.pdf used on input line 396.
+Package pdftex.def Info: ppdata/pplogloss_20D_mult2.pdf used on input line 331.
 
 (pdftex.def)             Requested size: 120.96277pt x 90.71956pt.
 
-Overfull \hbox (8.5465pt too wide) in paragraph at lines 373--401
+Overfull \hbox (8.5465pt too wide) in paragraph at lines 308--336
 [][] 
  []
 
@@ -976,11 +1199,11 @@ top/repozytoria/MSI-2/python/bbob_pproc/ppdata/pplogloss_20D_mult2.pdf>]
 (C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\templateBBOBartic
 le.aux) ) 
 Here is how much of TeX's memory you used:
- 3466 strings out of 493921
- 48013 string characters out of 3147276
- 187115 words of memory out of 3000000
- 6603 multiletter control sequences out of 15000+200000
- 65133 words of font info for 91 fonts, out of 3000000 for 9000
+ 3764 strings out of 493921
+ 50818 string characters out of 3147276
+ 189051 words of memory out of 3000000
+ 6883 multiletter control sequences out of 15000+200000
+ 64073 words of font info for 90 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  41i,13n,35p,1263b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progr
@@ -1000,12 +1223,10 @@ ic/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmti7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
 i9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
-i8a.pfb>
-Output written on templateBBOBarticle.pdf (5 pages, 1502951 bytes).
+TeX 2.9/fonts/type1/urw/times/utmb8a.pfb>
+Output written on templateBBOBarticle.pdf (5 pages, 1486711 bytes).
 PDF statistics:
- 2216 PDF objects out of 2487 (max. 8388607)
+ 2210 PDF objects out of 2487 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  517 words of extra memory for PDF output out of 10000 (max. 10000000)
 

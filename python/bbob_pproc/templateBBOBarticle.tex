@@ -1,32 +1,7 @@
-% This is based on "sig-alternate.tex" V2.0 May 2012
-% This file should be compiled with V2.5 of "sig-alternate.cls" May 2012
-%
-% ----------------------------------------------------------------------------------------------------------------
-%
-% This .tex source is an example which *does* use
-% the .bib file (from which the .bbl file % is produced).
-% REMEMBER HOWEVER: After having produced the .bbl file,
-% and prior to final submission, you *NEED* to 'insert'
-% your .bbl file into your source .tex file so as to provide
-% ONE 'self-contained' source file.
-%
-% Information on the sig-alternate class file and on the
-% GECCO workshop paper format and submission can be found at these
-% locations:
-% http://www.acm.org/sigs/publications/proceedings-templates#aL2
-% http://www.sheridanprinting.com/typedept/gecco3.htm
-%
-% ================= IF YOU HAVE QUESTIONS =======================
-% Questions regarding the SIGS styles, SIGS policies and
-% procedures, Conferences etc. should be sent to
-% Adrienne Griscti (griscti@acm.org)
-%
-% Technical questions to bbob@lri.fr
-% ===============================================================
-%
 
 \documentclass{sig-alternate}
-
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{rotating}
 \usepackage[dvipsnames]{xcolor}  % color is sufficient
@@ -78,21 +53,20 @@
 \begin{document}
 %
 % --- Author Metadata here ---
-\conferenceinfo{GECCO'13,} {July 6-10, 2013, Amsterdam, The Netherlands.}
-\CopyrightYear{2013}
-\crdata{TBA}
-\clubpenalty=10000
-\widowpenalty = 10000
+%\conferenceinfo{GECCO'13,} {July 6-10, 2013, Amsterdam, The Netherlands.}
+%\CopyrightYear{2013}
+%\crdata{TBA}
+%\clubpenalty=10000
+%\widowpenalty = 10000
 % --- End of Author Metadata ---
 
-\title{Black-Box Optimization Benchmarking Template for Noiseless Function
-Testbed
+\title{Modyfikacje/hybrydyzacje algorytmu PSO w zadaniu optymalizacji globalnej wielowymiarowej funkcji ciągłej
 % \titlenote{If needed}
 }
-\subtitle{Draft version
-\titlenote{Submission deadline: March 28th.}}
+\subtitle{PSO-DE Hybrid
+%\titlenote{Submission deadline: March 28th.}}
 %Camera-ready paper due April 17th.}}
-
+}
 %
 % You need the command \numberofauthors to handle the 'placement
 % and alignment' of the authors beneath the title.
@@ -135,11 +109,9 @@ Testbed
 %
 % 1st. author
 \alignauthor
-Forename Name\\ %\titlenote{Dr.~Trovato insisted his name be first.}\\
-%       \affaddr{Institute for Clarity in Documentation}\\
-%       \affaddr{1932 Wallamaloo Lane}\\
-%       \affaddr{Wallamaloo, New Zealand}\\
-%       \email{trovato@corporation.com}
+Jakub Ruszkowski, Mateusz Kaczmarski\\ %\titlenote{Dr.~Trovato insisted his name be first.}\\
+       \affaddr{Politechnika Warszawska}\\
+		\affaddr{Wydział Matematyki i Nauk Informacyjnych}\\
 %% 2nd. author
 %\alignauthor
 %G.K.M. Tobin\titlenote{The secretary disavows
@@ -148,48 +120,12 @@ Forename Name\\ %\titlenote{Dr.~Trovato insisted his name be first.}\\
 %       \affaddr{P.O. Box 1212}\\
 %       \affaddr{Dublin, Ohio 43017-6221}\\
 %       \email{webmaster@marysville-ohio.com}
-%% 3rd. author
-%\alignauthor Lars Th{\o}rv{\"a}ld\titlenote{This author is the
-%one who did all the really hard work.}\\
-%       \affaddr{The Th{\o}rv{\"a}ld Group}\\
-%       \affaddr{1 Th{\o}rv{\"a}ld Circle}\\
-%       \affaddr{Hekla, Iceland}\\
-%       \email{larst@affiliation.org}
-%\and  % use '\and' if you need 'another row' of author names
-%% 4th. author
-%\alignauthor Lawrence P. Leipuner\\
-%       \affaddr{Brookhaven Laboratories}\\
-%       \affaddr{Brookhaven National Lab}\\
-%       \affaddr{P.O. Box 5000}\\
-%       \email{lleipuner@researchlabs.org}
-%% 5th. author
-%\alignauthor Sean Fogarty\\
-%       \affaddr{NASA Ames Research Center}\\
-%       \affaddr{Moffett Field}\\
-%       \affaddr{California 94035}\\
-%       \email{fogartys@amesres.org}
-%% 6th. author
-%\alignauthor Charles Palmer\\
-%       \affaddr{Palmer Research Laboratories}\\
-%       \affaddr{8600 Datapoint Drive}\\
-%       \affaddr{San Antonio, Texas 78229}\\
-%       \email{cpalmer@prl.com}
 } % author
-%% There's nothing stopping you putting the seventh, eighth, etc.
-%% author on the opening page (as the 'third row') but we ask,
-%% for aesthetic reasons that you place these 'additional authors'
-%% in the \additional authors block, viz.
-%\additionalauthors{Additional authors: John Smith (The Th{\o}rv{\"a}ld Group,
-%email: {\texttt{jsmith@affiliation.org}}) and Julius P.~Kumquat
-%(The Kumquat Consortium, email: {\texttt{jpkumquat@consortium.net}}).}
-%\date{30 July 1999}
-%% Just remember to make sure that the TOTAL number of authors
-%% is the number that will appear on the first page PLUS the
-%% number that will appear in the \additionalauthors section.
+
 
 \maketitle
 \begin{abstract}
-to be written
+Dokumentacja uzyskanych wyników hybrydy PSO-DE
 \end{abstract}
 
 % Add any ACM category that you feel is needed
@@ -201,7 +137,7 @@ unconstrained optimization]
 \terms{Algorithms}
 
 % Complete with anything that is needed
-\keywords{Benchmarking, Black-box optimization}
+\keywords{Benchmarking, PSODE, Optymalizacja wielowymiarowej funkcji ciaglej}
 
 % \section{Introduction}
 %
@@ -213,7 +149,7 @@ unconstrained optimization]
 \section{CPU Timing}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % note that the following text is just a proposal and can/should be changed to your needs:
-In order to evaluate the CPU timing of the algorithm, we have run the \change{MY-ALGORITHM-NAME} on the function $f_{8}$ with restarts for at least 30 seconds and until a maximum budget equal to \change{$400 (D + 2)$} is reached. The code was run on a \change{Mac Intel(R) Core(TM) i5-2400S CPU @ 2.50GHz} with \change{1} processor and \change{4} cores. The time per function evaluation for dimensions 2, 3, 5, 10, 20\change{, 40} equals \change{$x.x$}, \change{$x.x$}, \change{$x.x$}, \change{$xx$}, \change{$xxx$}\change{, and $xxx$} milliseconds respectively. 
+In order to evaluate the CPU timing of the algorithm, we have run the {PSO-DE Hybrid} on the function $f_{8}$ with restarts for at least 30 seconds and until a maximum budget equal to {$400 (D + 2)$} is reached. The code was run on a {Windows 8 Intel(R) Core(TM) i7-4500U CPU @ 2.39GHz} with {1} processor and {2} cores. The time per function evaluation for dimensions 2, 3, 5, 10, 20 equals $1,9e^{-10}$, $2,2e^{-10}$, $2,4e^{-10}$, $3,5e^{-10}$ and $6,1e^{-10}$ seconds respectively. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -224,7 +160,6 @@ Results of \algname\ from experiments according to \cite{hansen2012exp} on the b
 functions given in \cite{wp200901_2010,hansen2012fun} are presented in
 Figures~\ref{fig:ERTgraphs}, \ref{fig:RLDs}, \ref{tab:ERTloss}, and \ref{fig:ERTlogloss} and in
 Tables~\ref{tab:ERTs}.
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
