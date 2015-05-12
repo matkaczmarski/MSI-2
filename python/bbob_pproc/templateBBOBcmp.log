@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.24)  12 MAY 2015 17:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.24)  12 MAY 2015 22:11
 entering extended mode
 **templateBBOBcmp.tex
 
@@ -182,10 +182,6 @@ LaTeX Info: Redefining \cite on input line 1211.
 \bibindent=\dimen122
 \colcntr=\count108
 \saveb@x=\box29
-\copyrtyr=\toks32
-\acmcopyr=\toks33
-\boilerplate=\toks34
-\copyrightetc=\toks35
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
@@ -205,7 +201,7 @@ Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen123
 \extrarowheight=\dimen124
-\NC@list=\toks36
+\NC@list=\toks32
 \extratabsurround=\skip44
 \backup@length=\skip45
 )
@@ -215,7 +211,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TX@target=\dimen128
 \TX@delta=\dimen129
 \TX@cols=\count109
-\TX@ftn=\toks37
+\TX@ftn=\toks33
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -240,9 +236,9 @@ File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count110
-\float@exts=\toks38
+\float@exts=\toks34
 \float@box=\box30
-\@float@everytoks=\toks39
+\@float@everytoks=\toks35
 \@floatcapt=\box31
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
@@ -255,7 +251,7 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rotFPtop=\skip46
 \rotFPbot=\skip47
 \rot@float@box=\box32
-\rot@mess@toks=\toks40
+\rot@mess@toks=\toks36
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
@@ -460,12 +456,12 @@ LaTeX Font Info:    ... okay on input line 88.
 \scratchbox=\box33
 \nofMPsegments=\count115
 \nofMParguments=\count116
-\everyMPshowfont=\toks41
+\everyMPshowfont=\toks37
 \MPscratchCnt=\count117
 \MPscratchDim=\dimen131
 \MPnumerator=\count118
 \makeMPintoPDFobject=\count119
-\everyMPtoPDFconversion=\toks42
+\everyMPtoPDFconversion=\toks38
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 201.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
@@ -1045,6 +1041,10 @@ LaTeX Warning: Float too large for page by 13.46513pt on input line 413.
 5D_noiselessall.tex)
 (C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptable2_2
 0D_noiselessall.tex)
+Overfull \hbox (39.24135pt too wide) in paragraph at lines 430--433
+ [][] 
+ []
+
 No file templateBBOBcmp.bbl.
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
@@ -1137,18 +1137,18 @@ l.pdf>] [5]
 (C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\templateBBOBcmp.a
 ux) ) 
 Here is how much of TeX's memory you used:
- 5762 strings out of 493921
- 78806 string characters out of 3147276
- 208933 words of memory out of 3000000
- 8843 multiletter control sequences out of 15000+200000
- 68047 words of font info for 104 fonts, out of 3000000 for 9000
+ 5755 strings out of 493921
+ 78747 string characters out of 3147276
+ 209966 words of memory out of 3000000
+ 8837 multiletter control sequences out of 15000+200000
+ 67988 words of font info for 104 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 41i,13n,38p,1198b,328s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,13n,38p,1185b,328s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{C:/Pr
 ogram Files/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{C:/Program Files
 /MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{C:/Program Files/MiKTeX 2.9
-/fonts/enc/dvips/fontname/8r.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/m
-nsymbol/MnSymbolD.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/mnsymbol/
+/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/
+dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/mnsymbol/
 MnSymbol5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/mnsymbol/MnSymbol
 6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/mnsymbol/MnSymbol9.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx5.pfb><C:/Program
@@ -1164,11 +1164,10 @@ iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on templateBBOBcmp.pdf (5 pages, 1910440 bytes).
+fb>
+Output written on templateBBOBcmp.pdf (5 pages, 1944754 bytes).
 PDF statistics:
- 2806 PDF objects out of 2984 (max. 8388607)
+ 2813 PDF objects out of 2984 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  793 words of extra memory for PDF output out of 10000 (max. 10000000)
 
