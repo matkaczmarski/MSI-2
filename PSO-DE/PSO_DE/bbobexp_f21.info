@@ -4,3 +4,12 @@ data_f21/bbobexp_f21_DIM2.dat, 1:1760|-7.4e-009, 2:1409|-7.1e-009, 3:1253|-6.9e-
 funcId = 21, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
 % Particle Swarm Optimization hybridized with Differential Evolution algorithm.
 data_f21/bbobexp_f21_DIM3.dat, 1:2504|-8.0e-009, 2:2733|-8.5e-009, 3:2868|-1.0e-008, 4:2066|-7.7e-009, 5:2346|-3.4e-010, 41:2622|-6.9e-009, 42:2613|-1.4e-009, 43:2827|-7.2e-009, 44:2250|-3.0e-009, 45:2572|-9.4e-009, 46:2319|-5.7e-009, 47:2568|-8.0e-009, 48:2652|-2.8e-009, 49:3495|-6.3e-009, 50:2443|-7.0e-009
+funcId = 21, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f21/bbobexp_f21_DIM5.dat, 1:4369|-6.4e-009, 2:7370|-6.5e-009, 3:998160|1.9e+000, 4:998912|9.3e-001, 5:5926|-1.1e-009, 41:997859|2.8e+000, 42:997760|2.5e+000, 43:997944|1.2e+000, 44:998468|2.3e+000, 45:998136|6.9e-001, 46:3425|-2.4e-009, 47:3975|-1.8e-009, 48:997779|1.8e+000, 49:999119|1.2e+000, 50:3665|-6.5e-009
+funcId = 21, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f21/bbobexp_f21_DIM10.dat, 1:1996557|3.2e+000, 2:6053|-8.3e-009, 3:1996814|9.1e+000, 4:1996698|7.6e+000, 5:5357|-3.0e-009, 41:1998538|1.8e+000, 42:1996900|2.0e+000, 43:1997627|9.3e-001, 44:5806|-1.2e-009, 45:1996929|7.6e+000, 46:1998797|9.1e+000, 47:6294|-2.3e-009, 48:1996646|2.0e+000, 49:1996620|6.2e+000, 50:1998006|2.3e+000
+funcId = 21, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f21/bbobexp_f21_DIM20.dat, 1:3995444|5.5e+001, 2:3994651|8.7e+000, 3:3995188|4.7e+000, 4:3995227|2.0e+000, 5:3995657|2.8e+000, 41:3995929|9.3e-001, 42:3995094|2.5e+000, 43:9508|-1.9e-010, 44:3995144|1.4e+001, 45:3995493|2.8e+000, 46:10738|-1.0e-009, 47:3995564|1.5e+001, 48:3995144|7.6e+000, 49:3995250|1.6e+000, 50:3995926|2.1e+000

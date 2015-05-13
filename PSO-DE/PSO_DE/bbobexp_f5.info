@@ -7,3 +7,9 @@ data_f5/bbobexp_f5_DIM3.dat, 1:202|-1.0e-008, 2:120|-1.0e-008, 3:120|-1.0e-008, 
 funcId = 5, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
 % Particle Swarm Optimization hybridized with Differential Evolution algorithm.
 data_f5/bbobexp_f5_DIM5.dat, 1:268|-1.0e-008, 2:118|-1.0e-008, 3:192|-1.0e-008, 4:185|-1.0e-008, 5:189|-1.0e-008, 41:194|-1.0e-008, 42:201|-1.0e-008, 43:195|-1.0e-008, 44:263|-1.0e-008, 45:197|-1.0e-008, 46:200|-1.0e-008, 47:189|-1.0e-008, 48:265|-1.0e-008, 49:125|-1.0e-008, 50:193|-1.0e-008
+funcId = 5, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f5/bbobexp_f5_DIM10.dat, 1:272|-1.0e-008, 2:332|-1.0e-008, 3:271|-1.0e-008, 4:652|-1.0e-008, 5:338|-1.0e-008, 41:340|-1.0e-008, 42:336|-1.0e-008, 43:327|-1.0e-008, 44:267|-1.0e-008, 45:496|-1.0e-008, 46:427|-1.0e-008, 47:201|-1.0e-008, 48:406|-1.0e-008, 49:341|-1.0e-008, 50:270|-1.0e-008
+funcId = 5, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f5/bbobexp_f5_DIM20.dat, 1:648|-1.0e-008, 2:587|-1.0e-008, 3:496|-1.0e-008, 4:489|-1.0e-008, 5:581|-1.0e-008, 41:811|-1.0e-008, 42:401|-1.0e-008, 43:652|-1.0e-008, 44:647|-1.0e-008, 45:802|-1.0e-008, 46:491|-1.0e-008, 47:701|-1.0e-008, 48:566|-1.0e-008, 49:336|-1.0e-008, 50:557|-1.0e-008

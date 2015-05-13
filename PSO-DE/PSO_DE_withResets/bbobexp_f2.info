@@ -1,0 +1,3 @@
+funcId = 2, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f2/bbobexp_f2_DIM2.dat, 1:8495|-7.3e-009, 2:6869|-1.5e-009, 3:6534|-5.4e-009, 4:17246|-1.6e-009, 5:5279|-1.8e-009, 41:5681|-8.9e-009, 42:5700|-3.7e-009, 43:3810|-8.6e-009, 44:5651|-1.4e-009, 45:5532|-7.6e-009, 46:7715|-3.2e-009, 47:3577|-2.1e-009, 48:6148|-3.0e-009, 49:5581|-2.7e-009, 50:5978|-2.0e-009

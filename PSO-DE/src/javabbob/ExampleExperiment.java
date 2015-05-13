@@ -24,6 +24,7 @@ public class ExampleExperiment {
     final static double THRESHOLD = 0.5;
     final static int BOUND = 5;
     final static int populationSize = 50;
+    final static int NO_IMPROVEMENT_ITERATIONS_THRESHOLD = 5;
 
     /**
      * This optimiser takes as argument an instance of JNIfgeneric which have
@@ -159,6 +160,179 @@ public class ExampleExperiment {
                     globalBest = generation.get(i);
                     globalBestEvaluation = evaluations.get(i);
                 }
+            }
+
+            if (globalBestEvaluation < ftarget) {
+                break;
+            }
+        }
+    }
+
+    public static void PSO_DE_withResets(JNIfgeneric fgeneric, int dim, double maxfunevals, Random rand) {
+
+        double[] globalBest = {0, 1};
+        double globalBestEvaluation = 0;
+        double ftarget = fgeneric.getFtarget();
+
+        ArrayList<double[]> generation = new ArrayList<>();
+        ArrayList<double[]> velocities = new ArrayList<>();
+        ArrayList<double[]> bests = new ArrayList<>();
+        ArrayList<Double> evaluations = new ArrayList<>();
+        ArrayList<Double> bestsEvaluations = new ArrayList<>();
+
+        for (int i = 0; i < populationSize; i++) {
+            double[] individual = new double[dim];
+            for (int j = 0; j < dim; j++) {
+                individual[j] = rand.nextDouble() * 2 * BOUND - BOUND;
+            }
+            generation.add(individual);
+            bests.add(individual);
+
+            double[] velocity = new double[dim];
+            for (int j = 0; j < dim; j++) {
+                velocity[j] = rand.nextDouble() * 2 * BOUND - BOUND;
+            }
+            velocities.add(velocity);
+        }
+
+        for (int i = 0; i < generation.size(); i++) {
+            double evaluation = fgeneric.evaluate(generation.get(i));
+            evaluations.add(evaluation);
+            bestsEvaluations.add(evaluation);
+
+            if (i == 0) {
+                globalBest = generation.get(i);
+                globalBestEvaluation = fgeneric.evaluate(globalBest);
+            } else {
+                if (evaluations.get(i) < globalBestEvaluation) {
+                    globalBest = generation.get(i);
+                    globalBestEvaluation = evaluations.get(i);
+                }
+            }
+        }
+
+        int iteration = 0;
+        boolean improved;
+        int iterationsWithoutImprovement = 0;
+        while (iteration < maxfunevals) {
+
+            improved = false;
+            iteration += generation.size();
+            for (int i = 0; i < generation.size(); i++) {
+
+                Set<Integer> randomSet = new LinkedHashSet<>();
+                randomSet.add(i);
+                while (randomSet.size() < 4) {
+                    randomSet.add(rand.nextInt(populationSize));
+                }
+
+                Object[] randoms = randomSet.toArray();
+                int r1 = (int) randoms[1];
+                int r2 = (int) randoms[2];
+                int r3 = (int) randoms[3];
+
+                double[] m = new double[dim];
+                for (int j = 0; j < dim; j++) {
+                    m[j] = generation.get(r1)[j] + F * (generation.get(r2)[j] - generation.get(r3)[j]);
+                }
+
+                double[] u = new double[dim];
+                for (int j = 0; j < dim; j++) {
+                    int jRand = Math.abs(rand.nextInt()) % dim + 1;
+                    if (rand.nextDouble() < CR || j == jRand) {
+                        u[j] = m[j];
+                    } else {
+                        u[j] = generation.get(i)[j];
+                    }
+                }
+                double uEvaluation = fgeneric.evaluate(u);
+                if (uEvaluation < evaluations.get(i)) {
+                    generation.remove(i);
+                    generation.add(i, u);
+                    evaluations.remove(i);
+                    evaluations.add(i, uEvaluation);
+                } else {
+                    double[] TX = new double[dim];
+                    double[] velocity = velocities.get(i);
+
+                    double R1 = rand.nextDouble();
+                    double R2 = rand.nextDouble();
+
+                    for (int k = 0; k < dim; k++) {
+                        velocity[k] = w * velocity[k] + c1 * R1 * (bests.get(i)[k] - generation.get(i)[k]) + c2 * R2 * (globalBest[k] - generation.get(i)[k]);
+                        TX[k] = generation.get(i)[k] + velocity[k];
+                    }
+
+                    velocities.remove(i);
+                    velocities.add(i, velocity);
+
+                    double TXEvaluation = fgeneric.evaluate(TX);
+                    if (TXEvaluation < evaluations.get(i)) {
+                        generation.remove(i);
+                        generation.add(i, TX);
+                        evaluations.remove(i);
+                        evaluations.add(i, TXEvaluation);
+                    }
+                }
+
+                if (evaluations.get(i) < bestsEvaluations.get(i)) {
+                    bests.remove(i);
+                    bests.add(i, generation.get(i));
+                    bestsEvaluations.remove(i);
+                    bestsEvaluations.add(i, evaluations.get(i));
+                }
+
+                if (evaluations.get(i) < globalBestEvaluation) {
+                    globalBest = generation.get(i);
+                    globalBestEvaluation = evaluations.get(i);
+                    improved = true;
+                }
+            }
+
+            if (!improved) {
+                if (++iterationsWithoutImprovement >= NO_IMPROVEMENT_ITERATIONS_THRESHOLD) {
+                    //reset, pewnie można ładniej...
+                    //liczenie rozproszenia itede???????????????????
+                    
+                    generation = new ArrayList<>();
+                    velocities = new ArrayList<>();
+                    bests = new ArrayList<>();
+                    evaluations = new ArrayList<>();
+                    bestsEvaluations = new ArrayList<>();
+
+                    for (int i = 0; i < populationSize; i++) {
+                        double[] individual = new double[dim];
+                        for (int j = 0; j < dim; j++) {
+                            individual[j] = rand.nextDouble() * 2 * BOUND - BOUND;
+                        }
+                        generation.add(individual);
+                        bests.add(individual);
+
+                        double[] velocity = new double[dim];
+                        for (int j = 0; j < dim; j++) {
+                            velocity[j] = rand.nextDouble() * 2 * BOUND - BOUND;
+                        }
+                        velocities.add(velocity);
+                    }
+
+                    for (int i = 0; i < generation.size(); i++) {
+                        double evaluation = fgeneric.evaluate(generation.get(i));
+                        evaluations.add(evaluation);
+                        bestsEvaluations.add(evaluation);
+
+                        if (i == 0) {
+                            globalBest = generation.get(i);
+                            globalBestEvaluation = fgeneric.evaluate(globalBest);
+                        } else {
+                            if (evaluations.get(i) < globalBestEvaluation) {
+                                globalBest = generation.get(i);
+                                globalBestEvaluation = evaluations.get(i);
+                            }
+                        }
+                    }
+                }
+            } else {
+                iterationsWithoutImprovement = 0;
             }
 
             if (globalBestEvaluation < ftarget) {
@@ -432,7 +606,7 @@ public class ExampleExperiment {
          * for each new experiment */
         params.algName = "PSO-DE Hybrid";
         params.comments = "Particle Swarm Optimization hybridized with Differential Evolution algorithm.";
-        outputPath = "PSO_DE";
+        outputPath = "PSO_DE_withResets";
 
         if (args.length > 0) {
             outputPath = args[0]; // Warning: might override the assignment above.
@@ -474,13 +648,13 @@ public class ExampleExperiment {
                     fgeneric.initBBOB(ifun, instances[idx_instances],
                             dim[idx_dim], outputPath, params);
                     /* Call to the optimizer with fgeneric as input */
-                    maxfunevals = 100000. * dim[idx_dim]; /* PUT APPROPRIATE MAX. FEVALS */
+                    maxfunevals = 10000. * dim[idx_dim]; /* PUT APPROPRIATE MAX. FEVALS */
                     /* 5. * dim is fine to just check everything */
 
                     independent_restarts = -1;
                     while (fgeneric.getEvaluations() < maxfunevals) {
                         independent_restarts++;
-                        PSO_DE(fgeneric, dim[idx_dim], maxfunevals - fgeneric.getEvaluations(), rand);
+                        PSO_DE_withResets(fgeneric, dim[idx_dim], maxfunevals - fgeneric.getEvaluations(), rand);
                         if (fgeneric.getBest() < fgeneric.getFtarget()) {
                             break;
                         }
