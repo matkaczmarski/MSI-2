@@ -1,0 +1,15 @@
+funcId = 1, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f1/bbobexp_f1_DIM2.dat, 1:2686|-6.1e-009, 2:2458|-7.0e-009, 3:3555|-6.5e-009, 4:3047|-6.5e-009, 5:1830|-3.9e-009, 41:5718|-8.7e-009, 42:7458|-7.8e-009, 43:2279|-7.5e-009, 44:3405|-9.4e-009, 45:6748|-3.6e-010, 46:4566|-5.9e-009, 47:2626|-3.4e-009, 48:2356|-6.2e-009, 49:6616|-5.0e-009, 50:4201|-8.0e-009
+funcId = 1, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f1/bbobexp_f1_DIM3.dat, 1:3427|-7.4e-009, 2:11700|-5.7e-009, 3:3281|-8.3e-009, 4:3343|-5.0e-009, 5:8175|-6.6e-009, 41:8233|-2.1e-009, 42:7588|-5.1e-009, 43:3121|-2.4e-009, 44:9525|-3.2e-009, 45:3281|-7.0e-009, 46:7524|-6.8e-009, 47:3321|-8.9e-009, 48:3358|-4.3e-009, 49:3379|-1.2e-010, 50:3697|-1.6e-012
+funcId = 1, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f1/bbobexp_f1_DIM5.dat, 1:5127|-2.7e-009, 2:9536|-1.9e-009, 3:8888|-5.9e-010, 4:10440|-1.0e-009, 5:6769|-4.7e-010, 41:9115|-4.2e-009, 42:5270|-7.5e-009, 43:4963|-2.5e-009, 44:8769|-6.0e-009, 45:6680|-1.5e-009, 46:6400|-7.2e-009, 47:11012|-1.3e-009, 48:5408|-4.2e-009, 49:5318|-5.6e-009, 50:4954|-5.4e-009
+funcId = 1, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f1/bbobexp_f1_DIM10.dat, 1:8750|-1.4e-009, 2:8025|-1.7e-010, 3:10556|-1.1e-009, 4:11029|-2.7e-010, 5:8324|-8.7e-011, 41:11823|-3.5e-009, 42:8766|-2.8e-009, 43:26322|-5.0e-009, 44:8767|-3.2e-009, 45:8571|-1.5e-009, 46:14631|-4.5e-009, 47:13494|-5.0e-010, 48:8208|-2.3e-009, 49:8601|-7.1e-010, 50:8577|-2.7e-009
+funcId = 1, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f1/bbobexp_f1_DIM20.dat, 1:37804|-5.0e-009, 2:13491|-1.3e-010, 3:14034|-1.5e-009, 4:25112|-3.0e-009, 5:14182|-2.4e-009, 41:14303|-9.5e-010, 42:25498|-6.7e-010, 43:14385|-2.6e-009, 44:14068|-4.4e-009, 45:14764|-6.0e-010, 46:14231|-3.2e-010, 47:15214|-2.2e-009, 48:13419|-2.0e-009, 49:15112|-3.5e-010, 50:14132|-1.1e-009
