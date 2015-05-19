@@ -58,10 +58,10 @@
 
 \maketitle
 
- \section{Introduction}
+ \section{Wstęp}
 Hybrydyzacja algorytmu \textit{Particle Swarm Optimization} (PSO) z algorytmem \textit{Differential Evolution} (DE).
- \section{Algorithm Presentation}
- \subsection{Particle Swarm Optimization}
+ \section{Opis algorytmu}
+ \subsection{Optymalizacja Rojem Cząsteczek}
  Optymalizacja rojem cząsteczek (ang. Particle Swarm Optimization) jest algorytmem meta heurystycznym służącym do optymalizacji zadanego problemu. Inspiracją dla tego algorytmu była obserwacja zachowań organizmów żywych w populacjach (np. kolonia mrówek, ławica ryb). Cząsteczka (osobnik roju) posiada swoją aktualną pozycję, prędkość oraz najlepszą pozycję, której wartość zostaje zmieniona gdy cząstka znalazła położenie lepiej ocenione. Na początku wartości pozycji oraz prędkości inicjowane są losowymi liczbami. W każdej kolejnej iteracji algorytmu cząsteczki przemieszczają się do nowych położeń symulując adaptację roju do środowiska. Aktualizowane są wówczas najlepsze pozycje cząstek oraz wyznaczany jest lider roju, czyli osobnik o dotychczasowym najlepszym położeniu. Dla każdej cząsteczki obliczany jest także nowy wektor prędkości na podstawie jej bieżącej prędkości oraz położenia lidera roju. Iteracje są powtarzane dopóki nie spełniony zostanie warunek stopu.\\\\
  Schemat działania algorytmu PSO:\\
  \textit{
@@ -74,18 +74,82 @@ Hybrydyzacja algorytmu \textit{Particle Swarm Optimization} (PSO) z algorytmem \
 \indent \indent dla każdej cząsteczki w roju:\\
 \indent \indent \indent zaktualizuj wektor prędkości oraz położenie;\\
 \indent \}\\
- }
+ }\\\\
+ Wektor położenia: $X_i=(x_{i1},x_{i2},...,x_{iD})$\\
+ Wektor prędkości: $V_i=(v_{i1},v_{i2},...,v_{iD})$\\
+ Zmiana położenia w poszczególnych iteracjach: \\ \indent $x_{id} = x_{id} + v_{id}$\\
+Zmiana wartości prędkości w poszczególnych iteracjach: \\ \indent $v_{id}=\omega \cdot v_{id}+c_1 \cdot r_1 \cdot(p_{id} - x_{id}) + c_2\cdot r_2\cdot (p_{gd} - x_{id})$ ,\\gdzie $\omega$ – stały współczynnik określający stopień kontynuacji ruchu cząstki w dotychczasowym kierunku, $c_1, c_2$ – współczynniki akceleracji, $r_1, r_2$ – losowe liczby z przedziału [0,1], $p_i, p_g$ - odpowiednio najlepsza dotychczasowa pozycja cząstki $i$ oraz globalna najlepsza dotychczasowa pozycja wszystkich cząstek.\\
+Algorytm PSO parametryzowany jest zatem trzema wartościami: $\omega,\ c_1$ oraz $ c_2 $.
  
-\subsection{Differential Evolution}
-Algorytm ewolucji różnicowej jest podobnie jak PSO m .... (dodać)
+\subsection{Ewolucja Różnicowa}
+Algorytm ewolucji różnicowej jest podobnie jak PSO meta heurystycznym algorytmem optymalizacji numerycznej. Algorytm operuje na populacji osobników (odpowiednik cząsteczek w PSO). Każdy osobnik, analogicznie do poprzedniego algorytmu jest reprezentowany przez D-wymiarowy wektor liczb rzeczywistych. W każdym kroku algorytmu, dla każdego osobnika $x_i$ jest tworzony osobnik próbny $u_i$, który powstaje poprzez zastosowanie operatorów mutacji oraz krzyżowania. Następnie $u_i$ jest porównywany z $x_i$ i jeśli jego dopasowanie jest lepsze, to wtedy zastępuje $x_i$ w populacji. W przeciwnym przypadku osobnik $u_i$ jest odrzucany.\\
+Wynikiem mutacji jest wektor $m_i$ otrzymany w następujący sposób:\\
+\indent $m_i = x_{r_1} + F\cdot (x_{r_2} - x_{r_3})$,\\
+gdzie $0 \leq F \leq 1$ jest stałym parametrem, zwanym współczynnikiem aplifikacji, natomiast $r_1$, $r_2$, $r_3$ to trzy losowo wygenerowane numery osobników, przy czym spełniona jest zależność $i \neq r_1 \neq r_2 \neq r_3$. Tak powstały wektor $m_i$ jest nazywany osobnikiem mutantem.\\
+Z kolei wynikiem krzyżowania operującego na rodzicu $x_i$ oraz mutancie $m_i$ jest osobnik próbny $u_i$, którego każdy element jest wyznaczony w następujący sposób:\\
+\indent $u_{i,j} = \{ ^{m_{i,j}\  gdy\ rnd_j\ <\ CR\ lub\ j = d} _{x_{i,j}\ w\ przeciwnym\ przyadku} $\\
+gdzie $rnd_j$ jest liczbą losową z przedziału [0, 1) losowaną niezależnie dla każdego $j$, natomiast  $0 \leq CR \leq 1$ jest stałym parametrem algorytmu, a $d$ jest losowym numerem elementu wektora.\\
+Algorytm DE parametryzowany jest zatem dwiema wartościami: $F$ oraz $CR$. 
 
- \section{Experimental Procedure}
+\subsection{Algorytm hybrydowy}
+Dane wejściowe:\\
+PSO\_DE(\textit{JNIfgeneric} fgeneric, $int$ dim, $doubl$e maxfunevals, $Random$ rand), gdzie:\\
+\textit{JNIfgeneric} fgeneric – klasa z danymi definiującymi problem,\\
+$int$ dim – wymiar problemu,\\
+$double$ maxfunevals – maksymalna liczba iteracji,\\
+$Random$ rand – generator liczb losowych\\\\
+Oznaczenia używane w algorytmie:\\
+$N$ - liczebność populacji\\
+$D$ - wymiar wektora osobnika\\
+$rand()$ - liczba losowa z $[0,1]$\\
+$x_i$ –  wektor o wymiarze D definiujący położenie osobnika $i$\\
+$p_i$ – najlepszy dotychczasowy wektor położenia osobnika $i$ ($p_g$ - najlepszy globalny)\\
+$v_i$ – wektor prędkości osobnika $i$\\\\
+Schemat działania algorytmu hybrydowego łączącego DE oraz PSO:\\
+\textit{
+\indent{przypisz losowo początkowe wartości: $x_i$, $v_i$ oraz $p_i$  i $p_g$ dla $i = 1,2,..., N$}\\
+\textcolor{blue}{while}(!stop)\\
+\{\\
+\indent	\textcolor{blue}{for} i = 1 to N\\
+\indent	\{\\
+\indent\indent		wybierz losowo $r_1$, $r_2$, $r_3$, takie że  $i \neq r_1 \neq r_2 \neq r_3$\\
+\indent\indent 		$m_i = x_{r_1} + F \cdot  (x_{r_2} - x_{r_3})$\\
+\indent\indent		\textcolor{blue}{for} j = 1 to D\\
+\indent\indent		\{\\
+\indent\indent\indent			wybierz losowo $j_{rand}$ z przedziału $[1, D]$\\
+\indent\indent\indent			\textcolor{blue}{if} (rand() $<$ CR or j $==$ $j_{rand}$)\\
+\indent\indent\indent\indent				u[j] = $m_i$[j]\\
+\indent\indent\indent			\textcolor{blue}{else}\\
+\indent\indent\indent\indent				u[j] = $x_i$[j]\\
+\indent\indent		\}\\
+\indent\indent		\textcolor{blue}{if} (f(u) $<$ f($x_i$))\\
+\indent\indent\indent			$x_i$ = u\\
+\indent\indent		\textcolor{blue}{else}\\
+\indent\indent		\{\\
+\indent\indent\indent			użyj PSO do wyznaczenia nowego kandydata – $TX_i$\\
+\indent\indent\indent			\{\\
+\indent\indent\indent\indent				oblicz wektor prędkości cząsteczki $x_i$:\\
+\indent\indent\indent\indent				$v_i = \omega \cdot v_i + c_1 \cdot r_1 \cdot (p_i - x_i) + c_2 \cdot r_2 \cdot (p_g - x_i)$\\
+\indent\indent\indent\indent				$TX_i = x_i + v_i$\\
+\indent\indent\indent			\}\\
+\indent\indent\indent			if (f($TX_i$) $<$ f($x_i$))\\
+\indent\indent\indent\indent				$x_i$ = $TX_i$\\
+\indent\indent	\}\\
+\indent\indent		\textcolor{blue}{if} (f($x_i$) $<$ f($p_i$))\\
+\indent\indent\indent			$p_i$ = $x_i$\\
+\indent\indent		\textcolor{blue}{if} (f($x_i$) $<$ f($p_g$))\\
+\indent\indent\indent			$p_g$ = $x_i$\\
+\indent	\}\\
+\}
+}
+
+ \section{Procedura eksperymentu}
 experimental procedure
  \section{CPU Timing}
-In order to evaluate the CPU timing of the algorithm, we have run the {PSO-DE Hybrid} on the function $f_{8}$ with restarts for at least 30 seconds and until a maximum budget equal to {$400 (D + 2)$} is reached. The code was run on a {Windows 8 Intel(R) Core(TM) i7-4500U CPU @ 2.39GHz} with {1} processor and {2} cores. The time per function evaluation for dimensions 2, 3, 5, 10, 20 equals $1,9e^{-10}$, $2,2e^{-10}$, $2,4e^{-10}$, $3,5e^{-10}$ and $6,1e^{-10}$ seconds respectively. 
+Algorytm był uruchamiany na komputerze z systemem Windows 8 Intel(R) Core(TM) i7-4500U CPU @ 2.39GHz. Czasy ewaluacji funkcji o wymiarach 2, 3, 5, 10, 20 wynosiły odpowiednio $1,9e^{-10}$, $2,2e^{-10}$, $2,4e^{-10}$, $3,5e^{-10}$ and $6,1e^{-10}$ sekund. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Results}
+\section{Uzyskane wyniki}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Results from experiments according to \cite{hansen2010exp} on the
 benchmark functions given in \cite{wp200901_2010,hansen2010fun} are presented
