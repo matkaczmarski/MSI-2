@@ -1,0 +1,15 @@
+funcId = 16, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f16/bbobexp_f16_DIM2.dat, 1:38479|2.7e-003, 2:39757|2.0e-004, 3:39296|1.2e-005, 4:40352|8.4e-005, 5:40541|5.4e-005, 41:39271|5.7e-003, 42:40010|3.2e-004, 43:15875|-1.3e-009, 44:40266|1.7e-004, 45:39305|6.9e-004, 46:39570|4.7e-003, 47:5055|-3.1e-009, 48:40487|2.4e-004, 49:39898|2.4e-002, 50:39997|1.5e-003
+funcId = 16, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f16/bbobexp_f16_DIM3.dat, 1:59533|2.5e-004, 2:27884|-3.6e-009, 3:59643|1.7e-001, 4:59912|3.8e-002, 5:59666|4.1e-002, 41:59670|1.4e-002, 42:59774|2.8e-003, 43:59101|2.2e-002, 44:59747|1.8e-008, 45:59031|3.7e-007, 46:59540|7.9e-004, 47:59665|5.0e-005, 48:59824|1.2e-001, 49:60236|6.7e-005, 50:59919|5.2e-003
+funcId = 16, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f16/bbobexp_f16_DIM5.dat, 1:99585|5.6e-002, 2:99435|2.0e-001, 3:99005|1.6e-003, 4:99775|1.1e-001, 5:99874|5.0e-001, 41:100101|9.6e-001, 42:100200|1.3e-001, 43:99433|1.3e+000, 44:99437|1.1e-001, 45:100146|2.4e+000, 46:98331|6.8e-005, 47:100439|1.5e+000, 48:98698|1.8e-004, 49:99504|2.7e-001, 50:100015|1.5e+000
+funcId = 16, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f16/bbobexp_f16_DIM10.dat, 1:200393|5.7e+000, 2:200031|5.7e+000, 3:200266|6.6e+000, 4:200847|5.3e+000, 5:201465|1.7e+000, 41:201686|7.9e+000, 42:200020|4.1e+000, 43:200260|1.1e+000, 44:199725|2.4e-001, 45:201031|1.8e+000, 46:199642|3.1e+000, 47:199782|6.9e-001, 48:200198|2.5e+000, 49:200986|1.0e+000, 50:200610|1.7e+000
+funcId = 16, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f16/bbobexp_f16_DIM20.dat, 1:402308|3.2e+000, 2:403542|8.2e+000, 3:401779|7.1e+000, 4:403720|1.4e+001, 5:403181|1.3e+001, 41:402900|4.3e+000, 42:403531|7.2e+000, 43:403576|7.7e+000, 44:402832|4.2e+000, 45:402790|5.5e+000, 46:402236|5.4e+000, 47:403212|5.1e+000, 48:403127|8.7e+000, 49:402781|8.7e+000, 50:402821|1.6e+001

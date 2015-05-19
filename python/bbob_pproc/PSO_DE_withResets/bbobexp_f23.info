@@ -1,0 +1,15 @@
+funcId = 23, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f23/bbobexp_f23_DIM2.dat, 1:39615|1.3e-001, 2:39950|3.8e-001, 3:40228|2.0e-001, 4:39929|2.1e-001, 5:39907|3.1e-001, 41:39549|3.3e-001, 42:39574|1.1e-001, 43:39952|1.7e-001, 44:39781|3.1e-001, 45:39731|4.0e-001, 46:39834|2.3e-001, 47:39559|3.3e-001, 48:40371|3.0e-001, 49:39863|2.6e-002, 50:40135|3.9e-001
+funcId = 23, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f23/bbobexp_f23_DIM3.dat, 1:60227|4.3e-001, 2:60322|7.2e-001, 3:59853|6.0e-001, 4:60146|1.9e-001, 5:60325|4.4e-001, 41:59968|3.9e-001, 42:59517|7.9e-001, 43:60204|5.1e-001, 44:59709|6.2e-001, 45:59879|5.7e-001, 46:60552|4.6e-001, 47:60219|6.1e-001, 48:60252|6.2e-001, 49:59695|6.5e-001, 50:59984|3.8e-001
+funcId = 23, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f23/bbobexp_f23_DIM5.dat, 1:100231|9.9e-001, 2:100873|9.2e-001, 3:100232|8.5e-001, 4:100653|9.2e-001, 5:100147|7.8e-001, 41:101212|4.3e-001, 42:99907|8.8e-001, 43:100276|9.9e-001, 44:100784|8.3e-001, 45:100527|8.0e-001, 46:101003|5.7e-001, 47:101030|7.6e-001, 48:100130|8.8e-001, 49:100520|9.4e-001, 50:100946|9.4e-001
+funcId = 23, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f23/bbobexp_f23_DIM10.dat, 1:203772|1.1e+000, 2:203636|1.6e+000, 3:204580|1.3e+000, 4:205670|1.4e+000, 5:203777|1.0e+000, 41:204693|1.1e+000, 42:203693|1.2e+000, 43:204498|1.1e+000, 44:205007|1.2e+000, 45:204355|1.4e+000, 46:204472|1.1e+000, 47:204492|1.1e+000, 48:203036|1.2e+000, 49:203624|9.3e-001, 50:205172|1.3e+000
+funcId = 23, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f23/bbobexp_f23_DIM20.dat, 1:424282|2.2e+000, 2:424144|1.7e+000, 3:423700|2.0e+000, 4:425527|1.8e+000, 5:423493|2.1e+000, 41:423423|2.1e+000, 42:422296|1.9e+000, 43:420748|2.0e+000, 44:422787|2.0e+000, 45:423236|2.0e+000, 46:422636|1.8e+000, 47:423715|1.9e+000, 48:424695|2.2e+000, 49:422528|1.4e+000, 50:423470|2.3e+000

@@ -1,0 +1,15 @@
+funcId = 19, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f19/bbobexp_f19_DIM2.dat, 1:3404|-6.3e-009, 2:39174|1.5e-008, 3:38995|2.1e-005, 4:15584|-7.4e-009, 5:39251|6.6e-005, 41:39181|1.1e-006, 42:25038|-7.5e-009, 43:39216|2.5e-006, 44:31420|-7.5e-009, 45:39318|9.9e-008, 46:38969|2.5e-009, 47:7586|-5.9e-009, 48:39276|2.2e-008, 49:10918|-9.7e-010, 50:17860|-5.2e-009
+funcId = 19, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f19/bbobexp_f19_DIM3.dat, 1:58050|3.2e-002, 2:58122|7.1e-002, 3:58363|4.2e-002, 4:57770|5.1e-003, 5:58102|3.2e-004, 41:58191|2.5e-002, 42:58038|7.5e-002, 43:57935|8.7e-004, 44:58123|3.5e-002, 45:58776|9.1e-003, 46:58131|7.5e-002, 47:57612|4.6e-003, 48:58077|4.2e-002, 49:57929|6.7e-006, 50:58074|1.7e-002
+funcId = 19, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f19/bbobexp_f19_DIM5.dat, 1:94442|4.6e-001, 2:94656|5.7e-001, 3:94308|2.8e-001, 4:95308|6.2e-001, 5:94857|5.7e-001, 41:95171|3.7e-001, 42:95046|3.7e-001, 43:94833|4.4e-001, 44:94931|4.7e-001, 45:95287|3.9e-001, 46:94745|1.7e-001, 47:95036|3.8e-001, 48:94280|4.8e-001, 49:94356|5.9e-001, 50:95399|4.5e-001
+funcId = 19, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f19/bbobexp_f19_DIM10.dat, 1:186169|2.7e+000, 2:186397|2.0e+000, 3:186741|2.2e+000, 4:186042|1.5e+000, 5:186088|1.9e+000, 41:185398|2.1e+000, 42:185702|2.6e+000, 43:186097|1.8e+000, 44:186571|2.7e+000, 45:186859|2.9e+000, 46:186286|2.6e+000, 47:186242|2.8e+000, 48:185828|2.0e+000, 49:186408|2.7e+000, 50:185852|2.3e+000
+funcId = 19, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f19/bbobexp_f19_DIM20.dat, 1:368589|4.3e+000, 2:369177|5.0e+000, 3:369126|5.0e+000, 4:369294|5.0e+000, 5:368475|4.8e+000, 41:368708|4.7e+000, 42:369172|5.2e+000, 43:369524|5.2e+000, 44:369391|4.7e+000, 45:369660|5.0e+000, 46:368941|5.0e+000, 47:368569|4.8e+000, 48:369101|5.3e+000, 49:369060|4.5e+000, 50:369829|5.3e+000
