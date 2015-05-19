@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.24)  19 MAY 2015 22:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.24)  20 MAY 2015 00:59
 entering extended mode
 **template1generic.tex
 
@@ -779,37 +779,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--83
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 95--145
+Underfull \hbox (badness 10000) in paragraph at lines 95--148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--145
+Underfull \hbox (badness 10000) in paragraph at lines 95--148
 
  []
 
 [2] [3]
 
-LaTeX Warning: Citation `hansen2010exp' on page 4 undefined on input line 154.
+LaTeX Warning: Citation `hansen2010exp' on page 4 undefined on input line 164.
 
 
-LaTeX Warning: Citation `wp200901_2010' on page 4 undefined on input line 155.
+LaTeX Warning: Citation `wp200901_2010' on page 4 undefined on input line 165.
 
 
-LaTeX Warning: Citation `hansen2010fun' on page 4 undefined on input line 155.
+LaTeX Warning: Citation `hansen2010fun' on page 4 undefined on input line 165.
 
 
-LaTeX Warning: Citation `hansen2010exp' on page 4 undefined on input line 166.
+LaTeX Warning: Citation `hansen2010exp' on page 4 undefined on input line 176.
 
 
-LaTeX Warning: Citation `price1997dev' on page 4 undefined on input line 166.
+LaTeX Warning: Citation `price1997dev' on page 4 undefined on input line 176.
 
 <ppdata/pprldistr_05D_noiselessall.pdf, id=26, 578.16pt x 433.62pt>
 File: ppdata/pprldistr_05D_noiselessall.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_05D_noiselessall.pdf>
 Package pdftex.def Info: ppdata/pprldistr_05D_noiselessall.pdf used on input li
-ne 180.
+ne 190.
 (pdftex.def)             Requested size: 182.15996pt x 137.59186pt.
 
 <ppdata/ppfvdistr_05D_noiselessall.pdf, id=28, 578.16pt x 433.62pt>
@@ -817,7 +817,7 @@ File: ppdata/ppfvdistr_05D_noiselessall.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_05D_noiselessall.pdf>
 Package pdftex.def Info: ppdata/ppfvdistr_05D_noiselessall.pdf used on input li
-ne 181.
+ne 191.
 (pdftex.def)             Requested size: 158.70232pt x 137.49979pt.
 
 <ppdata/pprldistr_20D_noiselessall.pdf, id=30, 578.16pt x 433.62pt>
@@ -825,7 +825,7 @@ File: ppdata/pprldistr_20D_noiselessall.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_20D_noiselessall.pdf>
 Package pdftex.def Info: ppdata/pprldistr_20D_noiselessall.pdf used on input li
-ne 182.
+ne 192.
 (pdftex.def)             Requested size: 182.15996pt x 137.59186pt.
 
 <ppdata/ppfvdistr_20D_noiselessall.pdf, id=32, 578.16pt x 433.62pt>
@@ -833,9 +833,9 @@ File: ppdata/ppfvdistr_20D_noiselessall.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_20D_noiselessall.pdf>
 Package pdftex.def Info: ppdata/ppfvdistr_20D_noiselessall.pdf used on input li
-ne 183.
+ne 193.
 (pdftex.def)             Requested size: 158.70232pt x 137.49979pt.
-LaTeX Font Info:    Try loading font information for OT4+cmss on input line 185
+LaTeX Font Info:    Try loading font information for OT4+cmss on input line 195
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\ot4cmss.fd"
@@ -845,7 +845,7 @@ File: ot4cmss.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 File: ppdata/pprldistr_05D_separ.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_05D_separ.pdf>
-Package pdftex.def Info: ppdata/pprldistr_05D_separ.pdf used on input line 193.
+Package pdftex.def Info: ppdata/pprldistr_05D_separ.pdf used on input line 203.
 
 (pdftex.def)             Requested size: 141.45126pt x 101.17496pt.
 
@@ -853,7 +853,7 @@ Package pdftex.def Info: ppdata/pprldistr_05D_separ.pdf used on input line 193.
 File: ppdata/ppfvdistr_05D_separ.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_05D_separ.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_05D_separ.pdf used on input line 194.
+Package pdftex.def Info: ppdata/ppfvdistr_05D_separ.pdf used on input line 204.
 
 (pdftex.def)             Requested size: 123.47374pt x 101.30286pt.
 
@@ -861,7 +861,7 @@ Package pdftex.def Info: ppdata/ppfvdistr_05D_separ.pdf used on input line 194.
 File: ppdata/pprldistr_05D_lcond.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_05D_lcond.pdf>
-Package pdftex.def Info: ppdata/pprldistr_05D_lcond.pdf used on input line 197.
+Package pdftex.def Info: ppdata/pprldistr_05D_lcond.pdf used on input line 207.
 
 (pdftex.def)             Requested size: 141.45126pt x 101.17496pt.
 
@@ -869,7 +869,7 @@ Package pdftex.def Info: ppdata/pprldistr_05D_lcond.pdf used on input line 197.
 File: ppdata/ppfvdistr_05D_lcond.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_05D_lcond.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_05D_lcond.pdf used on input line 198.
+Package pdftex.def Info: ppdata/ppfvdistr_05D_lcond.pdf used on input line 208.
 
 (pdftex.def)             Requested size: 123.47374pt x 101.30286pt.
 
@@ -877,7 +877,7 @@ Package pdftex.def Info: ppdata/ppfvdistr_05D_lcond.pdf used on input line 198.
 File: ppdata/pprldistr_05D_hcond.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_05D_hcond.pdf>
-Package pdftex.def Info: ppdata/pprldistr_05D_hcond.pdf used on input line 201.
+Package pdftex.def Info: ppdata/pprldistr_05D_hcond.pdf used on input line 211.
 
 (pdftex.def)             Requested size: 141.45126pt x 101.17496pt.
 
@@ -885,7 +885,7 @@ Package pdftex.def Info: ppdata/pprldistr_05D_hcond.pdf used on input line 201.
 File: ppdata/ppfvdistr_05D_hcond.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_05D_hcond.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_05D_hcond.pdf used on input line 202.
+Package pdftex.def Info: ppdata/ppfvdistr_05D_hcond.pdf used on input line 212.
 
 (pdftex.def)             Requested size: 123.47374pt x 101.30286pt.
 
@@ -893,7 +893,7 @@ Package pdftex.def Info: ppdata/ppfvdistr_05D_hcond.pdf used on input line 202.
 File: ppdata/pprldistr_05D_multi.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_05D_multi.pdf>
-Package pdftex.def Info: ppdata/pprldistr_05D_multi.pdf used on input line 205.
+Package pdftex.def Info: ppdata/pprldistr_05D_multi.pdf used on input line 215.
 
 (pdftex.def)             Requested size: 141.45126pt x 101.17496pt.
 
@@ -901,7 +901,7 @@ Package pdftex.def Info: ppdata/pprldistr_05D_multi.pdf used on input line 205.
 File: ppdata/ppfvdistr_05D_multi.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_05D_multi.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_05D_multi.pdf used on input line 206.
+Package pdftex.def Info: ppdata/ppfvdistr_05D_multi.pdf used on input line 216.
 
 (pdftex.def)             Requested size: 123.47374pt x 101.30286pt.
 
@@ -909,7 +909,7 @@ Package pdftex.def Info: ppdata/ppfvdistr_05D_multi.pdf used on input line 206.
 File: ppdata/pprldistr_05D_mult2.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_05D_mult2.pdf>
-Package pdftex.def Info: ppdata/pprldistr_05D_mult2.pdf used on input line 209.
+Package pdftex.def Info: ppdata/pprldistr_05D_mult2.pdf used on input line 219.
 
 (pdftex.def)             Requested size: 141.45126pt x 106.84195pt.
 
@@ -917,7 +917,7 @@ Package pdftex.def Info: ppdata/pprldistr_05D_mult2.pdf used on input line 209.
 File: ppdata/ppfvdistr_05D_mult2.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_05D_mult2.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_05D_mult2.pdf used on input line 210.
+Package pdftex.def Info: ppdata/ppfvdistr_05D_mult2.pdf used on input line 220.
 
 (pdftex.def)             Requested size: 123.47374pt x 106.977pt.
 
@@ -925,7 +925,7 @@ Package pdftex.def Info: ppdata/ppfvdistr_05D_mult2.pdf used on input line 210.
 File: ppdata/pprldistr_20D_separ.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_20D_separ.pdf>
-Package pdftex.def Info: ppdata/pprldistr_20D_separ.pdf used on input line 240.
+Package pdftex.def Info: ppdata/pprldistr_20D_separ.pdf used on input line 250.
 
 (pdftex.def)             Requested size: 141.45126pt x 101.17496pt.
 
@@ -933,7 +933,7 @@ Package pdftex.def Info: ppdata/pprldistr_20D_separ.pdf used on input line 240.
 File: ppdata/ppfvdistr_20D_separ.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_20D_separ.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_20D_separ.pdf used on input line 241.
+Package pdftex.def Info: ppdata/ppfvdistr_20D_separ.pdf used on input line 251.
 
 (pdftex.def)             Requested size: 123.47374pt x 101.30286pt.
 
@@ -941,7 +941,7 @@ Package pdftex.def Info: ppdata/ppfvdistr_20D_separ.pdf used on input line 241.
 File: ppdata/pprldistr_20D_lcond.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_20D_lcond.pdf>
-Package pdftex.def Info: ppdata/pprldistr_20D_lcond.pdf used on input line 244.
+Package pdftex.def Info: ppdata/pprldistr_20D_lcond.pdf used on input line 254.
 
 (pdftex.def)             Requested size: 141.45126pt x 101.17496pt.
 
@@ -949,7 +949,7 @@ Package pdftex.def Info: ppdata/pprldistr_20D_lcond.pdf used on input line 244.
 File: ppdata/ppfvdistr_20D_lcond.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_20D_lcond.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_20D_lcond.pdf used on input line 245.
+Package pdftex.def Info: ppdata/ppfvdistr_20D_lcond.pdf used on input line 255.
 
 (pdftex.def)             Requested size: 123.47374pt x 101.30286pt.
 
@@ -957,7 +957,7 @@ Package pdftex.def Info: ppdata/ppfvdistr_20D_lcond.pdf used on input line 245.
 File: ppdata/pprldistr_20D_hcond.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_20D_hcond.pdf>
-Package pdftex.def Info: ppdata/pprldistr_20D_hcond.pdf used on input line 248.
+Package pdftex.def Info: ppdata/pprldistr_20D_hcond.pdf used on input line 258.
 
 (pdftex.def)             Requested size: 141.45126pt x 101.17496pt.
 
@@ -965,7 +965,7 @@ Package pdftex.def Info: ppdata/pprldistr_20D_hcond.pdf used on input line 248.
 File: ppdata/ppfvdistr_20D_hcond.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_20D_hcond.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_20D_hcond.pdf used on input line 249.
+Package pdftex.def Info: ppdata/ppfvdistr_20D_hcond.pdf used on input line 259.
 
 (pdftex.def)             Requested size: 123.47374pt x 101.30286pt.
 
@@ -973,7 +973,7 @@ Package pdftex.def Info: ppdata/ppfvdistr_20D_hcond.pdf used on input line 249.
 File: ppdata/pprldistr_20D_multi.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_20D_multi.pdf>
-Package pdftex.def Info: ppdata/pprldistr_20D_multi.pdf used on input line 252.
+Package pdftex.def Info: ppdata/pprldistr_20D_multi.pdf used on input line 262.
 
 (pdftex.def)             Requested size: 141.45126pt x 101.17496pt.
 
@@ -981,7 +981,7 @@ Package pdftex.def Info: ppdata/pprldistr_20D_multi.pdf used on input line 252.
 File: ppdata/ppfvdistr_20D_multi.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_20D_multi.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_20D_multi.pdf used on input line 253.
+Package pdftex.def Info: ppdata/ppfvdistr_20D_multi.pdf used on input line 263.
 
 (pdftex.def)             Requested size: 123.47374pt x 101.30286pt.
 
@@ -989,7 +989,7 @@ Package pdftex.def Info: ppdata/ppfvdistr_20D_multi.pdf used on input line 253.
 File: ppdata/pprldistr_20D_mult2.pdf Graphic file (type pdf)
 
 <use ppdata/pprldistr_20D_mult2.pdf>
-Package pdftex.def Info: ppdata/pprldistr_20D_mult2.pdf used on input line 256.
+Package pdftex.def Info: ppdata/pprldistr_20D_mult2.pdf used on input line 266.
 
 (pdftex.def)             Requested size: 141.45126pt x 106.84195pt.
 
@@ -997,7 +997,7 @@ Package pdftex.def Info: ppdata/pprldistr_20D_mult2.pdf used on input line 256.
 File: ppdata/ppfvdistr_20D_mult2.pdf Graphic file (type pdf)
 
 <use ppdata/ppfvdistr_20D_mult2.pdf>
-Package pdftex.def Info: ppdata/ppfvdistr_20D_mult2.pdf used on input line 257.
+Package pdftex.def Info: ppdata/ppfvdistr_20D_mult2.pdf used on input line 267.
 
 (pdftex.def)             Requested size: 123.47374pt x 106.977pt.
 
@@ -1006,7 +1006,7 @@ File: ppdata/pplogloss_05D_noiselessall.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_05D_noiselessall.pdf>
 Package pdftex.def Info: ppdata/pplogloss_05D_noiselessall.pdf used on input li
-ne 268.
+ne 278.
 (pdftex.def)             Requested size: 120.7521pt x 90.73523pt.
 
 (C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pploglosst
@@ -1016,7 +1016,7 @@ File: ppdata/pplogloss_20D_noiselessall.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_20D_noiselessall.pdf>
 Package pdftex.def Info: ppdata/pplogloss_20D_noiselessall.pdf used on input li
-ne 275.
+ne 285.
 (pdftex.def)             Requested size: 120.7521pt x 96.21771pt.
 
 (C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pploglosst
@@ -1025,7 +1025,7 @@ able_20D_noiselessall.tex)
 File: ppdata/pplogloss_05D_separ.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_05D_separ.pdf>
-Package pdftex.def Info: ppdata/pplogloss_05D_separ.pdf used on input line 301.
+Package pdftex.def Info: ppdata/pplogloss_05D_separ.pdf used on input line 311.
 
 (pdftex.def)             Requested size: 120.7521pt x 92.79117pt.
 
@@ -1033,7 +1033,7 @@ Package pdftex.def Info: ppdata/pplogloss_05D_separ.pdf used on input line 301.
 File: ppdata/pplogloss_20D_separ.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_20D_separ.pdf>
-Package pdftex.def Info: ppdata/pplogloss_20D_separ.pdf used on input line 302.
+Package pdftex.def Info: ppdata/pplogloss_20D_separ.pdf used on input line 312.
 
 (pdftex.def)             Requested size: 120.7521pt x 92.79117pt.
 
@@ -1041,7 +1041,7 @@ Package pdftex.def Info: ppdata/pplogloss_20D_separ.pdf used on input line 302.
 File: ppdata/pplogloss_05D_lcond.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_05D_lcond.pdf>
-Package pdftex.def Info: ppdata/pplogloss_05D_lcond.pdf used on input line 304.
+Package pdftex.def Info: ppdata/pplogloss_05D_lcond.pdf used on input line 314.
 
 (pdftex.def)             Requested size: 120.7521pt x 92.79117pt.
 
@@ -1049,7 +1049,7 @@ Package pdftex.def Info: ppdata/pplogloss_05D_lcond.pdf used on input line 304.
 File: ppdata/pplogloss_20D_lcond.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_20D_lcond.pdf>
-Package pdftex.def Info: ppdata/pplogloss_20D_lcond.pdf used on input line 305.
+Package pdftex.def Info: ppdata/pplogloss_20D_lcond.pdf used on input line 315.
 
 (pdftex.def)             Requested size: 120.7521pt x 92.79117pt.
 
@@ -1057,7 +1057,7 @@ Package pdftex.def Info: ppdata/pplogloss_20D_lcond.pdf used on input line 305.
 File: ppdata/pplogloss_05D_hcond.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_05D_hcond.pdf>
-Package pdftex.def Info: ppdata/pplogloss_05D_hcond.pdf used on input line 307.
+Package pdftex.def Info: ppdata/pplogloss_05D_hcond.pdf used on input line 317.
 
 (pdftex.def)             Requested size: 120.7521pt x 92.79117pt.
 
@@ -1065,7 +1065,7 @@ Package pdftex.def Info: ppdata/pplogloss_05D_hcond.pdf used on input line 307.
 File: ppdata/pplogloss_20D_hcond.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_20D_hcond.pdf>
-Package pdftex.def Info: ppdata/pplogloss_20D_hcond.pdf used on input line 308.
+Package pdftex.def Info: ppdata/pplogloss_20D_hcond.pdf used on input line 318.
 
 (pdftex.def)             Requested size: 120.7521pt x 92.79117pt.
 
@@ -1073,7 +1073,7 @@ Package pdftex.def Info: ppdata/pplogloss_20D_hcond.pdf used on input line 308.
 File: ppdata/pplogloss_05D_multi.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_05D_multi.pdf>
-Package pdftex.def Info: ppdata/pplogloss_05D_multi.pdf used on input line 310.
+Package pdftex.def Info: ppdata/pplogloss_05D_multi.pdf used on input line 320.
 
 (pdftex.def)             Requested size: 120.7521pt x 92.79117pt.
 
@@ -1081,7 +1081,7 @@ Package pdftex.def Info: ppdata/pplogloss_05D_multi.pdf used on input line 310.
 File: ppdata/pplogloss_20D_multi.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_20D_multi.pdf>
-Package pdftex.def Info: ppdata/pplogloss_20D_multi.pdf used on input line 311.
+Package pdftex.def Info: ppdata/pplogloss_20D_multi.pdf used on input line 321.
 
 (pdftex.def)             Requested size: 120.7521pt x 92.79117pt.
 
@@ -1089,7 +1089,7 @@ Package pdftex.def Info: ppdata/pplogloss_20D_multi.pdf used on input line 311.
 File: ppdata/pplogloss_05D_mult2.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_05D_mult2.pdf>
-Package pdftex.def Info: ppdata/pplogloss_05D_mult2.pdf used on input line 313.
+Package pdftex.def Info: ppdata/pplogloss_05D_mult2.pdf used on input line 323.
 
 (pdftex.def)             Requested size: 120.7521pt x 96.21771pt.
 
@@ -1097,7 +1097,7 @@ Package pdftex.def Info: ppdata/pplogloss_05D_mult2.pdf used on input line 313.
 File: ppdata/pplogloss_20D_mult2.pdf Graphic file (type pdf)
 
 <use ppdata/pplogloss_20D_mult2.pdf>
-Package pdftex.def Info: ppdata/pplogloss_20D_mult2.pdf used on input line 314.
+Package pdftex.def Info: ppdata/pplogloss_20D_mult2.pdf used on input line 324.
 
 (pdftex.def)             Requested size: 120.7521pt x 96.21771pt.
 
@@ -1105,257 +1105,257 @@ Package pdftex.def Info: ppdata/pplogloss_20D_mult2.pdf used on input line 314.
 File: ppdata/ppfigdim_f001.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f001.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f001.pdf used on input line 327.
+Package pdftex.def Info: ppdata/ppfigdim_f001.pdf used on input line 337.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f002.pdf, id=100, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f002.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f002.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f002.pdf used on input line 328.
+Package pdftex.def Info: ppdata/ppfigdim_f002.pdf used on input line 338.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f003.pdf, id=102, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f003.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f003.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f003.pdf used on input line 329.
+Package pdftex.def Info: ppdata/ppfigdim_f003.pdf used on input line 339.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f004.pdf, id=104, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f004.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f004.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f004.pdf used on input line 330.
+Package pdftex.def Info: ppdata/ppfigdim_f004.pdf used on input line 340.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f005.pdf, id=106, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f005.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f005.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f005.pdf used on input line 331.
+Package pdftex.def Info: ppdata/ppfigdim_f005.pdf used on input line 341.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f006.pdf, id=108, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f006.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f006.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f006.pdf used on input line 332.
+Package pdftex.def Info: ppdata/ppfigdim_f006.pdf used on input line 342.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f007.pdf, id=110, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f007.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f007.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f007.pdf used on input line 333.
+Package pdftex.def Info: ppdata/ppfigdim_f007.pdf used on input line 343.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f008.pdf, id=112, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f008.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f008.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f008.pdf used on input line 334.
+Package pdftex.def Info: ppdata/ppfigdim_f008.pdf used on input line 344.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f009.pdf, id=114, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f009.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f009.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f009.pdf used on input line 335.
+Package pdftex.def Info: ppdata/ppfigdim_f009.pdf used on input line 345.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f010.pdf, id=116, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f010.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f010.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f010.pdf used on input line 336.
+Package pdftex.def Info: ppdata/ppfigdim_f010.pdf used on input line 346.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f011.pdf, id=118, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f011.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f011.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f011.pdf used on input line 337.
+Package pdftex.def Info: ppdata/ppfigdim_f011.pdf used on input line 347.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f012.pdf, id=120, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f012.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f012.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f012.pdf used on input line 338.
+Package pdftex.def Info: ppdata/ppfigdim_f012.pdf used on input line 348.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f013.pdf, id=122, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f013.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f013.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f013.pdf used on input line 339.
+Package pdftex.def Info: ppdata/ppfigdim_f013.pdf used on input line 349.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f014.pdf, id=124, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f014.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f014.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f014.pdf used on input line 340.
+Package pdftex.def Info: ppdata/ppfigdim_f014.pdf used on input line 350.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f015.pdf, id=126, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f015.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f015.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f015.pdf used on input line 341.
+Package pdftex.def Info: ppdata/ppfigdim_f015.pdf used on input line 351.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f016.pdf, id=128, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f016.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f016.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f016.pdf used on input line 342.
+Package pdftex.def Info: ppdata/ppfigdim_f016.pdf used on input line 352.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f017.pdf, id=130, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f017.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f017.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f017.pdf used on input line 343.
+Package pdftex.def Info: ppdata/ppfigdim_f017.pdf used on input line 353.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f018.pdf, id=132, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f018.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f018.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f018.pdf used on input line 344.
+Package pdftex.def Info: ppdata/ppfigdim_f018.pdf used on input line 354.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f019.pdf, id=134, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f019.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f019.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f019.pdf used on input line 345.
+Package pdftex.def Info: ppdata/ppfigdim_f019.pdf used on input line 355.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f020.pdf, id=136, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f020.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f020.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f020.pdf used on input line 346.
+Package pdftex.def Info: ppdata/ppfigdim_f020.pdf used on input line 356.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f021.pdf, id=138, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f021.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f021.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f021.pdf used on input line 347.
+Package pdftex.def Info: ppdata/ppfigdim_f021.pdf used on input line 357.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f022.pdf, id=140, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f022.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f022.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f022.pdf used on input line 348.
+Package pdftex.def Info: ppdata/ppfigdim_f022.pdf used on input line 358.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f023.pdf, id=142, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f023.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f023.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f023.pdf used on input line 349.
+Package pdftex.def Info: ppdata/ppfigdim_f023.pdf used on input line 359.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 <ppdata/ppfigdim_f024.pdf, id=144, 578.16pt x 433.62pt>
 File: ppdata/ppfigdim_f024.pdf Graphic file (type pdf)
 
 <use ppdata/ppfigdim_f024.pdf>
-Package pdftex.def Info: ppdata/ppfigdim_f024.pdf used on input line 350.
+Package pdftex.def Info: ppdata/ppfigdim_f024.pdf used on input line 360.
 (pdftex.def)             Requested size: 86.25pt x 73.0197pt.
 
 
-LaTeX Warning: Float too large for page by 34.75728pt on input line 369.
+LaTeX Warning: Float too large for page by 34.75728pt on input line 379.
 
 
 (C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptable_05
 D_noiselessall.tex)
 
-LaTeX Warning: Float too large for page by 79.0991pt on input line 377.
+LaTeX Warning: Float too large for page by 79.0991pt on input line 387.
 
 
 (C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptable_20
 D_noiselessall.tex)
 
-LaTeX Warning: Float too large for page by 59.69914pt on input line 385.
+LaTeX Warning: Float too large for page by 59.69914pt on input line 395.
 
 No file template1generic.bbl.
-[4] [5 <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppr
-ldistr_05D_noiselessall.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python
-/bbob_pproc/ppdata/ppfvdistr_05D_noiselessall.pdf> <C:/Users/Mateusz/Desktop/re
-pozytoria/MSI-2/python/bbob_pproc/ppdata/pprldistr_20D_noiselessall.pdf> <C:/Us
-ers/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfvdistr_20D_no
-iselessall.pdf>] [6 <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_ppr
-oc/ppdata/pprldistr_05D_separ.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/
-python/bbob_pproc/ppdata/ppfvdistr_05D_separ.pdf> <C:/Users/Mateusz/Desktop/rep
-ozytoria/MSI-2/python/bbob_pproc/ppdata/pprldistr_05D_lcond.pdf> <C:/Users/Mate
-usz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfvdistr_05D_lcond.pdf>
+[4] [5] [6 <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata
+/pprldistr_05D_noiselessall.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/py
+thon/bbob_pproc/ppdata/ppfvdistr_05D_noiselessall.pdf> <C:/Users/Mateusz/Deskto
+p/repozytoria/MSI-2/python/bbob_pproc/ppdata/pprldistr_20D_noiselessall.pdf> <C
+:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfvdistr_20
+D_noiselessall.pdf>] [7 <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob
+_pproc/ppdata/pprldistr_05D_separ.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MS
+I-2/python/bbob_pproc/ppdata/ppfvdistr_05D_separ.pdf> <C:/Users/Mateusz/Desktop
+/repozytoria/MSI-2/python/bbob_pproc/ppdata/pprldistr_05D_lcond.pdf> <C:/Users/
+Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfvdistr_05D_lcond.
+pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pprld
+istr_05D_hcond.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_ppr
+oc/ppdata/ppfvdistr_05D_hcond.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/
+python/bbob_pproc/ppdata/pprldistr_05D_multi.pdf> <C:/Users/Mateusz/Desktop/rep
+ozytoria/MSI-2/python/bbob_pproc/ppdata/ppfvdistr_05D_multi.pdf> <C:/Users/Mate
+usz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pprldistr_05D_mult2.pdf>
+ <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfvdistr
+_05D_mult2.pdf>] [8 <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_ppr
+oc/ppdata/pprldistr_20D_separ.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/
+python/bbob_pproc/ppdata/ppfvdistr_20D_separ.pdf> <C:/Users/Mateusz/Desktop/rep
+ozytoria/MSI-2/python/bbob_pproc/ppdata/pprldistr_20D_lcond.pdf> <C:/Users/Mate
+usz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfvdistr_20D_lcond.pdf>
  <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pprldistr
-_05D_hcond.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/p
-pdata/ppfvdistr_05D_hcond.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pyth
-on/bbob_pproc/ppdata/pprldistr_05D_multi.pdf> <C:/Users/Mateusz/Desktop/repozyt
-oria/MSI-2/python/bbob_pproc/ppdata/ppfvdistr_05D_multi.pdf> <C:/Users/Mateusz/
-Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pprldistr_05D_mult2.pdf> <C:
-/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfvdistr_05D
-_mult2.pdf>] [7 <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/p
-pdata/pprldistr_20D_separ.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pyth
-on/bbob_pproc/ppdata/ppfvdistr_20D_separ.pdf> <C:/Users/Mateusz/Desktop/repozyt
-oria/MSI-2/python/bbob_pproc/ppdata/pprldistr_20D_lcond.pdf> <C:/Users/Mateusz/
-Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfvdistr_20D_lcond.pdf> <C:
-/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pprldistr_20D
-_hcond.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdat
-a/ppfvdistr_20D_hcond.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/b
-bob_pproc/ppdata/pprldistr_20D_multi.pdf> <C:/Users/Mateusz/Desktop/repozytoria
-/MSI-2/python/bbob_pproc/ppdata/ppfvdistr_20D_multi.pdf> <C:/Users/Mateusz/Desk
-top/repozytoria/MSI-2/python/bbob_pproc/ppdata/pprldistr_20D_mult2.pdf> <C:/Use
-rs/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfvdistr_20D_mul
-t2.pdf>] [8 <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdat
-a/pplogloss_05D_noiselessall.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/p
-ython/bbob_pproc/ppdata/pplogloss_20D_noiselessall.pdf>] [9 <C:/Users/Mateusz/D
-esktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pplogloss_05D_separ.pdf> <C:/
-Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pplogloss_20D_
-separ.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata
-/pplogloss_05D_lcond.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bb
-ob_pproc/ppdata/pplogloss_20D_lcond.pdf> <C:/Users/Mateusz/Desktop/repozytoria/
-MSI-2/python/bbob_pproc/ppdata/pplogloss_05D_hcond.pdf> <C:/Users/Mateusz/Deskt
-op/repozytoria/MSI-2/python/bbob_pproc/ppdata/pplogloss_20D_hcond.pdf> <C:/User
-s/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pplogloss_05D_mult
-i.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppl
-ogloss_20D_multi.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_p
-proc/ppdata/pplogloss_05D_mult2.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-
-2/python/bbob_pproc/ppdata/pplogloss_20D_mult2.pdf>] [10 <C:/Users/Mateusz/Desk
-top/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f001.pdf> <C:/Users/Mat
-eusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f002.pdf> <C:/
-Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f003.
+_20D_hcond.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/p
+pdata/ppfvdistr_20D_hcond.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pyth
+on/bbob_pproc/ppdata/pprldistr_20D_multi.pdf> <C:/Users/Mateusz/Desktop/repozyt
+oria/MSI-2/python/bbob_pproc/ppdata/ppfvdistr_20D_multi.pdf> <C:/Users/Mateusz/
+Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pprldistr_20D_mult2.pdf> <C:
+/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfvdistr_20D
+_mult2.pdf>] [9 <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/p
+pdata/pplogloss_05D_noiselessall.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI
+-2/python/bbob_pproc/ppdata/pplogloss_20D_noiselessall.pdf>] [10 <C:/Users/Mate
+usz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pplogloss_05D_separ.pdf>
+ <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pplogloss
+_20D_separ.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/p
+pdata/pplogloss_05D_lcond.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pyth
+on/bbob_pproc/ppdata/pplogloss_20D_lcond.pdf> <C:/Users/Mateusz/Desktop/repozyt
+oria/MSI-2/python/bbob_pproc/ppdata/pplogloss_05D_hcond.pdf> <C:/Users/Mateusz/
+Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pplogloss_20D_hcond.pdf> <C:
+/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pplogloss_05D
+_multi.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdat
+a/pplogloss_20D_multi.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/b
+bob_pproc/ppdata/pplogloss_05D_mult2.pdf> <C:/Users/Mateusz/Desktop/repozytoria
+/MSI-2/python/bbob_pproc/ppdata/pplogloss_20D_mult2.pdf>] [11 <C:/Users/Mateusz
+/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f001.pdf> <C:/User
+s/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f002.pdf>
+ <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_
+f003.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/
+ppfigdim_f004.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_ppro
+c/ppdata/ppfigdim_f005.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/
+bbob_pproc/ppdata/ppfigdim_f006.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-
+2/python/bbob_pproc/ppdata/ppfigdim_f007.pdf> <C:/Users/Mateusz/Desktop/repozyt
+oria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f008.pdf> <C:/Users/Mateusz/Deskto
+p/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f009.pdf> <C:/Users/Mateu
+sz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f010.pdf> <C:/Us
+ers/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f011.pd
+f> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdi
+m_f012.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdat
+a/ppfigdim_f013.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pp
+roc/ppdata/ppfigdim_f014.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pytho
+n/bbob_pproc/ppdata/ppfigdim_f015.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MS
+I-2/python/bbob_pproc/ppdata/ppfigdim_f016.pdf> <C:/Users/Mateusz/Desktop/repoz
+ytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f017.pdf> <C:/Users/Mateusz/Desk
+top/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f018.pdf> <C:/Users/Mat
+eusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f019.pdf> <C:/
+Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f020.
 pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfig
-dim_f004.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppd
-ata/ppfigdim_f005.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_
-pproc/ppdata/ppfigdim_f006.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pyt
-hon/bbob_pproc/ppdata/ppfigdim_f007.pdf> <C:/Users/Mateusz/Desktop/repozytoria/
-MSI-2/python/bbob_pproc/ppdata/ppfigdim_f008.pdf> <C:/Users/Mateusz/Desktop/rep
-ozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f009.pdf> <C:/Users/Mateusz/De
-sktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f010.pdf> <C:/Users/M
-ateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f011.pdf> <C
-:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f01
-2.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppf
-igdim_f013.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/p
-pdata/ppfigdim_f014.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbo
-b_pproc/ppdata/ppfigdim_f015.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/p
-ython/bbob_pproc/ppdata/ppfigdim_f016.pdf> <C:/Users/Mateusz/Desktop/repozytori
-a/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f017.pdf> <C:/Users/Mateusz/Desktop/r
-epozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f018.pdf> <C:/Users/Mateusz/
-Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f019.pdf> <C:/Users
-/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f020.pdf> 
-<C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigdim_f
-021.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/p
-pfigdim_f022.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc
-/ppdata/ppfigdim_f023.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/b
-bob_pproc/ppdata/ppfigdim_f024.pdf>] [11] [12]
+dim_f021.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppd
+ata/ppfigdim_f022.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_
+pproc/ppdata/ppfigdim_f023.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pyt
+hon/bbob_pproc/ppdata/ppfigdim_f024.pdf>] [12] [13]
 (C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\template1generic.
 aux)
 
@@ -1365,7 +1365,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  6825 strings out of 493921
  99144 string characters out of 3147276
- 221999 words of memory out of 3000000
+ 224000 words of memory out of 3000000
  9916 multiletter control sequences out of 15000+200000
  27796 words of font info for 81 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -1396,9 +1396,9 @@ TeX 2.9/fonts/type1/public/pl/plr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/pl/plr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plss10.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plti10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/pl/plti8.pfb>
-Output written on template1generic.pdf (12 pages, 1530162 bytes).
+Output written on template1generic.pdf (13 pages, 1534949 bytes).
 PDF statistics:
- 2341 PDF objects out of 2487 (max. 8388607)
+ 2345 PDF objects out of 2487 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  661 words of extra memory for PDF output out of 10000 (max. 10000000)
 
