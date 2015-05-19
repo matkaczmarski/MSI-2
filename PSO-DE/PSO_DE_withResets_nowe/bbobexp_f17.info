@@ -1,0 +1,15 @@
+funcId = 17, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f17/bbobexp_f17_DIM2.dat, 1:67145|-6.9e-009, 2:64856|-7.4e-009, 3:164739|-6.2e-009, 4:29921|-2.0e-009, 5:105563|-1.3e-009, 41:79183|-7.8e-010, 42:198050|-7.4e-009, 43:59310|-1.7e-009, 44:179679|-7.4e-009, 45:132493|-8.6e-009, 46:35680|-3.7e-009, 47:116493|-1.2e-009, 48:145978|-8.1e-009, 49:61736|-3.2e-009, 50:142768|-4.1e-009
+funcId = 17, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f17/bbobexp_f17_DIM3.dat, 1:49907|-1.6e-010, 2:23618|-3.5e-009, 3:305845|-5.1e-009, 4:47724|-2.6e-009, 5:148603|-6.2e-009, 41:18832|-4.7e-010, 42:293238|-4.4e-009, 43:49256|-9.2e-010, 44:43794|-3.1e-009, 45:30626|-1.7e-009, 46:9405|-2.7e-009, 47:12432|-3.8e-009, 48:258531|-2.9e-009, 49:21475|-2.5e-009, 50:240374|-8.8e-010
+funcId = 17, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f17/bbobexp_f17_DIM5.dat, 1:910270|3.4e-006, 2:436139|-3.5e-009, 3:898255|5.5e-007, 4:425407|-3.6e-009, 5:517058|-7.2e-009, 41:200683|-1.1e-009, 42:25594|-2.2e-009, 43:519007|-3.0e-009, 44:911442|6.1e-008, 45:471850|-5.3e-009, 46:906629|3.5e-006, 47:911107|5.9e-006, 48:905960|1.2e-008, 49:911732|4.5e-006, 50:903343|2.2e-006
+funcId = 17, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f17/bbobexp_f17_DIM10.dat, 1:1815333|3.0e-003, 2:1841438|3.6e-003, 3:1839119|1.3e-003, 4:1836585|8.2e-004, 5:1858978|2.2e-003, 41:1841817|2.5e-003, 42:1835101|2.5e-004, 43:1828481|1.8e-003, 44:1824219|2.1e-003, 45:1831708|2.5e-003, 46:1835206|2.1e-003, 47:1847429|1.1e-003, 48:1832276|1.1e-003, 49:1824214|1.8e-003, 50:1820924|1.2e-003
+funcId = 17, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f17/bbobexp_f17_DIM20.dat, 1:3725131|1.6e-001, 2:3746998|2.0e-001, 3:3716333|8.2e-002, 4:3756623|8.3e-002, 5:3784135|9.8e-002, 41:3755043|2.8e-001, 42:3777772|3.4e-001, 43:3701440|1.3e-001, 44:3717485|1.3e-001, 45:3771548|2.2e-001, 46:3727513|9.7e-002, 47:3743516|3.4e-001, 48:3755073|3.1e-002, 49:3774801|6.5e-001, 50:3718489|3.0e-001
