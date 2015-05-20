@@ -1,0 +1,15 @@
+funcId = 15, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f15/bbobexp_f15_DIM2.dat, 1:57225|-8.2e-009, 2:41261|-4.4e-010, 3:17369|-7.0e-009, 4:53944|-6.9e-009, 5:13193|-3.5e-009, 41:52201|-9.9e-009, 42:14804|-3.5e-009, 43:30244|-8.3e-009, 44:14057|-3.6e-009, 45:35825|-9.1e-009, 46:20319|-3.9e-010, 47:10454|-8.4e-009, 48:14850|-1.2e-009, 49:8078|-1.4e-009, 50:59456|-8.3e-009
+funcId = 15, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f15/bbobexp_f15_DIM3.dat, 1:12820|-7.4e-009, 2:549637|-5.6e-010, 3:436513|-1.2e-009, 4:281476|-2.8e-009, 5:48878|-2.7e-010, 41:323373|-3.4e-009, 42:226641|-6.7e-010, 43:561215|1.0e-007, 44:92560|-3.1e-009, 45:421213|-6.5e-009, 46:238624|-8.0e-010, 47:368097|-3.4e-009, 48:122101|-7.0e-009, 49:425677|-6.1e-009, 50:42665|-6.7e-009
+funcId = 15, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f15/bbobexp_f15_DIM5.dat, 1:911469|9.9e-001, 2:578772|-6.9e-009, 3:920721|1.0e+000, 4:917799|2.0e+000, 5:921129|9.9e-001, 41:917692|1.0e+000, 42:245548|-2.0e-009, 43:918460|9.9e-001, 44:921857|7.5e-003, 45:918642|2.0e+000, 46:914372|9.9e-001, 47:916132|9.9e-001, 48:923021|9.9e-001, 49:916495|9.9e-001, 50:915620|9.9e-001
+funcId = 15, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f15/bbobexp_f15_DIM10.dat, 1:1818292|3.0e+000, 2:1819585|3.0e+000, 3:1809420|6.0e+000, 4:1821155|4.0e+000, 5:1820312|3.0e+000, 41:1828210|6.0e+000, 42:1817875|4.7e+000, 43:1816803|5.0e+000, 44:1814770|5.0e+000, 45:1806249|4.0e+000, 46:1813496|5.0e+000, 47:1821968|6.0e+000, 48:1811202|8.0e+000, 49:1817321|7.0e+000, 50:1822158|3.0e+000
+funcId = 15, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f15/bbobexp_f15_DIM20.dat, 1:3578581|3.0e+001, 2:3572670|2.0e+001, 3:3573310|1.4e+001, 4:3562141|2.2e+001, 5:3577979|2.8e+001, 41:3576035|2.1e+001, 42:3574043|1.7e+001, 43:3600692|3.4e+001, 44:3581152|3.3e+001, 45:3561607|2.3e+001, 46:3582469|3.2e+001, 47:3571565|1.8e+001, 48:3571170|2.3e+001, 49:3580292|3.4e+001, 50:3572745|2.0e+001
