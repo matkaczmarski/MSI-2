@@ -1,0 +1,1653 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.24)  20 MAY 2015 11:44
+entering extended mode
+**templateBBOBmany.tex
+
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\templateBBOBmany.
+tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\sig-alternate.cls
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count79
+))
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+\epsfxsize=\dimen104
+\epsfysize=\dimen105
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip41
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen106
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen107
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count80
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count81
+\leftroot@=\count82
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count83
+\DOTSCASE@=\count84
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count85
+\c@MaxMatrixCols=\count86
+\dotsspace@=\muskip10
+\c@parentequation=\count87
+\dspbrk@lvl=\count88
+\tag@help=\toks17
+\row@=\count89
+\column@=\count90
+\maxfields@=\count91
+\andhelp@=\toks18
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks19
+\multlinegap=\skip42
+\multlinetaggap=\skip43
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+Document Class 'sig-alternate' <23rd. May '12>. Modified by G.K.M. Tobin/Gerry 
+Murray
+Based in part upon document Style `acmconf' <22 May 89>. Hacked 4/91 by
+shivers@cs.cmu.edu, 4/93 by theobald@cs.mcgill.ca
+Excerpts were taken from (Journal Style) 'esub2acm.cls'.
+****** Bugs/comments/suggestions/technicalities to Gerry Murray -- murray@hq.ac
+m.org ******
+Questions on the style, SIGS policies, etc. to Adrienne Griscti griscti@acm.org
+
+\footheight=\dimen115
+\@maxsep=\dimen116
+\@dblmaxsep=\dimen117
+\aucount=\count92
+\originalaucount=\count93
+\auwidth=\dimen118
+\auskip=\dimen119
+\auskipcount=\count94
+\auskip=\dimen120
+\allauboxes=\dimen121
+\addauthors=\toks21
+\addauflag=\count95
+\subtitletext=\toks22
+\savesection=\count96
+\sectioncntr=\count97
+\c@figure=\count98
+\c@table=\count99
+\titleboxnotes=\toks23
+\titleboxnoteflag=\count100
+Document Class: sig-alternate 2012/05/23 - V2.5 - based on acmproc.cls V1.3 <No
+v. 30 '99>
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+\@acmtitlebox=\box28
+\titlenotecount=\count101
+\tntoks=\toks24
+\tntokstwo=\toks25
+\tntoksthree=\toks26
+\tntoksfour=\toks27
+\tntoksfive=\toks28
+\catcount=\count102
+\copyrightnotice=\toks29
+\conf=\toks30
+\confinfo=\toks31
+\c@part=\count103
+\c@section=\count104
+\c@subsection=\count105
+\c@subsubsection=\count106
+\c@paragraph=\count107
+
+Using 'Abbrev' bibliography style
+LaTeX Info: Redefining \cite on input line 1211.
+\bibindent=\dimen122
+\colcntr=\count108
+\saveb@x=\box29
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen123
+\extrarowheight=\dimen124
+\NC@list=\toks32
+\extratabsurround=\skip44
+\backup@length=\skip45
+)
+\TX@col@width=\dimen125
+\TX@old@table=\dimen126
+\TX@old@col=\dimen127
+\TX@target=\dimen128
+\TX@delta=\dimen129
+\TX@cols=\count109
+\TX@ftn=\toks33
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count110
+\float@exts=\toks34
+\float@box=\box30
+\@float@everytoks=\toks35
+\@floatcapt=\box31
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count111
+\rotFPtop=\skip46
+\rotFPbot=\skip47
+\rot@float@box=\box32
+\rot@mess@toks=\toks36
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
+\@xs@message=\write3
+\integerpart=\count112
+\decimalpart=\count113
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\wasysym\wasysym.sty"
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\mnsymbol\MnSymbol.sty"
+Package: MnSymbol 2007/01/21 v1.4 support for the MnSymbol font
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+LaTeX Info: Redefining \dagger on input line 84.
+LaTeX Info: Redefining \ddagger on input line 84.
+LaTeX Info: Redefining \mathparagraph on input line 84.
+LaTeX Info: Redefining \mathsection on input line 84.
+LaTeX Info: Redefining \mathdollar on input line 84.
+LaTeX Info: Redefining \mathsterling on input line 84.
+LaTeX Info: Redefining \yen on input line 84.
+LaTeX Info: Redefining \circledR on input line 84.
+LaTeX Info: Redefining \circledS on input line 84.
+LaTeX Info: Redefining \Re on input line 84.
+LaTeX Info: Redefining \Im on input line 84.
+LaTeX Info: Redefining \dotplus on input line 84.
+LaTeX Info: Redefining \thicksim on input line 84.
+LaTeX Info: Redefining \thickapprox on input line 84.
+LaTeX Info: Redefining \veebar on input line 84.
+LaTeX Info: Redefining \barwedge on input line 84.
+LaTeX Info: Redefining \doublebarwedge on input line 84.
+LaTeX Info: Redefining \centerdot on input line 84.
+LaTeX Info: Redefining \divideontimes on input line 84.
+\symMnSyA=\mathgroup8
+\symMnSyB=\mathgroup9
+\symMnSyC=\mathgroup10
+\symMnSyD=\mathgroup11
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 119.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 120.
+LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> U/MnSymbolF/m/n on input line 120.
+LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> U/MnSymbolF/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `MnSyA' in version `bold'
+(Font)                  U/MnSymbolA/m/n --> U/MnSymbolA/b/n on input line 121.
+LaTeX Font Info:    Overwriting symbol font `MnSyB' in version `bold'
+(Font)                  U/MnSymbolB/m/n --> U/MnSymbolB/b/n on input line 122.
+LaTeX Font Info:    Overwriting symbol font `MnSyC' in version `bold'
+(Font)                  U/MnSymbolC/m/n --> U/MnSymbolC/b/n on input line 123.
+LaTeX Font Info:    Overwriting symbol font `MnSyD' in version `bold'
+(Font)                  U/MnSymbolD/m/n --> U/MnSymbolD/b/n on input line 124.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/MnSymbolE/m/n --> OMX/MnSymbolE/b/n on input line 1
+25.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  U/MnSymbolF/m/n --> U/MnSymbolF/b/n on input line 126.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 241.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
+(Font)                  OMS/MnSymbolS/m/n --> OMS/MnSymbolS/b/n on input line 2
+41.
+LaTeX Info: Redefining \longrightarrow on input line 548.
+LaTeX Info: Redefining \longleftarrow on input line 549.
+LaTeX Info: Redefining \longleftrightarrow on input line 550.
+LaTeX Info: Redefining \Longrightarrow on input line 551.
+LaTeX Info: Redefining \Longleftarrow on input line 552.
+LaTeX Info: Redefining \Longleftrightarrow on input line 553.
+LaTeX Info: Redefining \longmapsto on input line 554.
+LaTeX Info: Redefining \vdots on input line 868.
+LaTeX Font Info:    Redeclaring math symbol \braceld on input line 1721.
+LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 1722.
+LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 1723.
+LaTeX Font Info:    Redeclaring math symbol \braceru on input line 1724.
+LaTeX Info: Redefining \downbracefill on input line 1799.
+LaTeX Info: Redefining \upbracefill on input line 1800.
+LaTeX Info: Redefining \overbrace on input line 1819.
+LaTeX Info: Redefining \underbrace on input line 1820.
+LaTeX Info: Redefining \surd on input line 1843.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 1845.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 1846.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 1848.
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/bbob_pproc
+_commands.tex)
+No file templateBBOBmany.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 96.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 96.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count114
+\scratchdimen=\dimen130
+\scratchbox=\box33
+\nofMPsegments=\count115
+\nofMParguments=\count116
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen131
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
+\everyMPtoPDFconversion=\toks38
+)
+! Undefined control sequence.
+l.102 \CopyrightYear
+                    {2013}
+? 
+! Undefined control sequence.
+l.103 \crdata
+             {TBA}
+? 
+[1
+
+
+Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 207.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 207.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 207.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 207.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd"
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+
+LaTeX Warning: Citation `hansen2012exp' on page \thepage  undefined on input li
+ne 242.
+
+
+LaTeX Warning: Citation `wp200901_2010' on page \thepage  undefined on input li
+ne 243.
+
+
+LaTeX Warning: Citation `hansen2012fun' on page \thepage  undefined on input li
+ne 243.
+
+
+LaTeX Warning: Reference `fig:scaling' on page \thepage  undefined on input lin
+e 244.
+
+
+LaTeX Warning: Reference `fig:ECDFs05D' on page \thepage  undefined on input li
+ne 244.
+
+
+LaTeX Warning: Reference `fig:ECDFs20D' on page \thepage  undefined on input li
+ne 245.
+
+
+LaTeX Warning: Reference `tab:ERTs5' on page \thepage  undefined on input line 
+245.
+
+
+LaTeX Warning: Reference `tab:ERTs20' on page \thepage  undefined on input line
+ 245.
+
+
+LaTeX Warning: Citation `hansen2012exp' on page \thepage  undefined on input li
+ne 252.
+
+
+LaTeX Warning: Citation `price1997dev' on page \thepage  undefined on input lin
+e 252.
+
+<ppdata/ppfigs_f001.pdf, id=6, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f001.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f001.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f001.pdf used on input line 272.
+(pdftex.def)             Requested size: 127.51501pt x 92.9663pt.
+
+<ppdata/ppfigs_f002.pdf, id=8, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f002.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f002.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f002.pdf used on input line 273.
+(pdftex.def)             Requested size: 119.95532pt x 92.79079pt.
+
+<ppdata/ppfigs_f003.pdf, id=10, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f003.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f003.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f003.pdf used on input line 274.
+(pdftex.def)             Requested size: 119.95532pt x 92.79079pt.
+
+<ppdata/ppfigs_f004.pdf, id=12, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f004.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f004.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f004.pdf used on input line 275.
+(pdftex.def)             Requested size: 119.95532pt x 92.79079pt.
+
+<ppdata/ppfigs_f005.pdf, id=14, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f005.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f005.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f005.pdf used on input line 276.
+(pdftex.def)             Requested size: 127.51501pt x 92.9663pt.
+
+<ppdata/ppfigs_f006.pdf, id=16, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f006.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f006.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f006.pdf used on input line 277.
+(pdftex.def)             Requested size: 119.95532pt x 92.79079pt.
+
+<ppdata/ppfigs_f007.pdf, id=18, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f007.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f007.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f007.pdf used on input line 278.
+(pdftex.def)             Requested size: 119.95532pt x 92.79079pt.
+
+<ppdata/ppfigs_f008.pdf, id=20, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f008.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f008.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f008.pdf used on input line 279.
+(pdftex.def)             Requested size: 119.95532pt x 92.79079pt.
+
+<ppdata/ppfigs_f009.pdf, id=22, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f009.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f009.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f009.pdf used on input line 280.
+(pdftex.def)             Requested size: 127.51501pt x 92.9663pt.
+
+<ppdata/ppfigs_f010.pdf, id=24, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f010.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f010.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f010.pdf used on input line 281.
+(pdftex.def)             Requested size: 119.95532pt x 92.79079pt.
+
+<ppdata/ppfigs_f011.pdf, id=26, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f011.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f011.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f011.pdf used on input line 282.
+(pdftex.def)             Requested size: 119.95532pt x 92.79079pt.
+
+<ppdata/ppfigs_f012.pdf, id=28, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f012.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f012.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f012.pdf used on input line 283.
+(pdftex.def)             Requested size: 119.95532pt x 92.79079pt.
+
+<ppdata/ppfigs_f013.pdf, id=30, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f013.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f013.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f013.pdf used on input line 284.
+(pdftex.def)             Requested size: 127.51501pt x 92.9663pt.
+
+<ppdata/ppfigs_f014.pdf, id=32, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f014.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f014.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f014.pdf used on input line 285.
+(pdftex.def)             Requested size: 119.95532pt x 92.79079pt.
+
+<ppdata/ppfigs_f015.pdf, id=34, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f015.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f015.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f015.pdf used on input line 286.
+(pdftex.def)             Requested size: 119.95532pt x 92.79079pt.
+
+<ppdata/ppfigs_f016.pdf, id=36, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f016.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f016.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f016.pdf used on input line 287.
+(pdftex.def)             Requested size: 119.95532pt x 92.79079pt.
+
+<ppdata/ppfigs_f017.pdf, id=38, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f017.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f017.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f017.pdf used on input line 288.
+(pdftex.def)             Requested size: 127.51501pt x 92.9663pt.
+
+<ppdata/ppfigs_f018.pdf, id=40, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f018.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f018.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f018.pdf used on input line 289.
+(pdftex.def)             Requested size: 119.95532pt x 92.79079pt.
+
+<ppdata/ppfigs_f019.pdf, id=42, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f019.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f019.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f019.pdf used on input line 290.
+(pdftex.def)             Requested size: 119.95532pt x 92.79079pt.
+
+<ppdata/ppfigs_f020.pdf, id=44, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f020.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f020.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f020.pdf used on input line 291.
+(pdftex.def)             Requested size: 119.95532pt x 92.79079pt.
+
+<ppdata/ppfigs_f021.pdf, id=46, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f021.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f021.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f021.pdf used on input line 292.
+(pdftex.def)             Requested size: 127.51501pt x 98.30153pt.
+
+<ppdata/ppfigs_f022.pdf, id=48, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f022.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f022.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f022.pdf used on input line 293.
+(pdftex.def)             Requested size: 119.95532pt x 98.11595pt.
+
+<ppdata/ppfigs_f023.pdf, id=50, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f023.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f023.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f023.pdf used on input line 294.
+(pdftex.def)             Requested size: 119.95532pt x 98.11595pt.
+
+<ppdata/ppfigs_f024.pdf, id=52, 578.16pt x 433.62pt>
+File: ppdata/ppfigs_f024.pdf Graphic file (type pdf)
+
+<use ppdata/ppfigs_f024.pdf>
+Package pdftex.def Info: ppdata/ppfigs_f024.pdf used on input line 295.
+(pdftex.def)             Requested size: 119.95532pt x 98.11595pt.
+
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pprldmany_
+05D_separ.tex) <ppdata/pprldmany_05D_separ.pdf, id=54, 578.16pt x 433.62pt>
+File: ppdata/pprldmany_05D_separ.pdf Graphic file (type pdf)
+
+<use ppdata/pprldmany_05D_separ.pdf>
+Package pdftex.def Info: ppdata/pprldmany_05D_separ.pdf used on input line 330.
+
+(pdftex.def)             Requested size: 208.40295pt x 175.39316pt.
+
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pprldmany_
+05D_lcond.tex) <ppdata/pprldmany_05D_lcond.pdf, id=56, 578.16pt x 433.62pt>
+File: ppdata/pprldmany_05D_lcond.pdf Graphic file (type pdf)
+
+<use ppdata/pprldmany_05D_lcond.pdf>
+Package pdftex.def Info: ppdata/pprldmany_05D_lcond.pdf used on input line 331.
+
+(pdftex.def)             Requested size: 208.40295pt x 175.39316pt.
+
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pprldmany_
+05D_hcond.tex) <ppdata/pprldmany_05D_hcond.pdf, id=58, 578.16pt x 433.62pt>
+File: ppdata/pprldmany_05D_hcond.pdf Graphic file (type pdf)
+
+<use ppdata/pprldmany_05D_hcond.pdf>
+Package pdftex.def Info: ppdata/pprldmany_05D_hcond.pdf used on input line 333.
+
+(pdftex.def)             Requested size: 208.40295pt x 175.39316pt.
+
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pprldmany_
+05D_multi.tex) <ppdata/pprldmany_05D_multi.pdf, id=60, 578.16pt x 433.62pt>
+File: ppdata/pprldmany_05D_multi.pdf Graphic file (type pdf)
+
+<use ppdata/pprldmany_05D_multi.pdf>
+Package pdftex.def Info: ppdata/pprldmany_05D_multi.pdf used on input line 334.
+
+(pdftex.def)             Requested size: 208.40295pt x 175.39316pt.
+
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pprldmany_
+05D_mult2.tex) <ppdata/pprldmany_05D_mult2.pdf, id=62, 578.16pt x 433.62pt>
+File: ppdata/pprldmany_05D_mult2.pdf Graphic file (type pdf)
+
+<use ppdata/pprldmany_05D_mult2.pdf>
+Package pdftex.def Info: ppdata/pprldmany_05D_mult2.pdf used on input line 336.
+
+(pdftex.def)             Requested size: 208.40295pt x 175.39316pt.
+
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pprldmany_
+05D_noiselessall.tex)
+<ppdata/pprldmany_05D_noiselessall.pdf, id=64, 578.16pt x 433.62pt>
+File: ppdata/pprldmany_05D_noiselessall.pdf Graphic file (type pdf)
+
+<use ppdata/pprldmany_05D_noiselessall.pdf>
+Package pdftex.def Info: ppdata/pprldmany_05D_noiselessall.pdf used on input li
+ne 337.
+(pdftex.def)             Requested size: 208.40295pt x 175.39316pt.
+
+Overfull \hbox (12.61908pt too wide) in paragraph at lines 328--342
+[][] 
+ []
+
+
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pprldmany_
+20D_separ.tex) <ppdata/pprldmany_20D_separ.pdf, id=66, 578.16pt x 433.62pt>
+File: ppdata/pprldmany_20D_separ.pdf Graphic file (type pdf)
+
+<use ppdata/pprldmany_20D_separ.pdf>
+Package pdftex.def Info: ppdata/pprldmany_20D_separ.pdf used on input line 356.
+
+(pdftex.def)             Requested size: 208.40295pt x 175.39316pt.
+
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pprldmany_
+20D_lcond.tex) <ppdata/pprldmany_20D_lcond.pdf, id=68, 578.16pt x 433.62pt>
+File: ppdata/pprldmany_20D_lcond.pdf Graphic file (type pdf)
+
+<use ppdata/pprldmany_20D_lcond.pdf>
+Package pdftex.def Info: ppdata/pprldmany_20D_lcond.pdf used on input line 357.
+
+(pdftex.def)             Requested size: 208.40295pt x 175.39316pt.
+
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pprldmany_
+20D_hcond.tex) <ppdata/pprldmany_20D_hcond.pdf, id=70, 578.16pt x 433.62pt>
+File: ppdata/pprldmany_20D_hcond.pdf Graphic file (type pdf)
+
+<use ppdata/pprldmany_20D_hcond.pdf>
+Package pdftex.def Info: ppdata/pprldmany_20D_hcond.pdf used on input line 359.
+
+(pdftex.def)             Requested size: 208.40295pt x 175.39316pt.
+
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pprldmany_
+20D_multi.tex) <ppdata/pprldmany_20D_multi.pdf, id=72, 578.16pt x 433.62pt>
+File: ppdata/pprldmany_20D_multi.pdf Graphic file (type pdf)
+
+<use ppdata/pprldmany_20D_multi.pdf>
+Package pdftex.def Info: ppdata/pprldmany_20D_multi.pdf used on input line 360.
+
+(pdftex.def)             Requested size: 208.40295pt x 175.39316pt.
+
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pprldmany_
+20D_mult2.tex) <ppdata/pprldmany_20D_mult2.pdf, id=74, 578.16pt x 433.62pt>
+File: ppdata/pprldmany_20D_mult2.pdf Graphic file (type pdf)
+
+<use ppdata/pprldmany_20D_mult2.pdf>
+Package pdftex.def Info: ppdata/pprldmany_20D_mult2.pdf used on input line 362.
+
+(pdftex.def)             Requested size: 208.40295pt x 175.39316pt.
+
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pprldmany_
+20D_noiselessall.tex)
+<ppdata/pprldmany_20D_noiselessall.pdf, id=76, 578.16pt x 433.62pt>
+File: ppdata/pprldmany_20D_noiselessall.pdf Graphic file (type pdf)
+
+<use ppdata/pprldmany_20D_noiselessall.pdf>
+Package pdftex.def Info: ppdata/pprldmany_20D_noiselessall.pdf used on input li
+ne 363.
+(pdftex.def)             Requested size: 208.40295pt x 175.39316pt.
+
+Overfull \hbox (12.61908pt too wide) in paragraph at lines 354--368
+[][] 
+ []
+
+
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+001_05D.tex)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+002_05D.tex)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+003_05D.tex
+Overfull \hbox (4.12262pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .7[]$[]$| 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+004_05D.tex
+Overfull \hbox (2.44882pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/m/n/5 .8[]| 
+ []
+
+
+Overfull \hbox (2.44882pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/m/n/5 .8[]| 
+ []
+
+
+Overfull \hbox (3.00888pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .9[]| 
+ []
+
+
+Overfull \hbox (1.82893pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.82893pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.82893pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.82893pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.82893pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.82893pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.82893pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.82893pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.82893pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.82893pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.44882pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/m/n/5 .6[]| 
+ []
+
+
+Overfull \hbox (3.00888pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .4[]| 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+005_05D.tex)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+006_05D.tex
+Overfull \hbox (7.12701pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .4[]$[]$| 
+ []
+
+
+Overfull \hbox (1.71724pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .9[]$[]$| 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+007_05D.tex
+Overfull \hbox (3.74846pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .5[]$[]$| 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+008_05D.tex)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+009_05D.tex
+Overfull \hbox (2.42589pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.42589pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.42589pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.42589pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.42589pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.42589pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.42589pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+010_05D.tex)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+011_05D.tex)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+012_05D.tex)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+013_05D.tex
+Overfull \hbox (5.48758pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .1[]$[]$| 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+014_05D.tex)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+015_05D.tex
+Overfull \hbox (0.90639pt too wide) in paragraph at lines 9--9
+[]|[]$[]$| 
+ []
+
+
+Overfull \hbox (0.90639pt too wide) in paragraph at lines 9--9
+[]|[]$[]$| 
+ []
+
+
+Overfull \hbox (0.90639pt too wide) in paragraph at lines 9--9
+[]|[]$[]$| 
+ []
+
+
+Overfull \hbox (0.90639pt too wide) in paragraph at lines 9--9
+[]|[]$[]$| 
+ []
+
+
+Overfull \hbox (0.75728pt too wide) in alignment at lines 9--9
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+016_05D.tex)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+017_05D.tex)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+018_05D.tex
+Overfull \hbox (6.18939pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .0[]$[]$| 
+ []
+
+
+Overfull \hbox (0.77962pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .7[]$[]$| 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+019_05D.tex
+Overfull \hbox (9.41277pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/m/n/5 5.8e4[]| 
+ []
+
+
+Overfull \hbox (0.62769pt too wide) in alignment at lines 9--9
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+020_05D.tex
+Overfull \hbox (1.45767pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .27[]| 
+ []
+
+
+Overfull \hbox (1.45767pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .24[]| 
+ []
+
+
+Overfull \hbox (1.45767pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .24[]| 
+ []
+
+
+Overfull \hbox (1.45767pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .26[]| 
+ []
+
+
+Overfull \hbox (1.45767pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .28[]| 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+021_05D.tex
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+022_05D.tex
+Overfull \hbox (1.88463pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.88463pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.88463pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.88463pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.88463pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.88463pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.88463pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.88463pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.88463pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.88463pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.88463pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.88463pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+023_05D.tex
+Overfull \hbox (0.60312pt too wide) in alignment at lines 9--9
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+024_05D.tex
+Overfull \hbox (0.80418pt too wide) in alignment at lines 9--9
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Overfull \hbox (4.71228pt too wide) in paragraph at lines 436--437
+[][] 
+ []
+
+
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+001_20D.tex
+Overfull \hbox (0.5883pt too wide) in paragraph at lines 9--9
+[]|[]$[]$| 
+ []
+
+
+Overfull \hbox (0.5883pt too wide) in paragraph at lines 9--9
+[]|[]$[]$| 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+002_20D.tex)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+003_20D.tex
+Overfull \hbox (2.07622pt too wide) in paragraph at lines 9--9
+[]|[]$[]$| 
+ []
+
+
+Overfull \hbox (0.64871pt too wide) in alignment at lines 9--9
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+004_20D.tex
+Overfull \hbox (9.20782pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/m/n/5 1.2e4[]| 
+ []
+
+
+Overfull \hbox (0.97328pt too wide) in alignment at lines 9--9
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+005_20D.tex)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+006_20D.tex
+Overfull \hbox (10.05174pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/m/n/5 1.6e4[]| 
+ []
+
+
+Overfull \hbox (13.7966pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/m/n/5 1.3e4[]| 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+007_20D.tex
+Overfull \hbox (13.36636pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/m/n/5 1.2e4[]| 
+ []
+
+
+Overfull \hbox (2.07622pt too wide) in paragraph at lines 9--9
+[]|[]$[]$| 
+ []
+
+
+Overfull \hbox (2.07622pt too wide) in paragraph at lines 9--9
+[]|[]$[]$| 
+ []
+
+
+Overfull \hbox (0.64871pt too wide) in alignment at lines 9--9
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+008_20D.tex)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+009_20D.tex
+Overfull \hbox (0.67076pt too wide) in alignment at lines 9--9
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+010_20D.tex
+Overfull \hbox (0.82481pt too wide) in alignment at lines 9--9
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+011_20D.tex)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+012_20D.tex
+Overfull \hbox (10.05919pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/m/n/5 1.6e4[]| 
+ []
+
+
+Overfull \hbox (11.80434pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 1.3e4[]| 
+ []
+
+
+Overfull \hbox (0.60127pt too wide) in alignment at lines 9--9
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+013_20D.tex
+Overfull \hbox (11.25328pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/m/n/5 1.6e4[]| 
+ []
+
+
+Overfull \hbox (3.708pt too wide) in paragraph at lines 9--9
+[]|[]$[]$| 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+014_20D.tex
+Overfull \hbox (8.20316pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .2[]$[]$| 
+ []
+
+
+Overfull \hbox (2.23332pt too wide) in paragraph at lines 9--9
+[]|[]$[]$| 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+015_20D.tex
+Overfull \hbox (0.66652pt too wide) in alignment at lines 9--9
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+016_20D.tex
+Overfull \hbox (0.66237pt too wide) in alignment at lines 9--9
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+017_20D.tex
+Overfull \hbox (13.06052pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/m/n/5 1.4e4[]| 
+ []
+
+
+Overfull \hbox (0.94043pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .3[]$[]$| 
+ []
+
+
+Overfull \hbox (6.3502pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .4[]$[]$| 
+ []
+
+
+Overfull \hbox (6.3502pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .7[]$[]$| 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+018_20D.tex
+Overfull \hbox (7.42735pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/m/n/5 1.4e4[]| 
+ []
+
+
+Overfull \hbox (0.81564pt too wide) in alignment at lines 9--9
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+019_20D.tex
+Overfull \hbox (6.79166pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 1.5e6[]| 
+ []
+
+
+Overfull \hbox (5.04651pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/m/n/5 4.5e6[]| 
+ []
+
+
+Overfull \hbox (0.8072pt too wide) in alignment at lines 9--9
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+020_20D.tex
+Overfull \hbox (7.23041pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .30[]$[]$| 
+ []
+
+
+Overfull \hbox (7.23041pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .20[]$[]$| 
+ []
+
+
+Overfull \hbox (7.23041pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .20[]$[]$| 
+ []
+
+
+Overfull \hbox (7.23041pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .19[]$[]$| 
+ []
+
+
+Overfull \hbox (7.23041pt too wide) in paragraph at lines 9--9
+[]|\T1/aer/bx/n/5 .19[]$[]$| 
+ []
+
+
+Overfull \hbox (0.80817pt too wide) in alignment at lines 9--9
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+021_20D.tex
+Overfull \hbox (3.2856pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.2856pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.2856pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.2856pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.2856pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.2856pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.2856pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.2856pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.2856pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.2856pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.2856pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.2856pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (3.2856pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+022_20D.tex
+Overfull \hbox (2.78702pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.78702pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.78702pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.78702pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.78702pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.78702pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.78702pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.78702pt too wide) in paragraph at lines 9--9
+[]|[]| 
+ []
+
+
+Overfull \hbox (0.57127pt too wide) in alignment at lines 9--9
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+023_20D.tex
+Overfull \hbox (0.6521pt too wide) in alignment at lines 9--9
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\ppdata/pptables_f
+024_20D.tex
+Overfull \hbox (0.66652pt too wide) in alignment at lines 9--9
+[][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Overfull \hbox (4.71228pt too wide) in paragraph at lines 506--509
+[][] 
+ []
+
+No file templateBBOBmany.bbl.
+[2
+
+] [3 <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfig
+s_f001.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdat
+a/ppfigs_f002.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_ppro
+c/ppdata/ppfigs_f003.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bb
+ob_pproc/ppdata/ppfigs_f004.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/py
+thon/bbob_pproc/ppdata/ppfigs_f005.pdf> <C:/Users/Mateusz/Desktop/repozytoria/M
+SI-2/python/bbob_pproc/ppdata/ppfigs_f006.pdf> <C:/Users/Mateusz/Desktop/repozy
+toria/MSI-2/python/bbob_pproc/ppdata/ppfigs_f007.pdf> <C:/Users/Mateusz/Desktop
+/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigs_f008.pdf> <C:/Users/Mateusz/
+Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigs_f009.pdf> <C:/Users/M
+ateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigs_f010.pdf> <C:/
+Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigs_f011.pd
+f> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigs_
+f012.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/
+ppfigs_f013.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/
+ppdata/ppfigs_f014.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob
+_pproc/ppdata/ppfigs_f015.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/pyth
+on/bbob_pproc/ppdata/ppfigs_f016.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI
+-2/python/bbob_pproc/ppdata/ppfigs_f017.pdf> <C:/Users/Mateusz/Desktop/repozyto
+ria/MSI-2/python/bbob_pproc/ppdata/ppfigs_f018.pdf> <C:/Users/Mateusz/Desktop/r
+epozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigs_f019.pdf> <C:/Users/Mateusz/De
+sktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigs_f020.pdf> <C:/Users/Mat
+eusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigs_f021.pdf> <C:/Us
+ers/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigs_f022.pdf>
+ <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppfigs_f0
+23.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pp
+figs_f024.pdf>] [4 <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_ppro
+c/ppdata/pprldmany_05D_separ.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/p
+ython/bbob_pproc/ppdata/pprldmany_05D_lcond.pdf> <C:/Users/Mateusz/Desktop/repo
+zytoria/MSI-2/python/bbob_pproc/ppdata/pprldmany_05D_hcond.pdf> <C:/Users/Mateu
+sz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pprldmany_05D_multi.pdf> 
+<C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pprldmany_
+05D_mult2.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/pp
+data/pprldmany_05D_noiselessall.pdf>] [5 <C:/Users/Mateusz/Desktop/repozytoria/
+MSI-2/python/bbob_pproc/ppdata/pprldmany_20D_separ.pdf> <C:/Users/Mateusz/Deskt
+op/repozytoria/MSI-2/python/bbob_pproc/ppdata/pprldmany_20D_lcond.pdf> <C:/User
+s/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/pprldmany_20D_hcon
+d.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_pproc/ppdata/ppr
+ldmany_20D_multi.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-2/python/bbob_p
+proc/ppdata/pprldmany_20D_mult2.pdf> <C:/Users/Mateusz/Desktop/repozytoria/MSI-
+2/python/bbob_pproc/ppdata/pprldmany_20D_noiselessall.pdf>] [6] [7]
+(C:\Users\Mateusz\Desktop\repozytoria\MSI-2\python\bbob_pproc\templateBBOBmany.
+aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5724 strings out of 493921
+ 84163 string characters out of 3147276
+ 421916 words of memory out of 3000000
+ 8686 multiletter control sequences out of 15000+200000
+ 66005 words of font info for 102 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 41i,15n,35p,1107b,404s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{C:/Progr
+am Files/MiKTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{C:/Program Files/Mi
+KTeX 2.9/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{C:/Program Files/MiKTeX 2.9/fo
+nts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/m
+nsymbol/MnSymbol5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/mnsymbol/
+MnSymbol6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/mnsymbol/MnSymbol
+9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx5.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/u
+tmb8a.pfb>
+Output written on templateBBOBmany.pdf (7 pages, 1509919 bytes).
+PDF statistics:
+ 1888 PDF objects out of 2073 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 397 words of extra memory for PDF output out of 10000 (max. 10000000)
+

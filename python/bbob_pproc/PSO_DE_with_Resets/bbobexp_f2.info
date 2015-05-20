@@ -1,0 +1,15 @@
+funcId = 2, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f2/bbobexp_f2_DIM2.dat, 1:3929|-8.5e-009, 2:3711|-8.2e-009, 3:9594|-3.2e-009, 4:4043|-7.2e-009, 5:3829|-2.3e-009, 41:6856|-2.1e-009, 42:10600|-7.0e-009, 43:3830|-6.3e-009, 44:30632|-5.7e-009, 45:18861|-9.7e-009, 46:20196|-6.2e-009, 47:5675|-7.1e-009, 48:9015|-9.7e-009, 49:4064|-1.0e-008, 50:3936|-7.1e-009
+funcId = 2, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f2/bbobexp_f2_DIM3.dat, 1:5252|-3.0e-009, 2:5131|-7.2e-009, 3:12249|-2.1e-009, 4:24956|-7.1e-009, 5:27503|-4.3e-009, 41:8293|-5.2e-009, 42:5012|-4.8e-009, 43:24101|-5.7e-009, 44:5845|-2.1e-009, 45:9870|-7.0e-010, 46:30950|-4.0e-009, 47:28493|-1.3e-009, 48:36761|-7.6e-009, 49:8278|-4.1e-011, 50:14389|-1.0e-009
+funcId = 2, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f2/bbobexp_f2_DIM5.dat, 1:13578|-3.0e-009, 2:14970|-2.8e-009, 3:7668|-3.6e-009, 4:7218|-3.0e-009, 5:7460|-3.4e-009, 41:7263|-2.1e-009, 42:24807|-2.3e-010, 43:20496|-6.5e-009, 44:18067|-1.7e-009, 45:11158|-3.4e-009, 46:7566|-5.8e-009, 47:9146|-3.5e-009, 48:13040|-4.8e-009, 49:7690|-4.5e-009, 50:9668|-4.0e-009
+funcId = 2, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f2/bbobexp_f2_DIM10.dat, 1:25432|-8.6e-011, 2:12582|-2.2e-009, 3:30182|-2.6e-009, 4:12361|-3.9e-009, 5:20596|-4.9e-010, 41:15645|-2.8e-009, 42:24342|-3.2e-009, 43:11877|-1.8e-009, 44:24741|-1.9e-009, 45:14483|-4.2e-009, 46:20898|-2.5e-009, 47:21215|-4.8e-009, 48:12337|-1.1e-010, 49:12138|-7.7e-010, 50:13143|-1.6e-009
+funcId = 2, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f2/bbobexp_f2_DIM20.dat, 1:36788|-3.4e-009, 2:21036|-9.1e-010, 3:19253|-4.6e-010, 4:34185|-3.2e-009, 5:19587|-8.7e-010, 41:19740|-2.8e-009, 42:19819|-3.3e-009, 43:20641|-1.2e-011, 44:34125|-1.4e-009, 45:21637|-8.4e-011, 46:21174|-2.8e-009, 47:20152|-6.3e-010, 48:34494|-2.8e-009, 49:55093|-1.2e-009, 50:20794|-9.6e-010

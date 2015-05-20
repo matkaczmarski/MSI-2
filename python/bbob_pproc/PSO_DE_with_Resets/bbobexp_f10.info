@@ -1,0 +1,15 @@
+funcId = 10, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f10/bbobexp_f10_DIM2.dat, 1:17879|-6.8e-009, 2:17368|-8.1e-009, 3:11486|-6.3e-009, 4:14295|-6.9e-009, 5:14753|-9.5e-009, 41:14803|-2.9e-009, 42:11847|-6.6e-009, 43:26240|-4.5e-009, 44:4413|-7.3e-009, 45:18070|-9.3e-009, 46:35893|-7.5e-009, 47:5354|-1.4e-009, 48:18041|-8.2e-009, 49:22916|-3.8e-009, 50:27218|-8.3e-009
+funcId = 10, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f10/bbobexp_f10_DIM3.dat, 1:9686|-2.0e-009, 2:13083|-9.2e-011, 3:31903|-5.8e-009, 4:10891|-7.8e-009, 5:27869|-4.4e-009, 41:15919|-1.7e-009, 42:8134|-5.9e-009, 43:66855|-1.9e-009, 44:6368|-5.7e-009, 45:18687|-2.7e-009, 46:6034|-7.7e-009, 47:17447|-5.6e-009, 48:16105|-5.1e-009, 49:25468|-5.4e-009, 50:6485|-6.9e-010
+funcId = 10, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f10/bbobexp_f10_DIM5.dat, 1:11569|-5.7e-009, 2:8721|-1.6e-009, 3:9698|-2.1e-009, 4:11092|-7.1e-010, 5:14448|-1.7e-009, 41:11401|-3.8e-009, 42:11242|-5.9e-009, 43:15192|-6.0e-009, 44:8784|-8.1e-009, 45:18095|-4.5e-009, 46:17235|-1.3e-009, 47:11861|-2.2e-009, 48:28096|-1.2e-010, 49:9167|-4.7e-009, 50:9808|-3.7e-009
+funcId = 10, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f10/bbobexp_f10_DIM10.dat, 1:1974934|2.2e-006, 2:448766|-4.4e-011, 3:1975456|9.6e-007, 4:1974175|1.0e-006, 5:1535570|-6.2e-010, 41:1973378|3.0e-008, 42:448897|-6.4e-010, 43:1911360|-9.0e-011, 44:1972673|5.9e-008, 45:827124|-8.2e-010, 46:496763|-2.7e-011, 47:1320508|-1.3e-009, 48:753326|-1.4e-011, 49:1971806|1.9e-009, 50:1245838|-4.5e-012
+funcId = 10, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f10/bbobexp_f10_DIM20.dat, 1:3858554|1.4e+000, 2:3858459|2.9e+000, 3:3862857|3.7e-001, 4:3862303|4.4e-001, 5:3861627|2.5e-003, 41:3855300|5.2e+000, 42:3856931|1.5e-001, 43:3863434|7.7e-001, 44:3861178|6.3e-001, 45:3855075|7.2e-001, 46:3857728|4.1e+000, 47:3855769|1.7e-001, 48:3866022|5.5e-001, 49:3860250|7.5e-001, 50:3861873|5.1e-001

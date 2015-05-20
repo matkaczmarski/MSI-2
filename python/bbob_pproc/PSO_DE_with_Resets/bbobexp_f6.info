@@ -1,0 +1,15 @@
+funcId = 6, DIM = 2, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f6/bbobexp_f6_DIM2.dat, 1:152041|-3.4e-009, 2:46663|-5.4e-009, 3:55848|-5.7e-009, 4:364223|4.9e-007, 5:212887|-4.1e-009, 41:25727|-2.0e-009, 42:218410|-1.4e-009, 43:363107|4.7e-008, 44:138015|-3.4e-009, 45:364253|3.1e-010, 46:137828|-9.4e-009, 47:74834|-1.9e-009, 48:113775|-4.2e-009, 49:155473|-6.6e-009, 50:240066|-5.4e-009
+funcId = 6, DIM = 3, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f6/bbobexp_f6_DIM3.dat, 1:546928|1.4e-008, 2:229644|-6.3e-009, 3:535212|8.3e-006, 4:540490|5.9e-007, 5:540120|3.0e-008, 41:537247|9.3e-007, 42:98968|-2.4e-009, 43:545412|7.1e-007, 44:538388|8.0e-008, 45:532501|1.3e-006, 46:543928|1.4e-007, 47:539248|4.5e-006, 48:26965|-2.9e-011, 49:544935|1.6e-005, 50:76016|-4.0e-009
+funcId = 6, DIM = 5, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f6/bbobexp_f6_DIM5.dat, 1:905279|8.8e-004, 2:908255|3.8e-004, 3:904560|1.3e-004, 4:890779|9.5e-004, 5:902202|4.0e-005, 41:903493|2.3e-005, 42:917172|1.2e-003, 43:892345|4.1e-004, 44:906309|1.7e-003, 45:901166|9.5e-006, 46:899798|5.1e-004, 47:901253|4.8e-005, 48:898315|2.6e-004, 49:898536|9.1e-006, 50:910863|6.3e-005
+funcId = 6, DIM = 10, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f6/bbobexp_f6_DIM10.dat, 1:1834442|2.4e-002, 2:1838765|2.6e-002, 3:1830310|2.2e-002, 4:1823794|5.2e-003, 5:1851718|8.6e-002, 41:1823806|8.9e-003, 42:1828500|1.4e-003, 43:1833224|1.6e-002, 44:1844081|4.6e-003, 45:1836697|4.4e-002, 46:1840235|2.6e-002, 47:1834549|4.7e-003, 48:1835685|3.0e-003, 49:1842453|9.6e-003, 50:1841070|8.4e-003
+funcId = 6, DIM = 20, Precision = 1.000e-008, algId = 'PSO-DE Hybrid'
+% Particle Swarm Optimization hybridized with Differential Evolution algorithm.
+data_f6/bbobexp_f6_DIM20.dat, 1:3734790|9.0e-003, 2:3720753|1.4e+000, 3:3733745|7.8e-001, 4:3702510|2.5e+000, 5:3723374|5.5e-001, 41:3721154|8.7e-001, 42:3724911|1.4e+000, 43:3701536|3.7e+000, 44:3738941|1.4e+000, 45:3719467|2.0e+000, 46:3718837|2.6e+000, 47:3716183|3.7e-001, 48:3706550|8.7e-001, 49:3726600|1.6e-001, 50:3695640|3.0e+000

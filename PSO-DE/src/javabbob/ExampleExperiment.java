@@ -291,45 +291,8 @@ public class ExampleExperiment {
 
             if (!improved) {
                 if (++iterationsWithoutImprovement >= NO_IMPROVEMENT_ITERATIONS_THRESHOLD) {
-                    //reset, pewnie można ładniej...
                     //liczenie rozproszenia itede???????????????????
-                    
-                    generation = new ArrayList<>();
-                    velocities = new ArrayList<>();
-                    bests = new ArrayList<>();
-                    evaluations = new ArrayList<>();
-                    bestsEvaluations = new ArrayList<>();
-
-                    for (int i = 0; i < populationSize; i++) {
-                        double[] individual = new double[dim];
-                        for (int j = 0; j < dim; j++) {
-                            individual[j] = rand.nextDouble() * 2 * BOUND - BOUND;
-                        }
-                        generation.add(individual);
-                        bests.add(individual);
-
-                        double[] velocity = new double[dim];
-                        for (int j = 0; j < dim; j++) {
-                            velocity[j] = rand.nextDouble() * 2 * BOUND - BOUND;
-                        }
-                        velocities.add(velocity);
-                    }
-
-                    for (int i = 0; i < generation.size(); i++) {
-                        double evaluation = fgeneric.evaluate(generation.get(i));
-                        evaluations.add(evaluation);
-                        bestsEvaluations.add(evaluation);
-
-                        if (i == 0) {
-                            globalBest = generation.get(i);
-                            globalBestEvaluation = fgeneric.evaluate(globalBest);
-                        } else {
-                            if (evaluations.get(i) < globalBestEvaluation) {
-                                globalBest = generation.get(i);
-                                globalBestEvaluation = evaluations.get(i);
-                            }
-                        }
-                    }
+                    return;
                 }
             } else {
                 iterationsWithoutImprovement = 0;
@@ -648,7 +611,7 @@ public class ExampleExperiment {
                     fgeneric.initBBOB(ifun, instances[idx_instances],
                             dim[idx_dim], outputPath, params);
                     /* Call to the optimizer with fgeneric as input */
-                    maxfunevals = 10000. * dim[idx_dim]; /* PUT APPROPRIATE MAX. FEVALS */
+                    maxfunevals = 1000. * dim[idx_dim]; /* PUT APPROPRIATE MAX. FEVALS */
                     /* 5. * dim is fine to just check everything */
 
                     independent_restarts = -1;
