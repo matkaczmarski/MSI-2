@@ -32,6 +32,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Packages
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{tabularx}
 \usepackage[dvipsnames]{xcolor}
@@ -98,16 +100,15 @@
 
 %
 % --- Author Metadata here ---
-\conferenceinfo{GECCO'13,} {July 6-10, 2013, Amsterdam, The Netherlands.}
-\CopyrightYear{2013}
-\crdata{TBA}
-\clubpenalty=10000
-\widowpenalty = 10000
+%\conferenceinfo{GECCO'13,} {July 6-10, 2013, Amsterdam, The Netherlands.}
+%\CopyrightYear{2013}
+%\crdata{TBA}
+%\clubpenalty=10000
+%\widowpenalty = 10000
 % --- End of Author Metadata ---
 
-\title{Black-Box Optimization Benchmarking Template for the Comparison of More than Two Algorithms on the Noiseless Testbed}
-\subtitle{Draft version
-\titlenote{Submission deadline: March 28th.}}
+\title{Modyfikacje/hybrydyzacje algorytmu PSO w zadaniu optymalizacji globalnej wielowymiarowej funkcji ciągłej}
+\subtitle{PSO-DE}
 %Camera-ready paper due April 16th.}}
 
 %
@@ -152,7 +153,7 @@
 %
 % 1st. author
 \alignauthor
-Forename Name\\ %\titlenote{Dr.~Trovato insisted his name be first.}\\
+Jakub Ruszkowski, Mateusz Kaczmarski\\ %\titlenote{Dr.~Trovato insisted his name be first.}\\
 %       \affaddr{Institute for Clarity in Documentation}\\
 %       \affaddr{1932 Wallamaloo Lane}\\
 %       \affaddr{Wallamaloo, New Zealand}\\
@@ -206,7 +207,7 @@ Forename Name\\ %\titlenote{Dr.~Trovato insisted his name be first.}\\
 
 \maketitle
 \begin{abstract}
-to be written
+Porównanie algorytmów PSO-DE, jego modyfikacji oraz algorytmu Ewolucji Różnicowej. 
 \end{abstract}
 
 % Add any ACM category that you feel is needed
@@ -230,11 +231,7 @@ unconstrained optimization]
 \section{CPU Timing}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % note that the following text is just a proposal and can/should be changed to your needs:
-In order to evaluate the CPU timing of the algorithm, we have run the \change{MY-ALGORITHM-NAME} on the function $f_{8}$ with restarts for at least 30 seconds and until a maximum budget equal to \change{$400 (D + 2)$} is reached. The code was run on a \change{Mac Intel(R) Core(TM) i5-2400S CPU @ 2.50GHz} with \change{1} processor and \change{4} cores. The time per function evaluation for dimensions 2, 3, 5, 10, 20\change{, 40} equals \change{$x.x$}, \change{$x.x$}, \change{$x.x$}, \change{$xx$}, \change{$xxx$}\change{, and $xxx$} milliseconds respectively. 
-
-\change{repeat the above for any algorithm tested}
-
-
+Algorytm był uruchamiany na komputerze z systemem Windows 8 Intel(R) Core(TM) i7-4500U CPU @ 2.39GHz. Czasy ewaluacji funkcji o wymiarach 2, 3, 5, 10, 20 wynosiły odpowiednio $1,9e^{-10}$, $2,2e^{-10}$, $2,4e^{-10}$, $3,5e^{-10}$ and $6,1e^{-10}$ sekund. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

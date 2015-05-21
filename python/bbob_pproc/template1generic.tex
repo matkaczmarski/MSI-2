@@ -153,14 +153,27 @@ Modyfikacja w stosunku do algorytmu hybrydowego polega na zmianie całej populac
 \subsubsection{Algorytm hybrydowy z dodatkową aktualizacją prędkości}
 Modyfikacja w tym przypadku polega na dodaniu dodatkowej aktualizacji prędkości w kroku Ewolucji Różnicowej algorytmu. Jeśli wartość osobnika próbnego $u$ jest lepsza niż osobnika oryginalnego, z którego powstał, wyliczana jest wartość prędkości osobnika na podstawie wzoru $v_i=u - x_i$.
  \section{Procedura eksperymentu}
-Eksperymenty algorytmu zostały przeprowadzane na zestawie funkcji benchmarkowych "COmparing Continuous Optimisers: COCO" o wymiarach 2, 3, 5, 10, 20. Maksymalna ilość ewaluacji dla każdej z nich wynosiła $D \cdot 10^5$, gdzie $D$ - wymiar funkcji. 
+Eksperymenty algorytmu zostały przeprowadzane na zestawie funkcji benchmarkowych "COmparing Continuous Optimisers: COCO" o wymiarach 2, 3, 5, 10, 20. Maksymalna ilość ewaluacji dla każdej z nich wynosiła $D \cdot 10^5$, gdzie $D$ - wymiar funkcji.\\
+Wszystkie eksperymenty były uruchamiane z poniższymi parametrami:
+\begin{itemize}
+\item $rozmiar\ popoulacji$ = 50
+\item $F$ = 0.5
+\item $CR$ = 0.5
+\item $w$ = 0.64
+\item $c_1$ = 1.4
+\item $c_2$ = 1.4
+\item $liczba\ iteracji\ bez\ poprawy\ przed\ resetem\ populacji$ = 5
+\end{itemize}
+
  \section{CPU Timing}
 Algorytm był uruchamiany na komputerze z systemem Windows 8 Intel(R) Core(TM) i7-4500U CPU @ 2.39GHz. Czasy ewaluacji funkcji o wymiarach 2, 3, 5, 10, 20 wynosiły odpowiednio $1,9e^{-10}$, $2,2e^{-10}$, $2,4e^{-10}$, $3,5e^{-10}$ and $6,1e^{-10}$ sekund. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Uzyskane wyniki}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Uzyskane wyniki pokazują, że nie można jednoznacznie stwierdzić, który z algorytmów okazał się być najskuteczniejszy. Algorytmy były do siebie zbliżone - różniły się jedynie nieznacznie. Na wykresach możemy zobaczyć, że każdy z algorytmów okazaywał się być najlepszy dla jednych funkcji, natomiast odstawał od reszty w innych przypadkach. Wywnioskować stąd można, że aby stworzyć lepszy algorytm należałoby dostosowywać algorytm do typu funcji z jaką mamy doczynienia lub użyć bardziej skomplikowanych mechanizmów pozwalających na lepsze próbkowanie przestrzeni i efektywniejsze znajdowanie minimum funkcji.\\
+Poniżej zaprezentowane zostały wyniki działania algorytmu hybrydowego PSO-DE. W pliku "porównanie algorytmów.pdf" przedstawione jest porównanie tego algorytmu z jego modyfikacjami opisanymi we wcześniejszych podrozdziałach oraz z zwykłym algorytmem Ewolucji Różnicowej.\\
+Uzyskane wyniki pokazują, że nie można jednoznacznie stwierdzić, który z algorytmów okazał się być najskuteczniejszy. Można zauważyć, że dla pewnych grup funkcji hybrydyzacja nie przyniosła oczekiwanego rezultatu i jej działanie było znacznie gorsze od zwykłego algorytmu ewolucji różnicowej. Algorytm bez hybrydyzacji na ogół radził sobie bardzo dobrze w porównaniu do reszty -  jedynie w jednej z grup funkcji można było zaobserwować jego znacznie słabsze wyniki. Z wykresów można także odczytać fakt, że restartowanie algorytmu w naszym przypadku nie przynosiło znaczących korzyści. Co prawda są grupy funkcji gdzie restart algorytmu pozwolił na otrzymanie lepszych wyników ale w większości przypadków wszystkie 3 algorytmy korzystające z hybrydyzacji uzyskiwały zbliżone wyniki. Wywnioskować stąd można, że aby stworzyć lepszy algorytm należałoby dostosowywać algorytm do typu funkcji z jaką mamy do czynienia lub użyć bardziej skomplikowanych mechanizmów pozwalających na lepsze próbkowanie przestrzeni i efektywniejsze znajdowanie minimum funkcji.\\
+\\
 Results from experiments according to \cite{hansen2010exp} on the
 benchmark functions given in \cite{wp200901_2010,hansen2010fun} are presented
 in Figures~\ref{fig:RLDs05Da\algfolder}, \ref{fig:RLDs05Db\algfolder},
