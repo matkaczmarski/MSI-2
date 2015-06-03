@@ -171,69 +171,10 @@ Algorytm był uruchamiany na komputerze z systemem Windows 8 Intel(R) Core(TM) i
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Uzyskane wyniki i wnioski}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Poniżej zaprezentowane zostały wyniki działania algorytmu hybrydowego PSO-DE oraz porównanie tego algorytmu z jego modyfikacjami opisanymi we wcześniejszych podrozdziałach i ze zwykłym algorytmem ewolucji różnicowej.\\
+Poniżej zaprezentowane zostały wyniki działania algorytmu hybrydowego PSO-DE (str. 6-13) oraz porównania tego algorytmu z jego modyfikacjami opisanymi we wcześniejszych podrozdziałach i ze zwykłym algorytmem ewolucji różnicowej (str. 14 i 15).\\
 Uzyskane przez nas wyniki ukazują pewną zależność. Można zauważyć, że algorytm ewolucji różnicowej radzi sobie gorzej od reszty na początku działania, lecz wraz ze wzrostem iteracji jego skuteczność jest coraz lepsza i w końcu wygrywa z pozostałymi algorytmami. Na wykresach algorytmów hybrydowych widać wyraźne wypłaszczenia, gdzie nie ma poprawy wyników, a jednocześnie algorytm ewolucyjny ma w tym miejscu przewagę. Obserwację tą można wykorzystać w przyszłych badaniach aby uzyskać lepsze wyniki. Należało by na początku działania uruchomić algorytm hybrydowy (który radził sobie lepiej w początkowej fazie obliczeń), natomiast po pewnej liczbie iteracji podmienić go na algorytm ewolucji różnicowej (który z kolei lepiej radził sobie w późniejszej fazie obliczeń).
 W przypadku algorytmów hybrydowych można zauważyć, że wprowadzenie restartów algorytmu nie przyniosło w naszym przypadku zauważalnych korzyści. Może to być spowodowane złym dobraniem parametrów - w naszym przypadku restart algorytm następował gdy nie było poprawy wyniku przez 5 kolejnych iteracji. Można spróbować uzależnić ten czas oczekiwania na poprawę np. od wymiaru badanej funkcji.
 Spośród testowanych przez nas algorytmów hybrydowych najlepszym okazał się PSO-DE w podstawowej wersji, która jest opisana wcześniej w tym dokumencie. Uzyskiwane przez niego wyniki zawsze były jednymi z najlepszych. Aby w przyszłości spróbować jeszcze bardziej usprawnić jego działanie można by spróbować lepiej dopasować jego parametry, lub dodać inne usprawnienia takie jak np: lokalne przeszukiwanie, które może przyczynić się do polepszenia uzyskanych już wyników.\\
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Empirical Cumulative Distribution Functions (ECDFs) per function group
-% for dimension 5.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\includeperfprof}[1]{% include and annotate at the side
-  \input{\bbobdatapath #1}%
-  \includegraphics[width=0.4135\textwidth,trim=0mm 0mm 34mm 10mm, clip]{#1}%
-  \raisebox{.037\textwidth}{\parbox[b][.3\textwidth]{.0868\textwidth}{\begin{scriptsize}
-    \perfprofsidepanel % this is "\algaperfprof \vfill \algbperfprof \vfill" etc
-  \end{scriptsize}}}
-}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure*}
-\begin{tabular}{@{}c@{}c@{}}
- separable fcts & moderate fcts \\
- \includeperfprof{pprldmany_05D_separ} &
- \includeperfprof{pprldmany_05D_lcond} \\ 
-ill-conditioned fcts & multi-modal fcts \\
- \includeperfprof{pprldmany_05D_hcond} &
- \includeperfprof{pprldmany_05D_multi} \\ 
- weakly structured multi-modal fcts & all functions\\
- \includeperfprof{pprldmany_05D_mult2} & 
- \includeperfprof{pprldmany_05D_noiselessall} 
- \end{tabular}
-\caption{
-\label{fig:ECDFs05D}
-\bbobECDFslegend{5}
-}
-\end{figure*}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Empirical Cumulative Distribution Functions (ECDFs) per function group
-% for dimension 20.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure*}
- \begin{tabular}{@{}c@{}c@{}}
- separable fcts & moderate fcts \\
- \includeperfprof{pprldmany_20D_separ} &
- \includeperfprof{pprldmany_20D_lcond} \\ 
-ill-conditioned fcts & multi-modal fcts \\
- \includeperfprof{pprldmany_20D_hcond} &
- \includeperfprof{pprldmany_20D_multi} \\ 
- weakly structured multi-modal fcts & all functions\\
- \includeperfprof{pprldmany_20D_mult2} & 
- \includeperfprof{pprldmany_20D_noiselessall} 
- \end{tabular}
-\caption{
-\label{fig:ECDFs20D}
-\bbobECDFslegend{20}
-}
-\end{figure*}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -449,6 +390,68 @@ respective function subgroup.}
 \end{table}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Empirical Cumulative Distribution Functions (ECDFs) per function group
+% for dimension 5.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\includeperfprof}[1]{% include and annotate at the side
+  \input{\bbobdatapath #1}%
+  \includegraphics[width=0.4135\textwidth,trim=0mm 0mm 34mm 10mm, clip]{#1}%
+  \raisebox{.037\textwidth}{\parbox[b][.3\textwidth]{.0868\textwidth}{\begin{scriptsize}
+    \perfprofsidepanel % this is "\algaperfprof \vfill \algbperfprof \vfill" etc
+  \end{scriptsize}}}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*}
+\begin{tabular}{@{}c@{}c@{}}
+ separable fcts & moderate fcts \\
+ \includeperfprof{pprldmany_05D_separ} &
+ \includeperfprof{pprldmany_05D_lcond} \\ 
+ill-conditioned fcts & multi-modal fcts \\
+ \includeperfprof{pprldmany_05D_hcond} &
+ \includeperfprof{pprldmany_05D_multi} \\ 
+ weakly structured multi-modal fcts & all functions\\
+ \includeperfprof{pprldmany_05D_mult2} & 
+ \includeperfprof{pprldmany_05D_noiselessall} 
+ \end{tabular}
+\caption{
+\label{fig:ECDFs05D}
+\bbobECDFslegend{5}
+}
+\end{figure*}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Empirical Cumulative Distribution Functions (ECDFs) per function group
+% for dimension 20.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*}
+ \begin{tabular}{@{}c@{}c@{}}
+ separable fcts & moderate fcts \\
+ \includeperfprof{pprldmany_20D_separ} &
+ \includeperfprof{pprldmany_20D_lcond} \\ 
+ill-conditioned fcts & multi-modal fcts \\
+ \includeperfprof{pprldmany_20D_hcond} &
+ \includeperfprof{pprldmany_20D_multi} \\ 
+ weakly structured multi-modal fcts & all functions\\
+ \includeperfprof{pprldmany_20D_mult2} & 
+ \includeperfprof{pprldmany_20D_noiselessall} 
+ \end{tabular}
+\caption{
+\label{fig:ECDFs20D}
+\bbobECDFslegend{20}
+}
+\end{figure*}
+
+
+
 % The following two commands are all you need in the
 % initial runs of your .tex file to
 % produce the bibliography for the citations in your paper.
