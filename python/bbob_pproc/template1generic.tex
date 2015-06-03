@@ -169,33 +169,72 @@ Wszystkie eksperymenty były uruchamiane z poniższymi parametrami:
 Algorytm był uruchamiany na komputerze z systemem Windows 8 Intel(R) Core(TM) i7-4500U CPU @ 2.39GHz. Czasy ewaluacji funkcji o wymiarach 2, 3, 5, 10, 20 wynosiły odpowiednio $1,9e^{-10}$, $2,2e^{-10}$, $2,4e^{-10}$, $3,5e^{-10}$ and $6,1e^{-10}$ sekund. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Uzyskane wyniki}
+\section{Uzyskane wyniki i wnioski}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Poniżej zaprezentowane zostały wyniki działania algorytmu hybrydowego PSO-DE. W pliku "porównanie algorytmów.pdf" przedstawione jest porównanie tego algorytmu z jego modyfikacjami opisanymi we wcześniejszych podrozdziałach oraz z zwykłym algorytmem Ewolucji Różnicowej.\\
-Uzyskane przez nas wyniki ukazują pewną zależność. Można zauważyć, że algorytm ewolucyjny (bez hybrdyzacji) radzi sobie gorzej od reszty na początku działania, lecz wraz ze wzrostem iteracji jego skutecznośc jest coraz lepsza i w końcu wyrgywa z pozostałymi. Na wykresach algorytmów hybrydowych widać wyraźne wypłaszczenia, gdzie nie ma poprawy wyników, a jednocześnie algorytm ewolucyjny ma w tym miejscu przewagę. Obserwację tą można by wykorzystać w przyszłych badaniach aby uzyskać lepsze wyniki. Trzeba by na początku działania uruchomić algorytm hybrydowy (który radził sobie lepiej w początkowej fazie obliczeń), natomiast po pewnej liczbie iteracji podmienić go na algorytm ewolucyjny (który z kolei lepiej radził sobie w późniejszej fazie obliczeń).
-W przypadku algorytmów hybrydowych można zauważyć, że wprowadzenie restartów algorytmu nie przyniosło w naszym przypadku zauważalnych korzyści. Może to być spowodowane złym dobraniem parametrów - w naszym przypadku restartowaliśmy algorytm, gdy nie było poprawy wyniku przez 5 kolejnych iteracji. Można by spróbować uzależnić ten czas oczekiwania na poprawę np od wymiaru badanej funkcji.
+Poniżej zaprezentowane zostały wyniki działania algorytmu hybrydowego PSO-DE oraz porównanie tego algorytmu z jego modyfikacjami opisanymi we wcześniejszych podrozdziałach i ze zwykłym algorytmem ewolucji różnicowej.\\
+Uzyskane przez nas wyniki ukazują pewną zależność. Można zauważyć, że algorytm ewolucyjni różnicowej radzi sobie gorzej od reszty na początku działania, lecz wraz ze wzrostem iteracji jego skuteczność jest coraz lepsza i w końcu wygrywa z pozostałymi algorytmami. Na wykresach algorytmów hybrydowych widać wyraźne wypłaszczenia, gdzie nie ma poprawy wyników, a jednocześnie algorytm ewolucyjny ma w tym miejscu przewagę. Obserwację tą można wykorzystać w przyszłych badaniach aby uzyskać lepsze wyniki. Należało by na początku działania uruchomić algorytm hybrydowy (który radził sobie lepiej w początkowej fazie obliczeń), natomiast po pewnej liczbie iteracji podmienić go na algorytm ewolucji różnicowej (który z kolei lepiej radził sobie w późniejszej fazie obliczeń).
+W przypadku algorytmów hybrydowych można zauważyć, że wprowadzenie restartów algorytmu nie przyniosło w naszym przypadku zauważalnych korzyści. Może to być spowodowane złym dobraniem parametrów - w naszym przypadku restart algorytm następował gdy nie było poprawy wyniku przez 5 kolejnych iteracji. Można spróbować uzależnić ten czas oczekiwania na poprawę np. od wymiaru badanej funkcji.
 Spośród testowanych przez nas algorytmów hybrydowych najlepszym okazał się PSO-DE w podstawowej wersji, która jest opisana wcześniej w tym dokumencie. Uzyskiwane przez niego wyniki zawsze były jednymi z najlepszych. Aby w przyszłości spróbować jeszcze bardziej usprawnić jego działanie można by spróbować lepiej dopasować jego parametry, lub dodać inne usprawnienia takie jak np: lokalne przeszukiwanie, które może przyczynić się do polepszenia uzyskanych już wyników.\\
-\\
-Results from experiments according to \cite{hansen2010exp} on the
-benchmark functions given in \cite{wp200901_2010,hansen2010fun} are presented
-in Figures~\ref{fig:RLDs05Da\algfolder}, \ref{fig:RLDs05Db\algfolder},
-\ref{fig:RLDs20Db\algfolder},
-\ref{fig:ERTloglossa\algfolder}, \ref{fig:ERTloglossb\algfolder},
-and \ref{fig:ERTgraphs\algfolder} and 
-Tables~\ref{tab:ERT05D\algfolder} and \ref{tab:ERT20D\algfolder}.
-The \textbf{expected running time (\ERT)}, used in the figures and table,
-depends on a given target function value, $\ftarget=\fopt+\Df$, and is computed
-over all relevant trials as the number of function evaluations executed during
-each trial while the best function value did not reach \ftarget, summed over
-all trials and divided by the number of trials that actually reached \ftarget\
-\cite{hansen2010exp,price1997dev}.
-\textbf{Statistical significance} is tested with the rank-sum test for a given
-target $\Delta\ftarget$ using, for each trial, either the number of needed
-function evaluations to reach $\Delta\ftarget$ (inverted and multiplied by
-$-1$), or, if the target was not reached, the best $\Df$-value achieved,
-measured only up to the smallest number of overall function evaluations for any
-unsuccessful trial under consideration if available.
-%The description of figures and tables is given in \cite{}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Empirical Cumulative Distribution Functions (ECDFs) per function group
+% for dimension 5.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\includeperfprof}[1]{% include and annotate at the side
+  \input{\bbobdatapath #1}%
+  \includegraphics[width=0.4135\textwidth,trim=0mm 0mm 34mm 10mm, clip]{#1}%
+  \raisebox{.037\textwidth}{\parbox[b][.3\textwidth]{.0868\textwidth}{\begin{scriptsize}
+    \perfprofsidepanel % this is "\algaperfprof \vfill \algbperfprof \vfill" etc
+  \end{scriptsize}}}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*}
+\begin{tabular}{@{}c@{}c@{}}
+ separable fcts & moderate fcts \\
+ \includeperfprof{pprldmany_05D_separ} &
+ \includeperfprof{pprldmany_05D_lcond} \\ 
+ill-conditioned fcts & multi-modal fcts \\
+ \includeperfprof{pprldmany_05D_hcond} &
+ \includeperfprof{pprldmany_05D_multi} \\ 
+ weakly structured multi-modal fcts & all functions\\
+ \includeperfprof{pprldmany_05D_mult2} & 
+ \includeperfprof{pprldmany_05D_noiselessall} 
+ \end{tabular}
+\caption{
+\label{fig:ECDFs05D}
+\bbobECDFslegend{5}
+}
+\end{figure*}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Empirical Cumulative Distribution Functions (ECDFs) per function group
+% for dimension 20.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*}
+ \begin{tabular}{@{}c@{}c@{}}
+ separable fcts & moderate fcts \\
+ \includeperfprof{pprldmany_20D_separ} &
+ \includeperfprof{pprldmany_20D_lcond} \\ 
+ill-conditioned fcts & multi-modal fcts \\
+ \includeperfprof{pprldmany_20D_hcond} &
+ \includeperfprof{pprldmany_20D_multi} \\ 
+ weakly structured multi-modal fcts & all functions\\
+ \includeperfprof{pprldmany_20D_mult2} & 
+ \includeperfprof{pprldmany_20D_noiselessall} 
+ \end{tabular}
+\caption{
+\label{fig:ECDFs20D}
+\bbobECDFslegend{20}
+}
+\end{figure*}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Ratio 0.35/0.30555, width optimized to a one-line caption
