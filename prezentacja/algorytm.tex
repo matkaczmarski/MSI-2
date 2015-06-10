@@ -1,0 +1,119 @@
+% ================= IF YOU HAVE QUESTIONS =======================
+% Technical questions to bbob@lri.fr
+% ===============================================================
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%    PREAMBLE   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{article}
+
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{color}
+
+\begin{document}
+
+Dane wejściowe:\\
+PSO\_DE(\textit{JNIfgeneric} fgeneric, $int$ dim, $doubl$e maxfunevals, $Random$ rand), gdzie:\\
+\textit{JNIfgeneric} fgeneric – klasa z danymi definiującymi problem,\\
+$int$ dim – wymiar problemu,\\
+$double$ maxfunevals – maksymalna liczba ewaluacji,\\
+$Random$ rand – generator liczb losowych\\
+
+%\newpage
+Schemat działania algorytmu hybrydowego łączącego DE oraz PSO:\\
+\textit{
+\indent{przypisz losowo początkowe wartości: $x_i$, $v_i$ oraz $p_i$  i $p_g$ dla $i = 1,2,..., N$}\\
+\textcolor{blue}{while}(!stop)\\
+\{\\
+\indent	\textcolor{blue}{for} i = 1 to N\\
+\indent	\{\\
+\indent\indent użyj DE do wyznaczenia nowego kandydata - u\\
+\indent\indent \{\\
+\indent\indent		wybierz losowo $r_1$, $r_2$, $r_3$, takie że  $i \neq r_1 \neq r_2 \neq r_3$\\
+\indent\indent\indent 		$m_i = x_{r_1} + F \cdot  (x_{r_2} - x_{r_3})$\\
+\indent\indent\indent		\textcolor{blue}{for} j = 1 to D\\
+\indent\indent\indent		\{\\
+\indent\indent\indent\indent			wybierz losowo $j_{rand}$ z przedziału $[1, D]$\\
+\indent\indent\indent\indent			\textcolor{blue}{if} (rand() $<$ CR or j $==$ $j_{rand}$)\\
+\indent\indent\indent\indent\indent				u[j] = $m_i$[j]\\
+\indent\indent\indent\indent			\textcolor{blue}{else}\\
+\indent\indent\indent\indent\indent				u[j] = $x_i$[j]\\
+\indent\indent\indent		\}\\
+\indent\indent \}\\
+\indent\indent		\textcolor{blue}{if} (f(u) $<$ f($x_i$))\\
+\indent\indent\indent			$x_i$ = u\\
+\indent\indent		\textcolor{blue}{else}\\
+\indent\indent		\{\\
+\indent\indent\indent			użyj PSO do wyznaczenia nowego kandydata – $TX_i$\\
+\indent\indent\indent			\{\\
+\indent\indent\indent\indent				oblicz wektor prędkości cząsteczki $x_i$:\\
+\indent\indent\indent\indent				$v_i = \omega \cdot v_i + c_1 \cdot r_1 \cdot (p_i - x_i) + c_2 \cdot r_2 \cdot (p_g - x_i)$\\
+\indent\indent\indent\indent				$TX_i = x_i + v_i$\\
+\indent\indent\indent			\}\\
+\indent\indent\indent			if (f($TX_i$) $<$ f($x_i$))\\
+\indent\indent\indent\indent				$x_i$ = $TX_i$\\
+\indent\indent	\}\\
+\indent\indent		\textcolor{blue}{if} (f($x_i$) $<$ f($p_i$))\\
+\indent\indent\indent			$p_i$ = $x_i$\\
+\indent\indent		\textcolor{blue}{if} (f($x_i$) $<$ f($p_g$))\\
+\indent\indent\indent			$p_g$ = $x_i$\\
+\indent	\}\\
+\}
+}
+
+\newpage
+Schemat działania modyfikacji algorytmu hybrydowego łączącego DE oraz PSO:\\\\
+\textit{
+\indent{przypisz losowo początkowe wartości: $x_i$, $v_i$ oraz $p_i$  i $p_g$ dla $i = 1,2,..., N$}\\
+\textcolor{blue}{while}(!stop)\\
+\{\\
+\indent	\textcolor{blue}{for} i = 1 to N\\
+\indent	\{\\
+\indent\indent użyj DE do wyznaczenia nowego kandydata - u\\
+\indent\indent \{\\
+\indent\indent		wybierz losowo $r_1$, $r_2$, $r_3$, takie że  $i \neq r_1 \neq r_2 \neq r_3$\\
+\indent\indent\indent 		$m_i = x_{r_1} + F \cdot  (x_{r_2} - x_{r_3})$\\
+\indent\indent\indent		\textcolor{blue}{for} j = 1 to D\\
+\indent\indent\indent		\{\\
+\indent\indent\indent\indent			wybierz losowo $j_{rand}$ z przedziału $[1, D]$\\
+\indent\indent\indent\indent			\textcolor{blue}{if} (rand() $<$ CR or j $==$ $j_{rand}$)\\
+\indent\indent\indent\indent\indent				u[j] = $m_i$[j]\\
+\indent\indent\indent\indent			\textcolor{blue}{else}\\
+\indent\indent\indent\indent\indent				u[j] = $x_i$[j]\\
+\indent\indent\indent		\}\\
+\indent\indent \}\\
+\indent\indent		\textcolor{blue}{if} (f(u) $<$ f($x_i$))\\
+\indent\indent \{\\
+\indent\indent\indent			$v_i$ = u - $x_i$\\
+\indent\indent\indent			$x_i$ = u\\
+\indent\indent \}\\
+\indent\indent		\textcolor{blue}{else}\\
+\indent\indent		\{\\
+\indent\indent\indent			użyj PSO do wyznaczenia nowego kandydata – $TX_i$\\
+\indent\indent\indent			\{\\
+\indent\indent\indent\indent				oblicz wektor prędkości cząsteczki $x_i$:\\
+\indent\indent\indent\indent				$v_i = \omega \cdot v_i + c_1 \cdot r_1 \cdot (p_i - x_i) + c_2 \cdot r_2 \cdot (p_g - x_i)$\\
+\indent\indent\indent\indent				$TX_i = x_i + v_i$\\
+\indent\indent\indent			\}\\
+\indent\indent\indent			if (f($TX_i$) $<$ f($x_i$))\\
+\indent\indent\indent\indent				$x_i$ = $TX_i$\\
+\indent\indent	\}\\
+\indent\indent		\textcolor{blue}{if} (f($x_i$) $<$ f($p_i$))\\
+\indent\indent\indent			$p_i$ = $x_i$\\
+\indent\indent		\textcolor{blue}{if} (f($x_i$) $<$ f($p_g$))\\
+\indent\indent\indent			$p_g$ = $x_i$\\
+\indent	\}\\
+\}
+}
+
+% The following two commands are all you need in the
+% initial runs of your .tex file to
+% produce the bibliography for the citations in your paper.
+\bibliographystyle{abbrv}
+\bibliography{bbob} % bbob.bib is the name of the bib file in this case
+% You must have a proper ".bib" file
+%  and remember to run:
+% latex bibtex latex latex
+% to resolve all references
+\end{document}
+
